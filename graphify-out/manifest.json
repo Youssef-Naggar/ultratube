@@ -114,11 +114,6 @@
     "ast_hash": "d588366637df48785b63af0a6ce5d548",
     "semantic_hash": ""
   },
-  "C:\\programming\\projectes\\ultratube v2\\test_bucket.py": {
-    "mtime": 1780934024.5147338,
-    "ast_hash": "6c47482f4baf301f7f9876150ea1ea21",
-    "semantic_hash": ""
-  },
   "C:\\programming\\projectes\\ultratube v2\\settings_service.py": {
     "mtime": 1780780953.7766256,
     "ast_hash": "57365c72ba6885d820831f973d47a685",
@@ -137,6 +132,31 @@
   "C:\\programming\\projectes\\ultratube v2\\.agents\\rules\\AI coding agent RULES.md.md": {
     "mtime": 1780667550.3391392,
     "ast_hash": "0ad7f4b74166b5e6a088ab1c05135cf6",
+    "semantic_hash": ""
+  },
+  "C:\\programming\\projectes\\ultratube v2\\tests\\test_app.py": {
+    "mtime": 1780954736.1949594,
+    "ast_hash": "b38c37b1c6c95483abf81fb1e2f10980",
+    "semantic_hash": ""
+  },
+  "C:\\programming\\projectes\\ultratube v2\\tests\\test_bucket.py": {
+    "mtime": 1780954489.2774417,
+    "ast_hash": "e3cfb89c5d36da26b2bc865723dfbc3a",
+    "semantic_hash": ""
+  },
+  "C:\\programming\\projectes\\ultratube v2\\tests\\test_extractor.py": {
+    "mtime": 1780954682.147014,
+    "ast_hash": "72ce9be1827d7fc391c6ee408598359e",
+    "semantic_hash": ""
+  },
+  "C:\\programming\\projectes\\ultratube v2\\tests\\test_models.py": {
+    "mtime": 1780954674.296569,
+    "ast_hash": "2a9b6b59dae4c86818f3ad9a30a3791d",
+    "semantic_hash": ""
+  },
+  "C:\\programming\\projectes\\ultratube v2\\tests\\test_services.py": {
+    "mtime": 1780954689.6213655,
+    "ast_hash": "cb759a45fb242655c0fa75359350c1c9",
     "semantic_hash": ""
   }
 }
