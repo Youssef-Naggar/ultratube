@@ -211,7 +211,3 @@ async def test_playlist_validation_redirect_and_spawn():
         assert "pane-1" not in tab_ids
         assert "pane-2" in tab_ids
         assert "pane-3" in tab_ids
-
-
-
-
