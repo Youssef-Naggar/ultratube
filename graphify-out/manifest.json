@@ -55,14 +55,14 @@
     "semantic_hash": "38d9bb5958bf9768ae34a25d94457e6a"
   },
   "C:\\programming\\projectes\\ultratube v2\\ultratube-plantuml.txt": {
-    "mtime": 1780860470.3314562,
-    "ast_hash": "f4e127598dbe0748bd41d3ed68ba95e6",
+    "mtime": 1780953465.1155174,
+    "ast_hash": "95372d1c2d95df4b677e8989ea956f4d",
     "semantic_hash": ""
   },
   "C:\\programming\\projectes\\ultratube v2\\ultratube_user_stories.md": {
-    "mtime": 1774956720.1545403,
-    "ast_hash": "6ee8b2ff07759ea456ad4d34527efe41",
-    "semantic_hash": "6ee8b2ff07759ea456ad4d34527efe41"
+    "mtime": 1780953504.573865,
+    "ast_hash": "a7b81604356bb87df7c63abc65f050f3",
+    "semantic_hash": ""
   },
   "C:\\programming\\projectes\\ultratube v2\\.agents\\rules\\graphify.md": {
     "mtime": 1779654344.538782,
@@ -130,8 +130,13 @@
     "semantic_hash": ""
   },
   "C:\\programming\\projectes\\ultratube v2\\design.md": {
-    "mtime": 1780860487.5249586,
-    "ast_hash": "0d5d779ed161fc2398df346e0da075eb",
+    "mtime": 1780953485.5409389,
+    "ast_hash": "61f962736b1bf64ae0a740f8bd1bcdb7",
+    "semantic_hash": ""
+  },
+  "C:\\programming\\projectes\\ultratube v2\\.agents\\rules\\AI coding agent RULES.md.md": {
+    "mtime": 1780667550.3391392,
+    "ast_hash": "0ad7f4b74166b5e6a088ab1c05135cf6",
     "semantic_hash": ""
   }
 }

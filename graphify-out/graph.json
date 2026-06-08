@@ -192,7 +192,7 @@
       "source_file": "app_screens.py",
       "source_location": "L12",
       "id": "ultratube_v2_app_screens_helpscreen",
-      "community": 2,
+      "community": 30,
       "norm_label": "helpscreen"
     },
     {
@@ -201,7 +201,7 @@
       "source_file": "",
       "source_location": "",
       "id": "modalscreen",
-      "community": 2,
+      "community": 30,
       "norm_label": "modalscreen"
     },
     {
@@ -210,7 +210,7 @@
       "source_file": "app_screens.py",
       "source_location": "L15",
       "id": "ultratube_v2_app_screens_helpscreen_compose",
-      "community": 2,
+      "community": 30,
       "norm_label": ".compose()"
     },
     {
@@ -219,7 +219,7 @@
       "source_file": "app_screens.py",
       "source_location": "L35",
       "id": "ultratube_v2_app_screens_helpscreen_on_key",
-      "community": 2,
+      "community": 30,
       "norm_label": ".on_key()"
     },
     {
@@ -228,7 +228,7 @@
       "source_file": "app_screens.py",
       "source_location": "L40",
       "id": "ultratube_v2_app_screens_questionmodal",
-      "community": 0,
+      "community": 28,
       "norm_label": "questionmodal"
     },
     {
@@ -246,7 +246,7 @@
       "source_file": "app_screens.py",
       "source_location": "L52",
       "id": "ultratube_v2_app_screens_questionmodal_compose",
-      "community": 0,
+      "community": 28,
       "norm_label": ".compose()"
     },
     {
@@ -255,7 +255,7 @@
       "source_file": "app_screens.py",
       "source_location": "L65",
       "id": "ultratube_v2_app_screens_questionmodal_on_button_pressed",
-      "community": 0,
+      "community": 28,
       "norm_label": ".on_button_pressed()"
     },
     {
@@ -372,7 +372,7 @@
       "source_file": "app_screens.py",
       "source_location": "L13",
       "id": "ultratube_v2_app_screens_rationale_13",
-      "community": 2,
+      "community": 30,
       "norm_label": "overlay displaying application keyboard shortcuts."
     },
     {
@@ -381,7 +381,7 @@
       "source_file": "app_screens.py",
       "source_location": "L41",
       "id": "ultratube_v2_app_screens_rationale_41",
-      "community": 0,
+      "community": 28,
       "norm_label": "standard yes/no dialog screen."
     },
     {
@@ -615,7 +615,7 @@
       "source_file": "download_service.py",
       "source_location": "L1",
       "id": "download_service_py",
-      "community": 11,
+      "community": 34,
       "norm_label": "download_service.py"
     },
     {
@@ -624,7 +624,7 @@
       "source_file": "download_service.py",
       "source_location": "L11",
       "id": "ultratube_v2_download_service_ytdlplogger",
-      "community": 11,
+      "community": 33,
       "norm_label": "ytdlplogger"
     },
     {
@@ -633,7 +633,7 @@
       "source_file": "download_service.py",
       "source_location": "L14",
       "id": "ultratube_v2_download_service_ytdlplogger_init",
-      "community": 11,
+      "community": 33,
       "norm_label": ".__init__()"
     },
     {
@@ -642,7 +642,7 @@
       "source_file": "download_service.py",
       "source_location": "L17",
       "id": "ultratube_v2_download_service_ytdlplogger_debug",
-      "community": 11,
+      "community": 33,
       "norm_label": ".debug()"
     },
     {
@@ -651,7 +651,7 @@
       "source_file": "download_service.py",
       "source_location": "L22",
       "id": "ultratube_v2_download_service_ytdlplogger_info",
-      "community": 11,
+      "community": 33,
       "norm_label": ".info()"
     },
     {
@@ -660,7 +660,7 @@
       "source_file": "download_service.py",
       "source_location": "L26",
       "id": "ultratube_v2_download_service_ytdlplogger_warning",
-      "community": 11,
+      "community": 33,
       "norm_label": ".warning()"
     },
     {
@@ -669,7 +669,7 @@
       "source_file": "download_service.py",
       "source_location": "L30",
       "id": "ultratube_v2_download_service_ytdlplogger_error",
-      "community": 11,
+      "community": 33,
       "norm_label": ".error()"
     },
     {
@@ -678,7 +678,7 @@
       "source_file": "download_service.py",
       "source_location": "L35",
       "id": "ultratube_v2_download_service_make_progress_hook",
-      "community": 11,
+      "community": 34,
       "norm_label": "make_progress_hook()"
     },
     {
@@ -705,7 +705,7 @@
       "source_file": "download_service.py",
       "source_location": "L88",
       "id": "ultratube_v2_download_service_downloadservice_download_audio",
-      "community": 11,
+      "community": 34,
       "norm_label": ".download_audio()"
     },
     {
@@ -732,7 +732,7 @@
       "source_file": "download_service.py",
       "source_location": "L12",
       "id": "ultratube_v2_download_service_rationale_12",
-      "community": 11,
+      "community": 33,
       "norm_label": "redirects yt-dlp logs to our tui logs."
     },
     {
@@ -741,7 +741,7 @@
       "source_file": "download_service.py",
       "source_location": "L36",
       "id": "ultratube_v2_download_service_rationale_36",
-      "community": 11,
+      "community": 34,
       "norm_label": "creates a hook for yt-dlp to report progress back to a callback."
     },
     {
@@ -768,7 +768,7 @@
       "source_file": "download_service.py",
       "source_location": "L95",
       "id": "ultratube_v2_download_service_rationale_95",
-      "community": 11,
+      "community": 34,
       "norm_label": "download audio from a url.          args:             url: url to download from"
     },
     {
@@ -1074,7 +1074,7 @@
       "source_file": "metadata_service.py",
       "source_location": "L162",
       "id": "ultratube_v2_metadata_service_metadataservice_get_playlist_info",
-      "community": 33,
+      "community": 1,
       "norm_label": ".get_playlist_info()"
     },
     {
@@ -1092,7 +1092,7 @@
       "source_file": "metadata_service.py",
       "source_location": "L251",
       "id": "ultratube_v2_metadata_service_metadataservice_get_available_subtitles",
-      "community": 28,
+      "community": 1,
       "norm_label": ".get_available_subtitles()"
     },
     {
@@ -1155,7 +1155,7 @@
       "source_file": "metadata_service.py",
       "source_location": "L163",
       "id": "ultratube_v2_metadata_service_rationale_163",
-      "community": 33,
+      "community": 1,
       "norm_label": "extracts information about a playlist, including a list of its video entries."
     },
     {
@@ -1173,7 +1173,7 @@
       "source_file": "metadata_service.py",
       "source_location": "L252",
       "id": "ultratube_v2_metadata_service_rationale_252",
-      "community": 28,
+      "community": 1,
       "norm_label": "get available subtitles for a youtube video.          args:             url: you"
     },
     {
@@ -1200,7 +1200,7 @@
       "source_file": "models.py",
       "source_location": "L1",
       "id": "models_py",
-      "community": 9,
+      "community": 1,
       "norm_label": "models.py"
     },
     {
@@ -1218,7 +1218,7 @@
       "source_file": "models.py",
       "source_location": "L20",
       "id": "ultratube_v2_models_filename_safe_title",
-      "community": 9,
+      "community": 1,
       "norm_label": "filename_safe_title()"
     },
     {
@@ -1227,7 +1227,7 @@
       "source_file": "models.py",
       "source_location": "L26",
       "id": "ultratube_v2_models_audiotrack",
-      "community": 30,
+      "community": 1,
       "norm_label": "audiotrack"
     },
     {
@@ -1236,7 +1236,7 @@
       "source_file": "models.py",
       "source_location": "L36",
       "id": "ultratube_v2_models_audiotrack_str",
-      "community": 30,
+      "community": 1,
       "norm_label": ".__str__()"
     },
     {
@@ -1245,7 +1245,7 @@
       "source_file": "models.py",
       "source_location": "L41",
       "id": "ultratube_v2_models_subtitle",
-      "community": 28,
+      "community": 1,
       "norm_label": "subtitle"
     },
     {
@@ -1254,7 +1254,7 @@
       "source_file": "models.py",
       "source_location": "L49",
       "id": "ultratube_v2_models_subtitle_str",
-      "community": 28,
+      "community": 1,
       "norm_label": ".__str__()"
     },
     {
@@ -1290,7 +1290,7 @@
       "source_file": "",
       "source_location": "",
       "id": "str",
-      "community": 9,
+      "community": 21,
       "norm_label": "str"
     },
     {
@@ -1299,7 +1299,7 @@
       "source_file": "",
       "source_location": "",
       "id": "enum",
-      "community": 9,
+      "community": 1,
       "norm_label": "enum"
     },
     {
@@ -1317,7 +1317,7 @@
       "source_file": "models.py",
       "source_location": "L97",
       "id": "ultratube_v2_models_bucketdownloadsettings",
-      "community": 2,
+      "community": 21,
       "norm_label": "bucketdownloadsettings"
     },
     {
@@ -1326,7 +1326,7 @@
       "source_file": "",
       "source_location": "",
       "id": "basemodel",
-      "community": 2,
+      "community": 21,
       "norm_label": "basemodel"
     },
     {
@@ -1353,7 +1353,7 @@
       "source_file": "models.py",
       "source_location": "L27",
       "id": "ultratube_v2_models_rationale_27",
-      "community": 30,
+      "community": 1,
       "norm_label": "information about an audio track."
     },
     {
@@ -1362,7 +1362,7 @@
       "source_file": "models.py",
       "source_location": "L42",
       "id": "ultratube_v2_models_rationale_42",
-      "community": 28,
+      "community": 1,
       "norm_label": "information about a subtitle track."
     },
     {
@@ -1398,7 +1398,7 @@
       "source_file": "models.py",
       "source_location": "L98",
       "id": "ultratube_v2_models_rationale_98",
-      "community": 2,
+      "community": 21,
       "norm_label": "configuration settings for a bulk download bucket."
     },
     {
@@ -1443,7 +1443,7 @@
       "source_file": "settings_screen.py",
       "source_location": "L13",
       "id": "ultratube_v2_settings_screen_settingsscreen",
-      "community": 2,
+      "community": 31,
       "norm_label": "settingsscreen"
     },
     {
@@ -1452,7 +1452,7 @@
       "source_file": "settings_screen.py",
       "source_location": "L21",
       "id": "ultratube_v2_settings_screen_settingsscreen_init",
-      "community": 2,
+      "community": 31,
       "norm_label": ".__init__()"
     },
     {
@@ -1461,7 +1461,7 @@
       "source_file": "settings_screen.py",
       "source_location": "L25",
       "id": "ultratube_v2_settings_screen_settingsscreen_compose",
-      "community": 2,
+      "community": 31,
       "norm_label": ".compose()"
     },
     {
@@ -1470,7 +1470,7 @@
       "source_file": "settings_screen.py",
       "source_location": "L137",
       "id": "ultratube_v2_settings_screen_settingsscreen_action_cancel",
-      "community": 2,
+      "community": 31,
       "norm_label": ".action_cancel()"
     },
     {
@@ -1479,7 +1479,7 @@
       "source_file": "settings_screen.py",
       "source_location": "L140",
       "id": "ultratube_v2_settings_screen_settingsscreen_action_submit",
-      "community": 2,
+      "community": 31,
       "norm_label": ".action_submit()"
     },
     {
@@ -1488,7 +1488,7 @@
       "source_file": "settings_screen.py",
       "source_location": "L143",
       "id": "ultratube_v2_settings_screen_settingsscreen_on_button_pressed",
-      "community": 2,
+      "community": 31,
       "norm_label": ".on_button_pressed()"
     },
     {
@@ -1497,7 +1497,7 @@
       "source_file": "settings_screen.py",
       "source_location": "L154",
       "id": "ultratube_v2_settings_screen_settingsscreen_save_preferences_action",
-      "community": 2,
+      "community": 31,
       "norm_label": ".save_preferences_action()"
     },
     {
@@ -1506,7 +1506,7 @@
       "source_file": "settings_screen.py",
       "source_location": "L14",
       "id": "ultratube_v2_settings_screen_rationale_14",
-      "community": 2,
+      "community": 31,
       "norm_label": "full-screen dashboard for modifying and saving global download preferences."
     },
     {
@@ -1515,7 +1515,7 @@
       "source_file": "settings_service.py",
       "source_location": "L1",
       "id": "settings_service_py",
-      "community": 2,
+      "community": 21,
       "norm_label": "settings_service.py"
     },
     {
@@ -1524,7 +1524,7 @@
       "source_file": "settings_service.py",
       "source_location": "L6",
       "id": "ultratube_v2_settings_service_appsettings",
-      "community": 2,
+      "community": 21,
       "norm_label": "appsettings"
     },
     {
@@ -1533,7 +1533,7 @@
       "source_file": "settings_service.py",
       "source_location": "L24",
       "id": "ultratube_v2_settings_service_load_settings",
-      "community": 2,
+      "community": 21,
       "norm_label": "load_settings()"
     },
     {
@@ -1551,7 +1551,7 @@
       "source_file": "settings_service.py",
       "source_location": "L7",
       "id": "ultratube_v2_settings_service_rationale_7",
-      "community": 2,
+      "community": 21,
       "norm_label": "global configuration settings for ultratube downloads."
     },
     {
@@ -1560,7 +1560,7 @@
       "source_file": "settings_service.py",
       "source_location": "L25",
       "id": "ultratube_v2_settings_service_rationale_25",
-      "community": 2,
+      "community": 21,
       "norm_label": "load settings from ~/.ultratube_settings.json, falling back to defaults."
     },
     {
@@ -1578,7 +1578,7 @@
       "source_file": "test_bucket.py",
       "source_location": "L1",
       "id": "test_bucket_py",
-      "community": 2,
+      "community": 21,
       "norm_label": "test_bucket.py"
     },
     {
@@ -1587,7 +1587,7 @@
       "source_file": "test_bucket.py",
       "source_location": "L12",
       "id": "ultratube_v2_test_bucket_parse_urls_text",
-      "community": 2,
+      "community": 21,
       "norm_label": "parse_urls_text()"
     },
     {
@@ -1596,7 +1596,7 @@
       "source_file": "test_bucket.py",
       "source_location": "L17",
       "id": "ultratube_v2_test_bucket_test_parse_urls_text",
-      "community": 2,
+      "community": 21,
       "norm_label": "test_parse_urls_text()"
     },
     {
@@ -1605,7 +1605,7 @@
       "source_file": "test_bucket.py",
       "source_location": "L31",
       "id": "ultratube_v2_test_bucket_test_bucket_download_settings_valid",
-      "community": 2,
+      "community": 21,
       "norm_label": "test_bucket_download_settings_valid()"
     },
     {
@@ -1614,7 +1614,7 @@
       "source_file": "test_bucket.py",
       "source_location": "L49",
       "id": "ultratube_v2_test_bucket_test_bucket_download_settings_invalid_urls",
-      "community": 2,
+      "community": 21,
       "norm_label": "test_bucket_download_settings_invalid_urls()"
     },
     {
@@ -1623,7 +1623,7 @@
       "source_file": "test_bucket.py",
       "source_location": "L64",
       "id": "ultratube_v2_test_bucket_test_bucket_screen_validation",
-      "community": 2,
+      "community": 21,
       "norm_label": "test_bucket_screen_validation()"
     },
     {
@@ -1632,7 +1632,7 @@
       "source_file": "test_bucket.py",
       "source_location": "L86",
       "id": "ultratube_v2_test_bucket_test_app_settings_defaults",
-      "community": 2,
+      "community": 21,
       "norm_label": "test_app_settings_defaults()"
     },
     {
@@ -1641,7 +1641,7 @@
       "source_file": "test_bucket.py",
       "source_location": "L98",
       "id": "ultratube_v2_test_bucket_test_settings_save_load",
-      "community": 2,
+      "community": 21,
       "norm_label": "test_settings_save_load()"
     },
     {
@@ -1650,7 +1650,7 @@
       "source_file": "test_bucket.py",
       "source_location": "L121",
       "id": "ultratube_v2_test_bucket_test_settings_screen_rendering",
-      "community": 2,
+      "community": 31,
       "norm_label": "test_settings_screen_rendering()"
     },
     {
@@ -1659,7 +1659,7 @@
       "source_file": "test_bucket.py",
       "source_location": "L140",
       "id": "ultratube_v2_test_bucket_test_bucket_screen_prefilled_urls",
-      "community": 2,
+      "community": 21,
       "norm_label": "test_bucket_screen_prefilled_urls()"
     },
     {
@@ -1668,7 +1668,7 @@
       "source_file": "test_bucket.py",
       "source_location": "L160",
       "id": "ultratube_v2_test_bucket_test_playlist_validation_redirect_and_spawn",
-      "community": 2,
+      "community": 21,
       "norm_label": "test_playlist_validation_redirect_and_spawn()"
     },
     {
@@ -1677,7 +1677,7 @@
       "source_file": "test_bucket.py",
       "source_location": "L13",
       "id": "ultratube_v2_test_bucket_rationale_13",
-      "community": 2,
+      "community": 21,
       "norm_label": "helper to parse raw text area content into list of sanitized urls."
     },
     {
@@ -1695,7 +1695,7 @@
       "source_file": "ultratube_app.py",
       "source_location": "L43",
       "id": "ultratube_v2_ultratube_app_ultratubeapp",
-      "community": 0,
+      "community": 29,
       "norm_label": "ultratubeapp"
     },
     {
@@ -1704,7 +1704,7 @@
       "source_file": "",
       "source_location": "",
       "id": "app",
-      "community": 0,
+      "community": 29,
       "norm_label": "app"
     },
     {
@@ -1731,7 +1731,7 @@
       "source_file": "ultratube_app.py",
       "source_location": "L79",
       "id": "ultratube_v2_ultratube_app_ultratubeapp_on_mount",
-      "community": 2,
+      "community": 29,
       "norm_label": ".on_mount()"
     },
     {
@@ -1749,7 +1749,7 @@
       "source_file": "ultratube_app.py",
       "source_location": "L107",
       "id": "ultratube_v2_ultratube_app_ultratubeapp_action_toggle_help",
-      "community": 2,
+      "community": 30,
       "norm_label": ".action_toggle_help()"
     },
     {
@@ -1758,7 +1758,7 @@
       "source_file": "ultratube_app.py",
       "source_location": "L110",
       "id": "ultratube_v2_ultratube_app_ultratubeapp_action_settings",
-      "community": 2,
+      "community": 31,
       "norm_label": ".action_settings()"
     },
     {
@@ -1767,7 +1767,7 @@
       "source_file": "ultratube_app.py",
       "source_location": "L114",
       "id": "ultratube_v2_ultratube_app_ultratubeapp_action_new_tab",
-      "community": 9,
+      "community": 29,
       "norm_label": ".action_new_tab()"
     },
     {
@@ -1776,7 +1776,7 @@
       "source_file": "ultratube_app.py",
       "source_location": "L130",
       "id": "ultratube_v2_ultratube_app_ultratubeapp_action_close_tab",
-      "community": 24,
+      "community": 0,
       "norm_label": ".action_close_tab()"
     },
     {
@@ -1812,7 +1812,7 @@
       "source_file": "ultratube_app.py",
       "source_location": "L290",
       "id": "ultratube_v2_ultratube_app_ultratubeapp_on_button_pressed",
-      "community": 0,
+      "community": 29,
       "norm_label": ".on_button_pressed()"
     },
     {
@@ -1821,7 +1821,7 @@
       "source_file": "ultratube_app.py",
       "source_location": "L309",
       "id": "ultratube_v2_ultratube_app_ultratubeapp_on_input_submitted",
-      "community": 0,
+      "community": 29,
       "norm_label": ".on_input_submitted()"
     },
     {
@@ -1830,7 +1830,7 @@
       "source_file": "ultratube_app.py",
       "source_location": "L315",
       "id": "ultratube_v2_ultratube_app_ultratubeapp_validate_url_action",
-      "community": 0,
+      "community": 29,
       "norm_label": ".validate_url_action()"
     },
     {
@@ -1839,7 +1839,7 @@
       "source_file": "ultratube_app.py",
       "source_location": "L339",
       "id": "ultratube_v2_ultratube_app_ultratubeapp_do_validate_url",
-      "community": 0,
+      "community": 29,
       "norm_label": ".do_validate_url()"
     },
     {
@@ -1848,7 +1848,7 @@
       "source_file": "ultratube_app.py",
       "source_location": "L391",
       "id": "ultratube_v2_ultratube_app_ultratubeapp_handle_validation_result",
-      "community": 0,
+      "community": 21,
       "norm_label": ".handle_validation_result()"
     },
     {
@@ -1857,7 +1857,7 @@
       "source_file": "ultratube_app.py",
       "source_location": "L523",
       "id": "ultratube_v2_ultratube_app_ultratubeapp_toggle_mode_ui",
-      "community": 0,
+      "community": 21,
       "norm_label": ".toggle_mode_ui()"
     },
     {
@@ -1884,7 +1884,7 @@
       "source_file": "ultratube_app.py",
       "source_location": "L733",
       "id": "ultratube_v2_ultratube_app_ultratubeapp_on_playlist_progress",
-      "community": 0,
+      "community": 29,
       "norm_label": ".on_playlist_progress()"
     },
     {
@@ -1929,7 +1929,7 @@
       "source_file": "ultratube_app.py",
       "source_location": "L918",
       "id": "ultratube_v2_ultratube_app_ultratubeapp_update_sidebar_queue",
-      "community": 24,
+      "community": 0,
       "norm_label": ".update_sidebar_queue()"
     },
     {
@@ -1956,7 +1956,7 @@
       "source_file": "ultratube_app.py",
       "source_location": "L1010",
       "id": "ultratube_v2_ultratube_app_ultratubeapp_trigger_delete_original_modal",
-      "community": 0,
+      "community": 9,
       "norm_label": ".trigger_delete_original_modal()"
     },
     {
@@ -1965,7 +1965,7 @@
       "source_file": "ultratube_app.py",
       "source_location": "L1047",
       "id": "ultratube_v2_ultratube_app_ultratubeapp_prompt_github_star",
-      "community": 0,
+      "community": 28,
       "norm_label": ".prompt_github_star()"
     },
     {
@@ -1974,7 +1974,7 @@
       "source_file": "ultratube_app.py",
       "source_location": "L1055",
       "id": "ultratube_v2_ultratube_app_ultratubeapp_handle_star_click",
-      "community": 0,
+      "community": 29,
       "norm_label": ".handle_star_click()"
     },
     {
@@ -1983,7 +1983,7 @@
       "source_file": "ultratube_app.py",
       "source_location": "L1067",
       "id": "ultratube_v2_ultratube_app_ultratubeapp_handle_star_skip",
-      "community": 0,
+      "community": 29,
       "norm_label": ".handle_star_skip()"
     },
     {
@@ -1992,7 +1992,7 @@
       "source_file": "ultratube_app.py",
       "source_location": "L1070",
       "id": "ultratube_v2_ultratube_app_ultratubeapp_reset_tab_to_idle",
-      "community": 0,
+      "community": 29,
       "norm_label": ".reset_tab_to_idle()"
     },
     {
@@ -2010,7 +2010,7 @@
       "source_file": "ultratube_app.py",
       "source_location": "L1090",
       "id": "ultratube_v2_ultratube_app_main",
-      "community": 0,
+      "community": 36,
       "norm_label": "main()"
     },
     {
@@ -2028,7 +2028,7 @@
       "source_file": "ultratube_app.py",
       "source_location": "L1048",
       "id": "ultratube_v2_ultratube_app_rationale_1048",
-      "community": 0,
+      "community": 28,
       "norm_label": "triggers the github star suggestion panel on the specified tab."
     },
     {
@@ -2037,7 +2037,7 @@
       "source_file": "ultratube_extractor.py",
       "source_location": "L1",
       "id": "ultratube_extractor_py",
-      "community": 30,
+      "community": 1,
       "norm_label": "ultratube_extractor.py"
     },
     {
@@ -2064,7 +2064,7 @@
       "source_file": "ultratube_extractor.py",
       "source_location": "L24",
       "id": "ultratube_v2_ultratube_extractor_ultratubeextractor_is_valid_url",
-      "community": 9,
+      "community": 21,
       "norm_label": ".is_valid_url()"
     },
     {
@@ -2073,7 +2073,7 @@
       "source_file": "ultratube_extractor.py",
       "source_location": "L72",
       "id": "ultratube_v2_ultratube_extractor_ultratubeextractor_get_available_formats",
-      "community": 29,
+      "community": 9,
       "norm_label": ".get_available_formats()"
     },
     {
@@ -2091,7 +2091,7 @@
       "source_file": "ultratube_extractor.py",
       "source_location": "L97",
       "id": "ultratube_v2_ultratube_extractor_ultratubeextractor_get_available_subtitles",
-      "community": 31,
+      "community": 9,
       "norm_label": ".get_available_subtitles()"
     },
     {
@@ -2100,7 +2100,7 @@
       "source_file": "ultratube_extractor.py",
       "source_location": "L109",
       "id": "ultratube_v2_ultratube_extractor_ultratubeextractor_get_playlist_info",
-      "community": 25,
+      "community": 9,
       "norm_label": ".get_playlist_info()"
     },
     {
@@ -2136,7 +2136,7 @@
       "source_file": "ultratube_extractor.py",
       "source_location": "L1",
       "id": "ultratube_v2_ultratube_extractor_rationale_1",
-      "community": 30,
+      "community": 1,
       "norm_label": "youtubeextractor: main facade that coordinates the services for youtube download"
     },
     {
@@ -2163,7 +2163,7 @@
       "source_file": "ultratube_extractor.py",
       "source_location": "L25",
       "id": "ultratube_v2_ultratube_extractor_rationale_25",
-      "community": 9,
+      "community": 21,
       "norm_label": "validate if the url is syntactically correct and can be parsed by yt-dlp."
     },
     {
@@ -2172,7 +2172,7 @@
       "source_file": "ultratube_extractor.py",
       "source_location": "L73",
       "id": "ultratube_v2_ultratube_extractor_rationale_73",
-      "community": 29,
+      "community": 9,
       "norm_label": "gets available formats for a video that are supported by the app.          args:"
     },
     {
@@ -2190,7 +2190,7 @@
       "source_file": "ultratube_extractor.py",
       "source_location": "L98",
       "id": "ultratube_v2_ultratube_extractor_rationale_98",
-      "community": 31,
+      "community": 9,
       "norm_label": "get available subtitles for a youtube video.          args:             url: the"
     },
     {
@@ -2199,7 +2199,7 @@
       "source_file": "ultratube_extractor.py",
       "source_location": "L110",
       "id": "ultratube_v2_ultratube_extractor_rationale_110",
-      "community": 25,
+      "community": 9,
       "norm_label": "get information about a playlist, including all its video entries.          args"
     },
     {
@@ -2235,7 +2235,7 @@
       "source_file": "ultratube_main.py",
       "source_location": "L1",
       "id": "ultratube_main_py",
-      "community": 0,
+      "community": 36,
       "norm_label": "ultratube_main.py"
     },
     {
@@ -2244,7 +2244,7 @@
       "source_file": "ultratube_main.py",
       "source_location": "L1",
       "id": "ultratube_v2_ultratube_main_rationale_1",
-      "community": 0,
+      "community": 36,
       "norm_label": "ultratube: main entry point. delegates to the textual tui interface."
     },
     {
@@ -2350,7 +2350,7 @@
       "label": "`QuestionModal` (in `app_screens.py`)",
       "file_type": "document",
       "source_file": "design.md",
-      "source_location": "L140",
+      "source_location": "L143",
       "id": "ultratube_v2_design_questionmodal_in_app_screens_py",
       "community": 4,
       "norm_label": "`questionmodal` (in `app_screens.py`)"
@@ -2359,7 +2359,7 @@
       "label": "`BucketScreen` (in `app_screens.py`)",
       "file_type": "document",
       "source_file": "design.md",
-      "source_location": "L144",
+      "source_location": "L155",
       "id": "ultratube_v2_design_bucketscreen_in_app_screens_py",
       "community": 4,
       "norm_label": "`bucketscreen` (in `app_screens.py`)"
@@ -2368,7 +2368,7 @@
       "label": "`SettingsScreen` (in `settings_screen.py`)",
       "file_type": "document",
       "source_file": "design.md",
-      "source_location": "L148",
+      "source_location": "L168",
       "id": "ultratube_v2_design_settingsscreen_in_settings_screen_py",
       "community": 4,
       "norm_label": "`settingsscreen` (in `settings_screen.py`)"
@@ -2377,7 +2377,7 @@
       "label": "`DownloadQueuePanel` (in `queue_panel.py`)",
       "file_type": "document",
       "source_file": "design.md",
-      "source_location": "L152",
+      "source_location": "L177",
       "id": "ultratube_v2_design_downloadqueuepanel_in_queue_panel_py",
       "community": 4,
       "norm_label": "`downloadqueuepanel` (in `queue_panel.py`)"
@@ -2386,7 +2386,7 @@
       "label": "`app_messages.py` \u2014 Worker Messages",
       "file_type": "document",
       "source_file": "design.md",
-      "source_location": "L156",
+      "source_location": "L183",
       "id": "ultratube_v2_design_app_messages_py_worker_messages",
       "community": 4,
       "norm_label": "`app_messages.py` \u2014 worker messages"
@@ -2395,7 +2395,7 @@
       "label": "`app_workers.py` \u2014 Background Workers",
       "file_type": "document",
       "source_file": "design.md",
-      "source_location": "L165",
+      "source_location": "L192",
       "id": "ultratube_v2_design_app_workers_py_background_workers",
       "community": 4,
       "norm_label": "`app_workers.py` \u2014 background workers"
@@ -2404,7 +2404,7 @@
       "label": "3.2 Core Layer (Facade)",
       "file_type": "document",
       "source_file": "design.md",
-      "source_location": "L172",
+      "source_location": "L199",
       "id": "ultratube_v2_design_3_2_core_layer_facade",
       "community": 4,
       "norm_label": "3.2 core layer (facade)"
@@ -2413,7 +2413,7 @@
       "label": "`UltraTubeExtractor` (in `ultratube_extractor.py`)",
       "file_type": "document",
       "source_file": "design.md",
-      "source_location": "L174",
+      "source_location": "L201",
       "id": "ultratube_v2_design_ultratubeextractor_in_ultratube_extractor_py",
       "community": 4,
       "norm_label": "`ultratubeextractor` (in `ultratube_extractor.py`)"
@@ -2422,7 +2422,7 @@
       "label": "3.3 Services Layer",
       "file_type": "document",
       "source_file": "design.md",
-      "source_location": "L185",
+      "source_location": "L212",
       "id": "ultratube_v2_design_3_3_services_layer",
       "community": 4,
       "norm_label": "3.3 services layer"
@@ -2431,7 +2431,7 @@
       "label": "`DownloadService` (in `download_service.py`)",
       "file_type": "document",
       "source_file": "design.md",
-      "source_location": "L187",
+      "source_location": "L214",
       "id": "ultratube_v2_design_downloadservice_in_download_service_py",
       "community": 4,
       "norm_label": "`downloadservice` (in `download_service.py`)"
@@ -2440,7 +2440,7 @@
       "label": "`YtDlpLogger` (in `download_service.py`)",
       "file_type": "document",
       "source_file": "design.md",
-      "source_location": "L194",
+      "source_location": "L221",
       "id": "ultratube_v2_design_ytdlplogger_in_download_service_py",
       "community": 4,
       "norm_label": "`ytdlplogger` (in `download_service.py`)"
@@ -2449,7 +2449,7 @@
       "label": "`MetadataService` (in `metadata_service.py`)",
       "file_type": "document",
       "source_file": "design.md",
-      "source_location": "L197",
+      "source_location": "L224",
       "id": "ultratube_v2_design_metadataservice_in_metadata_service_py",
       "community": 4,
       "norm_label": "`metadataservice` (in `metadata_service.py`)"
@@ -2458,7 +2458,7 @@
       "label": "`FileService` (in `file_service.py`)",
       "file_type": "document",
       "source_file": "design.md",
-      "source_location": "L207",
+      "source_location": "L234",
       "id": "ultratube_v2_design_fileservice_in_file_service_py",
       "community": 4,
       "norm_label": "`fileservice` (in `file_service.py`)"
@@ -2467,7 +2467,7 @@
       "label": "`settings_service.py`",
       "file_type": "document",
       "source_file": "design.md",
-      "source_location": "L214",
+      "source_location": "L241",
       "id": "ultratube_v2_design_settings_service_py",
       "community": 4,
       "norm_label": "`settings_service.py`"
@@ -2476,7 +2476,7 @@
       "label": "3.4 Models Layer",
       "file_type": "document",
       "source_file": "design.md",
-      "source_location": "L219",
+      "source_location": "L246",
       "id": "ultratube_v2_design_3_4_models_layer",
       "community": 4,
       "norm_label": "3.4 models layer"
@@ -2485,7 +2485,7 @@
       "label": "Data Structures (in `models.py`)",
       "file_type": "document",
       "source_file": "design.md",
-      "source_location": "L221",
+      "source_location": "L248",
       "id": "ultratube_v2_design_data_structures_in_models_py",
       "community": 4,
       "norm_label": "data structures (in `models.py`)"
@@ -2494,7 +2494,7 @@
       "label": "4. Concurrency & Thread-Safe UI Updates",
       "file_type": "document",
       "source_file": "design.md",
-      "source_location": "L234",
+      "source_location": "L261",
       "id": "ultratube_v2_design_4_concurrency_thread_safe_ui_updates",
       "community": 4,
       "norm_label": "4. concurrency & thread-safe ui updates"
@@ -2503,7 +2503,7 @@
       "label": "Thread Communication Flow",
       "file_type": "document",
       "source_file": "design.md",
-      "source_location": "L238",
+      "source_location": "L265",
       "id": "ultratube_v2_design_thread_communication_flow",
       "community": 4,
       "norm_label": "thread communication flow"
@@ -2512,7 +2512,7 @@
       "label": "code:block2 (+-----------------------------------------------------------)",
       "file_type": "document",
       "source_file": "design.md",
-      "source_location": "L240",
+      "source_location": "L267",
       "id": "ultratube_v2_design_codeblock_2",
       "community": 4,
       "norm_label": "code:block2 (+-----------------------------------------------------------)"
@@ -2521,7 +2521,7 @@
       "label": "code:python (app_instance.call_from_thread(app_instance.post_message, mes)",
       "file_type": "document",
       "source_file": "design.md",
-      "source_location": "L270",
+      "source_location": "L297",
       "id": "ultratube_v2_design_codeblock_3",
       "community": 4,
       "norm_label": "code:python (app_instance.call_from_thread(app_instance.post_message, mes)"
@@ -2530,7 +2530,7 @@
       "label": "5. External Dependencies",
       "file_type": "document",
       "source_file": "design.md",
-      "source_location": "L277",
+      "source_location": "L304",
       "id": "ultratube_v2_design_5_external_dependencies",
       "community": 4,
       "norm_label": "5. external dependencies"
@@ -3279,7 +3279,7 @@
       "source_file": "tui_menu_messages.md",
       "source_location": "L257",
       "id": "ultratube_v2_tui_menu_messages_flow_3_playlist_download",
-      "community": 5,
+      "community": 10,
       "norm_label": "flow 3 \u2014 playlist download"
     },
     {
@@ -3288,7 +3288,7 @@
       "source_file": "tui_menu_messages.md",
       "source_location": "L259",
       "id": "ultratube_v2_tui_menu_messages_step_1_url_input_playlist_detected",
-      "community": 5,
+      "community": 10,
       "norm_label": "step 1 \u00b7 url input (playlist detected)"
     },
     {
@@ -3297,7 +3297,7 @@
       "source_file": "tui_menu_messages.md",
       "source_location": "L262",
       "id": "ultratube_v2_tui_menu_messages_codeblock_32",
-      "community": 5,
+      "community": 10,
       "norm_label": "code:block32 (\u2713  playlist: {playlist title})"
     },
     {
@@ -3306,7 +3306,7 @@
       "source_file": "tui_menu_messages.md",
       "source_location": "L270",
       "id": "ultratube_v2_tui_menu_messages_step_2_options_panel_playlist_mode",
-      "community": 5,
+      "community": 10,
       "norm_label": "step 2 \u00b7 options panel \u2014 playlist mode"
     },
     {
@@ -3315,7 +3315,7 @@
       "source_file": "tui_menu_messages.md",
       "source_location": "L275",
       "id": "ultratube_v2_tui_menu_messages_codeblock_33",
-      "community": 5,
+      "community": 10,
       "norm_label": "code:block33 (i  audio track \u2014 best available will be chosen for each vide)"
     },
     {
@@ -3324,7 +3324,7 @@
       "source_file": "tui_menu_messages.md",
       "source_location": "L280",
       "id": "ultratube_v2_tui_menu_messages_codeblock_34",
-      "community": 5,
+      "community": 10,
       "norm_label": "code:block34 (i  subtitle selection is based on the first video. not all v)"
     },
     {
@@ -3333,7 +3333,7 @@
       "source_file": "tui_menu_messages.md",
       "source_location": "L285",
       "id": "ultratube_v2_tui_menu_messages_codeblock_35",
-      "community": 5,
+      "community": 10,
       "norm_label": "code:block35 (files will be saved in:  {output_directory}/{playlist_title})"
     },
     {
@@ -3342,7 +3342,7 @@
       "source_file": "tui_menu_messages.md",
       "source_location": "L290",
       "id": "ultratube_v2_tui_menu_messages_codeblock_36",
-      "community": 5,
+      "community": 10,
       "norm_label": "code:block36 (download playlist)"
     },
     {
@@ -3351,7 +3351,7 @@
       "source_file": "tui_menu_messages.md",
       "source_location": "L296",
       "id": "ultratube_v2_tui_menu_messages_step_3_downloading_playlist",
-      "community": 5,
+      "community": 10,
       "norm_label": "step 3 \u00b7 downloading playlist"
     },
     {
@@ -3360,7 +3360,7 @@
       "source_file": "tui_menu_messages.md",
       "source_location": "L298",
       "id": "ultratube_v2_tui_menu_messages_codeblock_37",
-      "community": 5,
+      "community": 10,
       "norm_label": "code:block37 (downloading playlist: {playlist title})"
     },
     {
@@ -3369,7 +3369,7 @@
       "source_file": "tui_menu_messages.md",
       "source_location": "L312",
       "id": "ultratube_v2_tui_menu_messages_codeblock_38",
-      "community": 5,
+      "community": 10,
       "norm_label": "code:block38 (\u2713  {video title}  ({x.x mb}))"
     },
     {
@@ -3378,7 +3378,7 @@
       "source_file": "tui_menu_messages.md",
       "source_location": "L317",
       "id": "ultratube_v2_tui_menu_messages_codeblock_39",
-      "community": 5,
+      "community": 10,
       "norm_label": "code:block39 (\u2717  {video title}  \u2014 skipped: {reason})"
     },
     {
@@ -3387,7 +3387,7 @@
       "source_file": "tui_menu_messages.md",
       "source_location": "L323",
       "id": "ultratube_v2_tui_menu_messages_step_4_playlist_download_complete",
-      "community": 5,
+      "community": 10,
       "norm_label": "step 4 \u00b7 playlist download complete"
     },
     {
@@ -3396,7 +3396,7 @@
       "source_file": "tui_menu_messages.md",
       "source_location": "L325",
       "id": "ultratube_v2_tui_menu_messages_codeblock_40",
-      "community": 5,
+      "community": 10,
       "norm_label": "code:block40 (\u2713  playlist download complete)"
     },
     {
@@ -3405,7 +3405,7 @@
       "source_file": "tui_menu_messages.md",
       "source_location": "L336",
       "id": "ultratube_v2_tui_menu_messages_codeblock_41",
-      "community": 5,
+      "community": 10,
       "norm_label": "code:block41 (enjoying ultratube? please consider giving it a \u2b50 on github )"
     },
     {
@@ -3486,7 +3486,7 @@
       "source_file": "tui_menu_messages.md",
       "source_location": "L374",
       "id": "ultratube_v2_tui_menu_messages_error_edge_case_messages",
-      "community": 10,
+      "community": 25,
       "norm_label": "error & edge case messages"
     },
     {
@@ -3495,7 +3495,7 @@
       "source_file": "tui_menu_messages.md",
       "source_location": "L376",
       "id": "ultratube_v2_tui_menu_messages_file_already_exists",
-      "community": 10,
+      "community": 25,
       "norm_label": "file already exists"
     },
     {
@@ -3504,7 +3504,7 @@
       "source_file": "tui_menu_messages.md",
       "source_location": "L377",
       "id": "ultratube_v2_tui_menu_messages_codeblock_45",
-      "community": 10,
+      "community": 25,
       "norm_label": "code:block45 (a file named {filename} already exists in {directory}.)"
     },
     {
@@ -3513,7 +3513,7 @@
       "source_file": "tui_menu_messages.md",
       "source_location": "L384",
       "id": "ultratube_v2_tui_menu_messages_disk_space_warning_less_than_500_mb_free",
-      "community": 10,
+      "community": 25,
       "norm_label": "disk space warning (less than 500 mb free)"
     },
     {
@@ -3522,7 +3522,7 @@
       "source_file": "tui_menu_messages.md",
       "source_location": "L385",
       "id": "ultratube_v2_tui_menu_messages_codeblock_46",
-      "community": 10,
+      "community": 25,
       "norm_label": "code:block46 (\u26a0  low disk space \u2014 {x.x mb} remaining in {directory}.)"
     },
     {
@@ -3531,7 +3531,7 @@
       "source_file": "tui_menu_messages.md",
       "source_location": "L392",
       "id": "ultratube_v2_tui_menu_messages_download_interrupted_by_user_escape_during_download",
-      "community": 10,
+      "community": 25,
       "norm_label": "download interrupted by user (escape during download)"
     },
     {
@@ -3540,7 +3540,7 @@
       "source_file": "tui_menu_messages.md",
       "source_location": "L393",
       "id": "ultratube_v2_tui_menu_messages_codeblock_47",
-      "community": 10,
+      "community": 25,
       "norm_label": "code:block47 (cancel this download?)"
     },
     {
@@ -3549,7 +3549,7 @@
       "source_file": "tui_menu_messages.md",
       "source_location": "L399",
       "id": "ultratube_v2_tui_menu_messages_download_cancelled",
-      "community": 10,
+      "community": 25,
       "norm_label": "download cancelled"
     },
     {
@@ -3558,7 +3558,7 @@
       "source_file": "tui_menu_messages.md",
       "source_location": "L400",
       "id": "ultratube_v2_tui_menu_messages_codeblock_48",
-      "community": 10,
+      "community": 25,
       "norm_label": "code:block48 (download cancelled.)"
     },
     {
@@ -3567,7 +3567,7 @@
       "source_file": "tui_menu_messages.md",
       "source_location": "L405",
       "id": "ultratube_v2_tui_menu_messages_unsupported_url_not_youtube",
-      "community": 10,
+      "community": 25,
       "norm_label": "unsupported url (not youtube)"
     },
     {
@@ -3576,7 +3576,7 @@
       "source_file": "tui_menu_messages.md",
       "source_location": "L406",
       "id": "ultratube_v2_tui_menu_messages_codeblock_49",
-      "community": 10,
+      "community": 25,
       "norm_label": "code:block49 (ultratube only supports youtube urls (youtube.com and youtu.)"
     },
     {
@@ -3585,7 +3585,7 @@
       "source_file": "tui_menu_messages.md",
       "source_location": "L410",
       "id": "ultratube_v2_tui_menu_messages_yt_dlp_update_available_shown_once_per_session_at_startup",
-      "community": 10,
+      "community": 25,
       "norm_label": "yt-dlp update available (shown once per session at startup)"
     },
     {
@@ -3594,7 +3594,7 @@
       "source_file": "tui_menu_messages.md",
       "source_location": "L411",
       "id": "ultratube_v2_tui_menu_messages_codeblock_50",
-      "community": 10,
+      "community": 25,
       "norm_label": "code:block50 (i  a newer version of yt-dlp is available. run  pip install )"
     },
     {
@@ -3603,7 +3603,7 @@
       "source_file": "tui_menu_messages.md",
       "source_location": "L415",
       "id": "ultratube_v2_tui_menu_messages_app_quit_with_active_downloads",
-      "community": 10,
+      "community": 25,
       "norm_label": "app quit with active downloads"
     },
     {
@@ -3612,7 +3612,7 @@
       "source_file": "tui_menu_messages.md",
       "source_location": "L416",
       "id": "ultratube_v2_tui_menu_messages_codeblock_51",
-      "community": 10,
+      "community": 25,
       "norm_label": "code:block51 ({n} download(s) still in progress.)"
     },
     {
@@ -3859,19 +3859,19 @@
       "norm_label": "3. updated plantuml architecture diagram"
     },
     {
-      "label": "code:plantuml (@startuml UltraTube Architecture (TUI Edition))",
+      "label": "code:plantuml (@startuml UltraTube Architecture (Updated Textual TUI Editio)",
       "file_type": "document",
       "source_file": "ultratube_user_stories.md",
       "source_location": "L268",
       "id": "ultratube_v2_ultratube_user_stories_codeblock_1",
       "community": 6,
-      "norm_label": "code:plantuml (@startuml ultratube architecture (tui edition))"
+      "norm_label": "code:plantuml (@startuml ultratube architecture (updated textual tui editio)"
     },
     {
       "label": "4. `requirements.txt`",
       "file_type": "document",
       "source_file": "ultratube_user_stories.md",
-      "source_location": "L523",
+      "source_location": "L607",
       "id": "ultratube_v2_ultratube_user_stories_4_requirements_txt",
       "community": 6,
       "norm_label": "4. `requirements.txt`"
@@ -3880,7 +3880,7 @@
       "label": "code:text (# \u2500\u2500 Core downloader \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500)",
       "file_type": "document",
       "source_file": "ultratube_user_stories.md",
-      "source_location": "L525",
+      "source_location": "L609",
       "id": "ultratube_v2_ultratube_user_stories_codeblock_2",
       "community": 6,
       "norm_label": "code:text (# \u2500\u2500 core downloader \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500)"
@@ -3889,10 +3889,406 @@
       "label": "5. Feature Summary Table",
       "file_type": "document",
       "source_file": "ultratube_user_stories.md",
-      "source_location": "L544",
+      "source_location": "L628",
       "id": "ultratube_v2_ultratube_user_stories_5_feature_summary_table",
       "community": 6,
       "norm_label": "5. feature summary table"
+    },
+    {
+      "label": "AI coding agent RULES.md.md",
+      "file_type": "document",
+      "source_file": ".agents/rules/AI coding agent RULES.md.md",
+      "source_location": "L1",
+      "id": "agents_rules_ai_coding_agent_rules_md_md",
+      "community": 5,
+      "norm_label": "ai coding agent rules.md.md"
+    },
+    {
+      "label": "Role & Mission",
+      "file_type": "document",
+      "source_file": ".agents/rules/AI coding agent RULES.md.md",
+      "source_location": "L1",
+      "id": "rules_ai_coding_agent_rules_md_role_mission",
+      "community": 5,
+      "norm_label": "role & mission"
+    },
+    {
+      "label": "Part 1: Strategic & Tactical Architectural Guardrails (Domain-Driven Design)",
+      "file_type": "document",
+      "source_file": ".agents/rules/AI coding agent RULES.md.md",
+      "source_location": "L16",
+      "id": "rules_ai_coding_agent_rules_md_part_1_strategic_tactical_architectural_guardrails_domain_driven_design",
+      "community": 5,
+      "norm_label": "part 1: strategic & tactical architectural guardrails (domain-driven design)"
+    },
+    {
+      "label": "1.1 Ubiquitous Language & Model Alignment",
+      "file_type": "document",
+      "source_file": ".agents/rules/AI coding agent RULES.md.md",
+      "source_location": "L20",
+      "id": "rules_ai_coding_agent_rules_md_1_1_ubiquitous_language_model_alignment",
+      "community": 5,
+      "norm_label": "1.1 ubiquitous language & model alignment"
+    },
+    {
+      "label": "1.2 Structural Building Blocks",
+      "file_type": "document",
+      "source_file": ".agents/rules/AI coding agent RULES.md.md",
+      "source_location": "L27",
+      "id": "rules_ai_coding_agent_rules_md_1_2_structural_building_blocks",
+      "community": 5,
+      "norm_label": "1.2 structural building blocks"
+    },
+    {
+      "label": "code:block1 (+-----------------------------------------------------------)",
+      "file_type": "document",
+      "source_file": ".agents/rules/AI coding agent RULES.md.md",
+      "source_location": "L38",
+      "id": "rules_ai_coding_agent_rules_md_codeblock_1",
+      "community": 5,
+      "norm_label": "code:block1 (+-----------------------------------------------------------)"
+    },
+    {
+      "label": "1.3 Strategic Boundary Enforcement",
+      "file_type": "document",
+      "source_file": ".agents/rules/AI coding agent RULES.md.md",
+      "source_location": "L61",
+      "id": "rules_ai_coding_agent_rules_md_1_3_strategic_boundary_enforcement",
+      "community": 5,
+      "norm_label": "1.3 strategic boundary enforcement"
+    },
+    {
+      "label": "\u274c Bad: Anemic Model with Exposed Internals & Leaked Infrastructure",
+      "file_type": "document",
+      "source_file": ".agents/rules/AI coding agent RULES.md.md",
+      "source_location": "L68",
+      "id": "rules_ai_coding_agent_rules_md_bad_anemic_model_with_exposed_internals_leaked_infrastructure",
+      "community": 5,
+      "norm_label": "\u274c bad: anemic model with exposed internals & leaked infrastructure"
+    },
+    {
+      "label": "code:block2 (# Violates DDD: Leaks database primitives, mutable, anemic, )",
+      "file_type": "document",
+      "source_file": ".agents/rules/AI coding agent RULES.md.md",
+      "source_location": "L72",
+      "id": "rules_ai_coding_agent_rules_md_codeblock_2",
+      "community": 5,
+      "norm_label": "code:block2 (# violates ddd: leaks database primitives, mutable, anemic, )"
+    },
+    {
+      "label": "Good: Rich Domain Model with Aggregate Root Enforcement",
+      "file_type": "document",
+      "source_file": ".agents/rules/AI coding agent RULES.md.md",
+      "source_location": "L87",
+      "id": "rules_ai_coding_agent_rules_md_good_rich_domain_model_with_aggregate_root_enforcement",
+      "community": 5,
+      "norm_label": "good: rich domain model with aggregate root enforcement"
+    },
+    {
+      "label": "code:block3 (from pydantic import BaseModel, Field)",
+      "file_type": "document",
+      "source_file": ".agents/rules/AI coding agent RULES.md.md",
+      "source_location": "L91",
+      "id": "rules_ai_coding_agent_rules_md_codeblock_3",
+      "community": 5,
+      "norm_label": "code:block3 (from pydantic import basemodel, field)"
+    },
+    {
+      "label": "Part 2: Rigorous Engineering Quality & Design (Test-Driven Development)",
+      "file_type": "document",
+      "source_file": ".agents/rules/AI coding agent RULES.md.md",
+      "source_location": "L137",
+      "id": "rules_ai_coding_agent_rules_md_part_2_rigorous_engineering_quality_design_test_driven_development",
+      "community": 5,
+      "norm_label": "part 2: rigorous engineering quality & design (test-driven development)"
+    },
+    {
+      "label": "2.1 The Micro-Cycle Execution Algorithm",
+      "file_type": "document",
+      "source_file": ".agents/rules/AI coding agent RULES.md.md",
+      "source_location": "L141",
+      "id": "rules_ai_coding_agent_rules_md_2_1_the_micro_cycle_execution_algorithm",
+      "community": 5,
+      "norm_label": "2.1 the micro-cycle execution algorithm"
+    },
+    {
+      "label": "2.2 Test Separation & Clarity",
+      "file_type": "document",
+      "source_file": ".agents/rules/AI coding agent RULES.md.md",
+      "source_location": "L150",
+      "id": "rules_ai_coding_agent_rules_md_2_2_test_separation_clarity",
+      "community": 5,
+      "norm_label": "2.2 test separation & clarity"
+    },
+    {
+      "label": "\u274c Bad: Writing Production Code First and Mocking Post-Facto",
+      "file_type": "document",
+      "source_file": ".agents/rules/AI coding agent RULES.md.md",
+      "source_location": "L157",
+      "id": "rules_ai_coding_agent_rules_md_bad_writing_production_code_first_and_mocking_post_facto",
+      "community": 5,
+      "norm_label": "\u274c bad: writing production code first and mocking post-facto"
+    },
+    {
+      "label": "code:block4 (# Procedural code written without an explicit design contrac)",
+      "file_type": "document",
+      "source_file": ".agents/rules/AI coding agent RULES.md.md",
+      "source_location": "L161",
+      "id": "rules_ai_coding_agent_rules_md_codeblock_4",
+      "community": 5,
+      "norm_label": "code:block4 (# procedural code written without an explicit design contrac)"
+    },
+    {
+      "label": "Good: TDD Progression (Red -> Green -> Refactor)",
+      "file_type": "document",
+      "source_file": ".agents/rules/AI coding agent RULES.md.md",
+      "source_location": "L173",
+      "id": "rules_ai_coding_agent_rules_md_good_tdd_progression_red_green_refactor",
+      "community": 5,
+      "norm_label": "good: tdd progression (red -> green -> refactor)"
+    },
+    {
+      "label": "code:block5 (# Step 1: Write RED Test)",
+      "file_type": "document",
+      "source_file": ".agents/rules/AI coding agent RULES.md.md",
+      "source_location": "L177",
+      "id": "rules_ai_coding_agent_rules_md_codeblock_5",
+      "community": 5,
+      "norm_label": "code:block5 (# step 1: write red test)"
+    },
+    {
+      "label": "Part 3: Defensive & Offensive Threat Prevention (Bug Bounty Bootcamp Mindset)",
+      "file_type": "document",
+      "source_file": ".agents/rules/AI coding agent RULES.md.md",
+      "source_location": "L219",
+      "id": "rules_ai_coding_agent_rules_md_part_3_defensive_offensive_threat_prevention_bug_bounty_bootcamp_mindset",
+      "community": 5,
+      "norm_label": "part 3: defensive & offensive threat prevention (bug bounty bootcamp mindset)"
+    },
+    {
+      "label": "3.1 Vulnerability Class Defenses",
+      "file_type": "document",
+      "source_file": ".agents/rules/AI coding agent RULES.md.md",
+      "source_location": "L223",
+      "id": "rules_ai_coding_agent_rules_md_3_1_vulnerability_class_defenses",
+      "community": 5,
+      "norm_label": "3.1 vulnerability class defenses"
+    },
+    {
+      "label": "\u274c Bad: Exposing SQL Injection and IDOR Flaws",
+      "file_type": "document",
+      "source_file": ".agents/rules/AI coding agent RULES.md.md",
+      "source_location": "L234",
+      "id": "rules_ai_coding_agent_rules_md_bad_exposing_sql_injection_and_idor_flaws",
+      "community": 5,
+      "norm_label": "\u274c bad: exposing sql injection and idor flaws"
+    },
+    {
+      "label": "code:block6 (# Highly Vulnerable: Concatenation allows arbitrary SQL exec)",
+      "file_type": "document",
+      "source_file": ".agents/rules/AI coding agent RULES.md.md",
+      "source_location": "L238",
+      "id": "rules_ai_coding_agent_rules_md_codeblock_6",
+      "community": 5,
+      "norm_label": "code:block6 (# highly vulnerable: concatenation allows arbitrary sql exec)"
+    },
+    {
+      "label": "Good: Defensive Coding with Secure Type Constraints and Authorization Mapping",
+      "file_type": "document",
+      "source_file": ".agents/rules/AI coding agent RULES.md.md",
+      "source_location": "L249",
+      "id": "rules_ai_coding_agent_rules_md_good_defensive_coding_with_secure_type_constraints_and_authorization_mapping",
+      "community": 5,
+      "norm_label": "good: defensive coding with secure type constraints and authorization mapping"
+    },
+    {
+      "label": "code:block7 (import uuid)",
+      "file_type": "document",
+      "source_file": ".agents/rules/AI coding agent RULES.md.md",
+      "source_location": "L253",
+      "id": "rules_ai_coding_agent_rules_md_codeblock_7",
+      "community": 5,
+      "norm_label": "code:block7 (import uuid)"
+    },
+    {
+      "label": "Part 4: Root-Cause Engineering Diagnostics (Scientific Debugging)",
+      "file_type": "document",
+      "source_file": ".agents/rules/AI coding agent RULES.md.md",
+      "source_location": "L280",
+      "id": "rules_ai_coding_agent_rules_md_part_4_root_cause_engineering_diagnostics_scientific_debugging",
+      "community": 5,
+      "norm_label": "part 4: root-cause engineering diagnostics (scientific debugging)"
+    },
+    {
+      "label": "4.1 Diagnostic Checklist Rules",
+      "file_type": "document",
+      "source_file": ".agents/rules/AI coding agent RULES.md.md",
+      "source_location": "L284",
+      "id": "rules_ai_coding_agent_rules_md_4_1_diagnostic_checklist_rules",
+      "community": 5,
+      "norm_label": "4.1 diagnostic checklist rules"
+    },
+    {
+      "label": "\u274c Bad: Guessing, Patching Over Code, and Leaving Dead-End Code Mutations",
+      "file_type": "document",
+      "source_file": ".agents/rules/AI coding agent RULES.md.md",
+      "source_location": "L297",
+      "id": "rules_ai_coding_agent_rules_md_bad_guessing_patching_over_code_and_leaving_dead_end_code_mutations",
+      "community": 5,
+      "norm_label": "\u274c bad: guessing, patching over code, and leaving dead-end code mutations"
+    },
+    {
+      "label": "code:block8 (# Debugging approach based on pure guesswork:)",
+      "file_type": "document",
+      "source_file": ".agents/rules/AI coding agent RULES.md.md",
+      "source_location": "L301",
+      "id": "rules_ai_coding_agent_rules_md_codeblock_8",
+      "community": 5,
+      "norm_label": "code:block8 (# debugging approach based on pure guesswork:)"
+    },
+    {
+      "label": "Good: Applying a Concrete Verification Loop and Root Cause Elimination",
+      "file_type": "document",
+      "source_file": ".agents/rules/AI coding agent RULES.md.md",
+      "source_location": "L316",
+      "id": "rules_ai_coding_agent_rules_md_good_applying_a_concrete_verification_loop_and_root_cause_elimination",
+      "community": 5,
+      "norm_label": "good: applying a concrete verification loop and root cause elimination"
+    },
+    {
+      "label": "code:block9 (# 1. Replicated failure via explicit TDD target case matchin)",
+      "file_type": "document",
+      "source_file": ".agents/rules/AI coding agent RULES.md.md",
+      "source_location": "L320",
+      "id": "rules_ai_coding_agent_rules_md_codeblock_9",
+      "community": 5,
+      "norm_label": "code:block9 (# 1. replicated failure via explicit tdd target case matchin)"
+    },
+    {
+      "label": "Part 5: Automated Pipeline & Tooling Orchestration",
+      "file_type": "document",
+      "source_file": ".agents/rules/AI coding agent RULES.md.md",
+      "source_location": "L344",
+      "id": "rules_ai_coding_agent_rules_md_part_5_automated_pipeline_tooling_orchestration",
+      "community": 5,
+      "norm_label": "part 5: automated pipeline & tooling orchestration"
+    },
+    {
+      "label": "5.1 The Required Security & Quality Toolchain",
+      "file_type": "document",
+      "source_file": ".agents/rules/AI coding agent RULES.md.md",
+      "source_location": "L348",
+      "id": "rules_ai_coding_agent_rules_md_5_1_the_required_security_quality_toolchain",
+      "community": 5,
+      "norm_label": "5.1 the required security & quality toolchain"
+    },
+    {
+      "label": "5.2 Mandatory Execution Workflow Checklist",
+      "file_type": "document",
+      "source_file": ".agents/rules/AI coding agent RULES.md.md",
+      "source_location": "L365",
+      "id": "rules_ai_coding_agent_rules_md_5_2_mandatory_execution_workflow_checklist",
+      "community": 5,
+      "norm_label": "5.2 mandatory execution workflow checklist"
+    },
+    {
+      "label": "code:block10 ([1. Write Code] \u2500\u2500> [2. Local Type / Format] \u2500\u2500> [3. Securit)",
+      "file_type": "document",
+      "source_file": ".agents/rules/AI coding agent RULES.md.md",
+      "source_location": "L367",
+      "id": "rules_ai_coding_agent_rules_md_codeblock_10",
+      "community": 5,
+      "norm_label": "code:block10 ([1. write code] \u2500\u2500> [2. local type / format] \u2500\u2500> [3. securit)"
+    },
+    {
+      "label": "code:block11 (- [ ] Code is formatted cleanly via Ruff/Black; no unused im)",
+      "file_type": "document",
+      "source_file": ".agents/rules/AI coding agent RULES.md.md",
+      "source_location": "L378",
+      "id": "rules_ai_coding_agent_rules_md_codeblock_11",
+      "community": 5,
+      "norm_label": "code:block11 (- [ ] code is formatted cleanly via ruff/black; no unused im)"
+    },
+    {
+      "label": "Part 6: Complete Integration Example",
+      "file_type": "document",
+      "source_file": ".agents/rules/AI coding agent RULES.md.md",
+      "source_location": "L387",
+      "id": "rules_ai_coding_agent_rules_md_part_6_complete_integration_example",
+      "community": 5,
+      "norm_label": "part 6: complete integration example"
+    },
+    {
+      "label": "The Scenario",
+      "file_type": "document",
+      "source_file": ".agents/rules/AI coding agent RULES.md.md",
+      "source_location": "L389",
+      "id": "rules_ai_coding_agent_rules_md_the_scenario",
+      "community": 5,
+      "norm_label": "the scenario"
+    },
+    {
+      "label": "Step 1: Write the Failing Test Suite (TDD - Red Phase)",
+      "file_type": "document",
+      "source_file": ".agents/rules/AI coding agent RULES.md.md",
+      "source_location": "L393",
+      "id": "rules_ai_coding_agent_rules_md_step_1_write_the_failing_test_suite_tdd_red_phase",
+      "community": 5,
+      "norm_label": "step 1: write the failing test suite (tdd - red phase)"
+    },
+    {
+      "label": "code:block12 (# test_inventory.py)",
+      "file_type": "document",
+      "source_file": ".agents/rules/AI coding agent RULES.md.md",
+      "source_location": "L397",
+      "id": "rules_ai_coding_agent_rules_md_codeblock_12",
+      "community": 5,
+      "norm_label": "code:block12 (# test_inventory.py)"
+    },
+    {
+      "label": "Step 2: Implement Secure Domain Models & Tool Integrations (Green -> Refactor)",
+      "file_type": "document",
+      "source_file": ".agents/rules/AI coding agent RULES.md.md",
+      "source_location": "L414",
+      "id": "rules_ai_coding_agent_rules_md_step_2_implement_secure_domain_models_tool_integrations_green_refactor",
+      "community": 5,
+      "norm_label": "step 2: implement secure domain models & tool integrations (green -> refactor)"
+    },
+    {
+      "label": "code:block13 (# inventory_domain.py)",
+      "file_type": "document",
+      "source_file": ".agents/rules/AI coding agent RULES.md.md",
+      "source_location": "L418",
+      "id": "rules_ai_coding_agent_rules_md_codeblock_13",
+      "community": 5,
+      "norm_label": "code:block13 (# inventory_domain.py)"
+    },
+    {
+      "label": "Step 3: Implement the Secure Application Routing Component",
+      "file_type": "document",
+      "source_file": ".agents/rules/AI coding agent RULES.md.md",
+      "source_location": "L449",
+      "id": "rules_ai_coding_agent_rules_md_step_3_implement_the_secure_application_routing_component",
+      "community": 5,
+      "norm_label": "step 3: implement the secure application routing component"
+    },
+    {
+      "label": "code:block14 (# inventory_service.py)",
+      "file_type": "document",
+      "source_file": ".agents/rules/AI coding agent RULES.md.md",
+      "source_location": "L453",
+      "id": "rules_ai_coding_agent_rules_md_codeblock_14",
+      "community": 5,
+      "norm_label": "code:block14 (# inventory_service.py)"
+    },
+    {
+      "label": "Part 7: Final Compliance Directives",
+      "file_type": "document",
+      "source_file": ".agents/rules/AI coding agent RULES.md.md",
+      "source_location": "L490",
+      "id": "rules_ai_coding_agent_rules_md_part_7_final_compliance_directives",
+      "community": 5,
+      "norm_label": "part 7: final compliance directives"
     },
     {
       "label": "caveman-activate.md",
@@ -3944,7 +4340,7 @@
       "file_type": "rationale",
       "source_file": "ultratube_app.py",
       "source_location": "L1031",
-      "community": 0,
+      "community": 28,
       "norm_label": "triggers the github star suggestion panel on the specified tab.",
       "id": "ultratube_v2_ultratube_app_rationale_1031"
     },
@@ -3989,7 +4385,7 @@
       "file_type": "code",
       "source_file": "settings_tab.py",
       "source_location": "L19",
-      "community": 27,
+      "community": 2,
       "norm_label": ".compose()",
       "id": "ultratube_v2_settings_tab_settingstab_compose"
     },
@@ -4016,7 +4412,7 @@
       "file_type": "code",
       "source_file": "test_bucket.py",
       "source_location": "L121",
-      "community": 2,
+      "community": 21,
       "norm_label": "test_settings_tab_rendering()",
       "id": "ultratube_v2_test_bucket_test_settings_tab_rendering"
     },
@@ -4034,7 +4430,7 @@
       "file_type": "rationale",
       "source_file": "ultratube_app.py",
       "source_location": "L1034",
-      "community": 0,
+      "community": 28,
       "norm_label": "triggers the github star suggestion panel on the specified tab.",
       "id": "ultratube_v2_ultratube_app_rationale_1034"
     },
@@ -4070,7 +4466,7 @@
       "file_type": "rationale",
       "source_file": "ultratube_app.py",
       "source_location": "L1001",
-      "community": 0,
+      "community": 28,
       "norm_label": "triggers the github star suggestion panel on the specified tab.",
       "id": "ultratube_v2_ultratube_app_rationale_1001"
     },
@@ -4133,7 +4529,7 @@
       "file_type": "rationale",
       "source_file": "app_screens.py",
       "source_location": "L12",
-      "community": 2,
+      "community": 30,
       "norm_label": "overlay displaying application keyboard shortcuts.",
       "id": "ultratube_v2_app_screens_rationale_12"
     },
@@ -4142,7 +4538,7 @@
       "file_type": "rationale",
       "source_file": "app_screens.py",
       "source_location": "L40",
-      "community": 0,
+      "community": 28,
       "norm_label": "standard yes/no dialog screen.",
       "id": "ultratube_v2_app_screens_rationale_40"
     },
@@ -4178,7 +4574,7 @@
       "file_type": "rationale",
       "source_file": "models.py",
       "source_location": "L26",
-      "community": 30,
+      "community": 1,
       "norm_label": "information about an audio track.",
       "id": "ultratube_v2_models_rationale_26"
     },
@@ -4187,7 +4583,7 @@
       "file_type": "rationale",
       "source_file": "models.py",
       "source_location": "L41",
-      "community": 28,
+      "community": 1,
       "norm_label": "information about a subtitle track.",
       "id": "ultratube_v2_models_rationale_41"
     },
@@ -4232,7 +4628,7 @@
       "file_type": "rationale",
       "source_file": "ultratube_app.py",
       "source_location": "L869",
-      "community": 0,
+      "community": 28,
       "norm_label": "triggers the github star suggestion panel on the specified tab.",
       "id": "ultratube_v2_ultratube_app_rationale_869"
     },
@@ -4259,7 +4655,7 @@
       "file_type": "rationale",
       "source_file": "app_screens.py",
       "source_location": "L9",
-      "community": 2,
+      "community": 30,
       "norm_label": "overlay displaying application keyboard shortcuts.",
       "id": "ultratube_v2_app_screens_rationale_9"
     },
@@ -4268,7 +4664,7 @@
       "file_type": "rationale",
       "source_file": "app_screens.py",
       "source_location": "L36",
-      "community": 0,
+      "community": 28,
       "norm_label": "standard yes/no dialog screen.",
       "id": "ultratube_v2_app_screens_rationale_36"
     },
@@ -4304,7 +4700,7 @@
       "file_type": "rationale",
       "source_file": "ultratube_app.py",
       "source_location": "L793",
-      "community": 0,
+      "community": 28,
       "norm_label": "triggers the github star suggestion panel on the specified tab.",
       "id": "ultratube_v2_ultratube_app_rationale_793"
     },
@@ -4313,7 +4709,7 @@
       "file_type": "rationale",
       "source_file": "ultratube_app.py",
       "source_location": "L787",
-      "community": 0,
+      "community": 28,
       "norm_label": "asks the user if they'd like to star the repository on github and opens it if so",
       "id": "ultratube_v2_ultratube_app_rationale_787"
     },
@@ -4322,7 +4718,7 @@
       "file_type": "rationale",
       "source_file": "download_service.py",
       "source_location": "L13",
-      "community": 11,
+      "community": 33,
       "norm_label": "redirects yt-dlp logs to our tui logs.",
       "id": "ultratube_v2_download_service_rationale_13"
     },
@@ -4349,7 +4745,7 @@
       "file_type": "rationale",
       "source_file": "download_service.py",
       "source_location": "L94",
-      "community": 11,
+      "community": 34,
       "norm_label": "download audio from a url.          args:             url: url to download from",
       "id": "ultratube_v2_download_service_rationale_94"
     },
@@ -4448,7 +4844,7 @@
       "file_type": "rationale",
       "source_file": "metadata_service.py",
       "source_location": "L154",
-      "community": 33,
+      "community": 1,
       "norm_label": "extracts information about a playlist, including a list of its video entries.",
       "id": "ultratube_v2_metadata_service_rationale_154"
     },
@@ -4466,7 +4862,7 @@
       "file_type": "rationale",
       "source_file": "metadata_service.py",
       "source_location": "L238",
-      "community": 28,
+      "community": 1,
       "norm_label": "get available subtitles for a youtube video.          args:             url: you",
       "id": "ultratube_v2_metadata_service_rationale_238"
     },
@@ -4502,7 +4898,7 @@
       "file_type": "rationale",
       "source_file": "models.py",
       "source_location": "L25",
-      "community": 30,
+      "community": 1,
       "norm_label": "information about an audio track.",
       "id": "ultratube_v2_models_rationale_25"
     },
@@ -4511,7 +4907,7 @@
       "file_type": "rationale",
       "source_file": "models.py",
       "source_location": "L39",
-      "community": 28,
+      "community": 1,
       "norm_label": "information about a subtitle track.",
       "id": "ultratube_v2_models_rationale_39"
     },
@@ -4709,7 +5105,7 @@
       "file_type": "code",
       "source_file": "ultratube_app.py",
       "source_location": "L278",
-      "community": 2,
+      "community": 30,
       "norm_label": "helpscreen",
       "id": "ultratube_v2_ultratube_app_helpscreen"
     },
@@ -4718,7 +5114,7 @@
       "file_type": "code",
       "source_file": "ultratube_app.py",
       "source_location": "L280",
-      "community": 2,
+      "community": 30,
       "norm_label": ".compose()",
       "id": "ultratube_v2_ultratube_app_helpscreen_compose"
     },
@@ -4727,7 +5123,7 @@
       "file_type": "code",
       "source_file": "ultratube_app.py",
       "source_location": "L297",
-      "community": 2,
+      "community": 30,
       "norm_label": ".on_key()",
       "id": "ultratube_v2_ultratube_app_helpscreen_on_key"
     },
@@ -4736,7 +5132,7 @@
       "file_type": "code",
       "source_file": "ultratube_app.py",
       "source_location": "L302",
-      "community": 0,
+      "community": 9,
       "norm_label": "questionmodal",
       "id": "ultratube_v2_ultratube_app_questionmodal"
     },
@@ -4745,7 +5141,7 @@
       "file_type": "code",
       "source_file": "ultratube_app.py",
       "source_location": "L304",
-      "community": 0,
+      "community": 9,
       "norm_label": ".__init__()",
       "id": "ultratube_v2_ultratube_app_questionmodal_init"
     },
@@ -4754,7 +5150,7 @@
       "file_type": "code",
       "source_file": "ultratube_app.py",
       "source_location": "L311",
-      "community": 0,
+      "community": 9,
       "norm_label": ".compose()",
       "id": "ultratube_v2_ultratube_app_questionmodal_compose"
     },
@@ -4763,7 +5159,7 @@
       "file_type": "code",
       "source_file": "ultratube_app.py",
       "source_location": "L319",
-      "community": 0,
+      "community": 9,
       "norm_label": ".on_button_pressed()",
       "id": "ultratube_v2_ultratube_app_questionmodal_on_button_pressed"
     },
@@ -4835,7 +5231,7 @@
       "file_type": "rationale",
       "source_file": "ultratube_app.py",
       "source_location": "L279",
-      "community": 2,
+      "community": 30,
       "norm_label": "overlay displaying application keyboard shortcuts.",
       "id": "ultratube_v2_ultratube_app_rationale_279"
     },
@@ -4844,7 +5240,7 @@
       "file_type": "rationale",
       "source_file": "ultratube_app.py",
       "source_location": "L303",
-      "community": 0,
+      "community": 9,
       "norm_label": "standard yes/no dialog screen.",
       "id": "ultratube_v2_ultratube_app_rationale_303"
     },
@@ -4880,7 +5276,7 @@
       "file_type": "rationale",
       "source_file": "ultratube_extractor.py",
       "source_location": "L24",
-      "community": 9,
+      "community": 21,
       "norm_label": "validate if the url is syntactically correct and can be parsed by yt-dlp.",
       "id": "ultratube_v2_ultratube_extractor_rationale_24"
     },
@@ -4889,7 +5285,7 @@
       "file_type": "rationale",
       "source_file": "ultratube_extractor.py",
       "source_location": "L62",
-      "community": 29,
+      "community": 9,
       "norm_label": "gets available formats for a video that are supported by the app.          args:",
       "id": "ultratube_v2_ultratube_extractor_rationale_62"
     },
@@ -4907,7 +5303,7 @@
       "file_type": "rationale",
       "source_file": "ultratube_extractor.py",
       "source_location": "L87",
-      "community": 31,
+      "community": 9,
       "norm_label": "get available subtitles for a youtube video.                  args:",
       "id": "ultratube_v2_ultratube_extractor_rationale_87"
     },
@@ -4916,7 +5312,7 @@
       "file_type": "rationale",
       "source_file": "ultratube_extractor.py",
       "source_location": "L99",
-      "community": 25,
+      "community": 9,
       "norm_label": "get information about a playlist, including all its video entries.          args",
       "id": "ultratube_v2_ultratube_extractor_rationale_99"
     },
@@ -10596,9 +10992,9 @@
       "source_file": "test_bucket.py",
       "source_location": "L140",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "test_bucket_py",
-      "target": "ultratube_v2_test_bucket_test_bucket_screen_prefilled_urls",
-      "confidence_score": 1.0
+      "target": "ultratube_v2_test_bucket_test_bucket_screen_prefilled_urls"
     },
     {
       "relation": "contains",
@@ -10606,9 +11002,9 @@
       "source_file": "test_bucket.py",
       "source_location": "L160",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "test_bucket_py",
-      "target": "ultratube_v2_test_bucket_test_playlist_validation_redirect_and_spawn",
-      "confidence_score": 1.0
+      "target": "ultratube_v2_test_bucket_test_playlist_validation_redirect_and_spawn"
     },
     {
       "relation": "imports",
@@ -12059,9 +12455,9 @@
       "source_file": "ultratube_app.py",
       "source_location": "L1048",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ultratube_v2_ultratube_app_rationale_1048",
-      "target": "ultratube_v2_ultratube_app_ultratubeapp_prompt_github_star",
-      "confidence_score": 1.0
+      "target": "ultratube_v2_ultratube_app_ultratubeapp_prompt_github_star"
     },
     {
       "relation": "rationale_for",
@@ -14380,6 +14776,436 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": ".agents/rules/AI coding agent RULES.md.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "agents_rules_ai_coding_agent_rules_md_md",
+      "target": "rules_ai_coding_agent_rules_md_role_mission"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/rules/AI coding agent RULES.md.md",
+      "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "agents_rules_ai_coding_agent_rules_md_md",
+      "target": "rules_ai_coding_agent_rules_md_part_1_strategic_tactical_architectural_guardrails_domain_driven_design"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/rules/AI coding agent RULES.md.md",
+      "source_location": "L137",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "agents_rules_ai_coding_agent_rules_md_md",
+      "target": "rules_ai_coding_agent_rules_md_part_2_rigorous_engineering_quality_design_test_driven_development"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/rules/AI coding agent RULES.md.md",
+      "source_location": "L219",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "agents_rules_ai_coding_agent_rules_md_md",
+      "target": "rules_ai_coding_agent_rules_md_part_3_defensive_offensive_threat_prevention_bug_bounty_bootcamp_mindset"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/rules/AI coding agent RULES.md.md",
+      "source_location": "L280",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "agents_rules_ai_coding_agent_rules_md_md",
+      "target": "rules_ai_coding_agent_rules_md_part_4_root_cause_engineering_diagnostics_scientific_debugging"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/rules/AI coding agent RULES.md.md",
+      "source_location": "L344",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "agents_rules_ai_coding_agent_rules_md_md",
+      "target": "rules_ai_coding_agent_rules_md_part_5_automated_pipeline_tooling_orchestration"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/rules/AI coding agent RULES.md.md",
+      "source_location": "L387",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "agents_rules_ai_coding_agent_rules_md_md",
+      "target": "rules_ai_coding_agent_rules_md_part_6_complete_integration_example"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/rules/AI coding agent RULES.md.md",
+      "source_location": "L490",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "agents_rules_ai_coding_agent_rules_md_md",
+      "target": "rules_ai_coding_agent_rules_md_part_7_final_compliance_directives"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/rules/AI coding agent RULES.md.md",
+      "source_location": "L20",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "rules_ai_coding_agent_rules_md_part_1_strategic_tactical_architectural_guardrails_domain_driven_design",
+      "target": "rules_ai_coding_agent_rules_md_1_1_ubiquitous_language_model_alignment"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/rules/AI coding agent RULES.md.md",
+      "source_location": "L27",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "rules_ai_coding_agent_rules_md_part_1_strategic_tactical_architectural_guardrails_domain_driven_design",
+      "target": "rules_ai_coding_agent_rules_md_1_2_structural_building_blocks"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/rules/AI coding agent RULES.md.md",
+      "source_location": "L61",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "rules_ai_coding_agent_rules_md_part_1_strategic_tactical_architectural_guardrails_domain_driven_design",
+      "target": "rules_ai_coding_agent_rules_md_1_3_strategic_boundary_enforcement"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/rules/AI coding agent RULES.md.md",
+      "source_location": "L38",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "rules_ai_coding_agent_rules_md_1_2_structural_building_blocks",
+      "target": "rules_ai_coding_agent_rules_md_codeblock_1"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/rules/AI coding agent RULES.md.md",
+      "source_location": "L68",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "rules_ai_coding_agent_rules_md_1_3_strategic_boundary_enforcement",
+      "target": "rules_ai_coding_agent_rules_md_bad_anemic_model_with_exposed_internals_leaked_infrastructure"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/rules/AI coding agent RULES.md.md",
+      "source_location": "L87",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "rules_ai_coding_agent_rules_md_1_3_strategic_boundary_enforcement",
+      "target": "rules_ai_coding_agent_rules_md_good_rich_domain_model_with_aggregate_root_enforcement"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/rules/AI coding agent RULES.md.md",
+      "source_location": "L72",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "rules_ai_coding_agent_rules_md_bad_anemic_model_with_exposed_internals_leaked_infrastructure",
+      "target": "rules_ai_coding_agent_rules_md_codeblock_2"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/rules/AI coding agent RULES.md.md",
+      "source_location": "L91",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "rules_ai_coding_agent_rules_md_good_rich_domain_model_with_aggregate_root_enforcement",
+      "target": "rules_ai_coding_agent_rules_md_codeblock_3"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/rules/AI coding agent RULES.md.md",
+      "source_location": "L141",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "rules_ai_coding_agent_rules_md_part_2_rigorous_engineering_quality_design_test_driven_development",
+      "target": "rules_ai_coding_agent_rules_md_2_1_the_micro_cycle_execution_algorithm"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/rules/AI coding agent RULES.md.md",
+      "source_location": "L150",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "rules_ai_coding_agent_rules_md_part_2_rigorous_engineering_quality_design_test_driven_development",
+      "target": "rules_ai_coding_agent_rules_md_2_2_test_separation_clarity"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/rules/AI coding agent RULES.md.md",
+      "source_location": "L157",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "rules_ai_coding_agent_rules_md_2_2_test_separation_clarity",
+      "target": "rules_ai_coding_agent_rules_md_bad_writing_production_code_first_and_mocking_post_facto"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/rules/AI coding agent RULES.md.md",
+      "source_location": "L173",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "rules_ai_coding_agent_rules_md_2_2_test_separation_clarity",
+      "target": "rules_ai_coding_agent_rules_md_good_tdd_progression_red_green_refactor"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/rules/AI coding agent RULES.md.md",
+      "source_location": "L161",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "rules_ai_coding_agent_rules_md_bad_writing_production_code_first_and_mocking_post_facto",
+      "target": "rules_ai_coding_agent_rules_md_codeblock_4"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/rules/AI coding agent RULES.md.md",
+      "source_location": "L177",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "rules_ai_coding_agent_rules_md_good_tdd_progression_red_green_refactor",
+      "target": "rules_ai_coding_agent_rules_md_codeblock_5"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/rules/AI coding agent RULES.md.md",
+      "source_location": "L223",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "rules_ai_coding_agent_rules_md_part_3_defensive_offensive_threat_prevention_bug_bounty_bootcamp_mindset",
+      "target": "rules_ai_coding_agent_rules_md_3_1_vulnerability_class_defenses"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/rules/AI coding agent RULES.md.md",
+      "source_location": "L234",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "rules_ai_coding_agent_rules_md_3_1_vulnerability_class_defenses",
+      "target": "rules_ai_coding_agent_rules_md_bad_exposing_sql_injection_and_idor_flaws"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/rules/AI coding agent RULES.md.md",
+      "source_location": "L249",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "rules_ai_coding_agent_rules_md_3_1_vulnerability_class_defenses",
+      "target": "rules_ai_coding_agent_rules_md_good_defensive_coding_with_secure_type_constraints_and_authorization_mapping"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/rules/AI coding agent RULES.md.md",
+      "source_location": "L238",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "rules_ai_coding_agent_rules_md_bad_exposing_sql_injection_and_idor_flaws",
+      "target": "rules_ai_coding_agent_rules_md_codeblock_6"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/rules/AI coding agent RULES.md.md",
+      "source_location": "L253",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "rules_ai_coding_agent_rules_md_good_defensive_coding_with_secure_type_constraints_and_authorization_mapping",
+      "target": "rules_ai_coding_agent_rules_md_codeblock_7"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/rules/AI coding agent RULES.md.md",
+      "source_location": "L284",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "rules_ai_coding_agent_rules_md_part_4_root_cause_engineering_diagnostics_scientific_debugging",
+      "target": "rules_ai_coding_agent_rules_md_4_1_diagnostic_checklist_rules"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/rules/AI coding agent RULES.md.md",
+      "source_location": "L297",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "rules_ai_coding_agent_rules_md_4_1_diagnostic_checklist_rules",
+      "target": "rules_ai_coding_agent_rules_md_bad_guessing_patching_over_code_and_leaving_dead_end_code_mutations"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/rules/AI coding agent RULES.md.md",
+      "source_location": "L316",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "rules_ai_coding_agent_rules_md_4_1_diagnostic_checklist_rules",
+      "target": "rules_ai_coding_agent_rules_md_good_applying_a_concrete_verification_loop_and_root_cause_elimination"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/rules/AI coding agent RULES.md.md",
+      "source_location": "L301",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "rules_ai_coding_agent_rules_md_bad_guessing_patching_over_code_and_leaving_dead_end_code_mutations",
+      "target": "rules_ai_coding_agent_rules_md_codeblock_8"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/rules/AI coding agent RULES.md.md",
+      "source_location": "L320",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "rules_ai_coding_agent_rules_md_good_applying_a_concrete_verification_loop_and_root_cause_elimination",
+      "target": "rules_ai_coding_agent_rules_md_codeblock_9"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/rules/AI coding agent RULES.md.md",
+      "source_location": "L348",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "rules_ai_coding_agent_rules_md_part_5_automated_pipeline_tooling_orchestration",
+      "target": "rules_ai_coding_agent_rules_md_5_1_the_required_security_quality_toolchain"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/rules/AI coding agent RULES.md.md",
+      "source_location": "L365",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "rules_ai_coding_agent_rules_md_part_5_automated_pipeline_tooling_orchestration",
+      "target": "rules_ai_coding_agent_rules_md_5_2_mandatory_execution_workflow_checklist"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/rules/AI coding agent RULES.md.md",
+      "source_location": "L367",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "rules_ai_coding_agent_rules_md_5_2_mandatory_execution_workflow_checklist",
+      "target": "rules_ai_coding_agent_rules_md_codeblock_10"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/rules/AI coding agent RULES.md.md",
+      "source_location": "L378",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "rules_ai_coding_agent_rules_md_5_2_mandatory_execution_workflow_checklist",
+      "target": "rules_ai_coding_agent_rules_md_codeblock_11"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/rules/AI coding agent RULES.md.md",
+      "source_location": "L389",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "rules_ai_coding_agent_rules_md_part_6_complete_integration_example",
+      "target": "rules_ai_coding_agent_rules_md_the_scenario"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/rules/AI coding agent RULES.md.md",
+      "source_location": "L393",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "rules_ai_coding_agent_rules_md_the_scenario",
+      "target": "rules_ai_coding_agent_rules_md_step_1_write_the_failing_test_suite_tdd_red_phase"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/rules/AI coding agent RULES.md.md",
+      "source_location": "L414",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "rules_ai_coding_agent_rules_md_the_scenario",
+      "target": "rules_ai_coding_agent_rules_md_step_2_implement_secure_domain_models_tool_integrations_green_refactor"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/rules/AI coding agent RULES.md.md",
+      "source_location": "L449",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "rules_ai_coding_agent_rules_md_the_scenario",
+      "target": "rules_ai_coding_agent_rules_md_step_3_implement_the_secure_application_routing_component"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/rules/AI coding agent RULES.md.md",
+      "source_location": "L397",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "rules_ai_coding_agent_rules_md_step_1_write_the_failing_test_suite_tdd_red_phase",
+      "target": "rules_ai_coding_agent_rules_md_codeblock_12"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/rules/AI coding agent RULES.md.md",
+      "source_location": "L418",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "rules_ai_coding_agent_rules_md_step_2_implement_secure_domain_models_tool_integrations_green_refactor",
+      "target": "rules_ai_coding_agent_rules_md_codeblock_13"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/rules/AI coding agent RULES.md.md",
+      "source_location": "L453",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "rules_ai_coding_agent_rules_md_step_3_implement_the_secure_application_routing_component",
+      "target": "rules_ai_coding_agent_rules_md_codeblock_14"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": ".agents/rules/graphify.md",
       "source_location": "L6",
       "weight": 1.0,
@@ -15159,5 +15985,6 @@
       "confidence_score": 0.95,
       "source_file": "models.py"
     }
-  ]
+  ],
+  "built_at_commit": "a64f4611af8e2786289331712c6ffa5850e69bb6"
 }

@@ -112,6 +112,7 @@ package "TUI Layer (Modular - Textual App & Widgets)" {
 
   class BucketScreen << (S,lightgrey) app_screens.py >> {
     + app_settings: Optional[AppSettings]
+    + prefilled_urls: Optional[List[str]]
     + compose()
     + on_mount()
     + update_formats_dropdown(mode)

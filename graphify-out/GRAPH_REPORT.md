@@ -1,13 +1,18 @@
-# Graph Report - ultratube v2  (2026-06-08)
+# Graph Report - ultratube v2  (2026-06-09)
 
 ## Corpus Check
-- 25 files · ~19,453 words
+- 26 files · ~22,643 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 578 nodes · 944 edges · 36 communities (22 shown, 14 thin omitted)
-- Extraction: 86% EXTRACTED · 14% INFERRED · 0% AMBIGUOUS · INFERRED: 130 edges (avg confidence: 0.62)
+- 622 nodes · 987 edges · 38 communities (26 shown, 12 thin omitted)
+- Extraction: 87% EXTRACTED · 13% INFERRED · 0% AMBIGUOUS · INFERRED: 130 edges (avg confidence: 0.62)
 - Token cost: 0 input · 0 output
+
+## Graph Freshness
+- Built from commit: `a64f4611`
+- Run `git rev-parse HEAD` and compare to check if the graph is stale.
+- Run `graphify update .` after code changes (no API cost).
 
 ## Community Hubs (Navigation)
 - [[_COMMUNITY_Community 0|Community 0]]
@@ -42,7 +47,9 @@
 - [[_COMMUNITY_Community 31|Community 31]]
 - [[_COMMUNITY_Community 32|Community 32]]
 - [[_COMMUNITY_Community 33|Community 33]]
+- [[_COMMUNITY_Community 34|Community 34]]
 - [[_COMMUNITY_Community 35|Community 35]]
+- [[_COMMUNITY_Community 36|Community 36]]
 - [[_COMMUNITY_Community 41|Community 41]]
 
 ## God Nodes (most connected - your core abstractions)
@@ -74,19 +81,19 @@
 - **Facade Pattern Coordination Flow** — ultratube_extractor_ultratubeextractor, metadata_service_metadataservice, download_service_downloadservice, file_service_fileservice [EXTRACTED 1.00]
 - **Domain Data Modeling** — models_videoinfo, models_audiotrack, models_subtitle, models_downloadoptions, models_processoptions, models_downloadrecord [INFERRED 0.95]
 
-## Communities (36 total, 14 thin omitted)
+## Communities (38 total, 12 thin omitted)
 
 ### Community 0 - "Community 0"
-Cohesion: 0.06
-Nodes (24): App, QuestionModal, Standard Yes/No dialog screen., Standard Yes/No dialog screen., Standard Yes/No dialog screen., main(), QuestionModal, Triggers the GitHub star suggestion panel on the specified tab. (+16 more)
+Cohesion: 0.17
+Nodes (7): Helper to set the label of a tab dynamically and thread-safely., Helper to set the label of a tab dynamically and thread-safely., Helper to set the label of a tab dynamically and thread-safely., Helper to set the label of a tab dynamically and thread-safely., Helper to set the label of a tab dynamically and thread-safely., Helper to set the label of a tab dynamically and thread-safely., Helper to set the label of a tab dynamically and thread-safely.
 
 ### Community 1 - "Community 1"
-Cohesion: 0.09
-Nodes (20): get_clean_language_name(), MetadataService, Gets a list of available formats for a given URL that are supported by the appli, Get video information for a YouTube URL.          Args:             url: YouTube, Get video information for a YouTube URL.          Args:             url: YouTube, Get available audio tracks for a YouTube video.          Args:             url:, Get available audio tracks for a YouTube video.          Args:             url:, Extract information from a YouTube URL using yt-dlp.          Args: (+12 more)
+Cohesion: 0.06
+Nodes (34): Enum, get_clean_language_name(), MetadataService, Gets a list of available formats for a given URL that are supported by the appli, Get video information for a YouTube URL.          Args:             url: YouTube, Get video information for a YouTube URL.          Args:             url: YouTube, Extracts information about a playlist, including a list of its video entries., Extracts information about a playlist, including a list of its video entries. (+26 more)
 
 ### Community 2 - "Community 2"
-Cohesion: 0.06
-Nodes (36): BaseModel, ModalScreen, HelpScreen, Overlay displaying application keyboard shortcuts., Overlay displaying application keyboard shortcuts., Overlay displaying application keyboard shortcuts., copy_to_clipboard(), Copies text to the system clipboard on Windows using standard CLI utility. (+28 more)
+Cohesion: 0.18
+Nodes (8): copy_to_clipboard(), Copies text to the system clipboard on Windows using standard CLI utility., Save settings to ~/.ultratube_settings.json., save_settings(), Configuration tab for modifying and saving global download preferences., SettingsTab, copy_to_clipboard(), Copies text to the system clipboard on Windows using standard CLI utility.
 
 ### Community 3 - "Community 3"
 Cohesion: 0.11
@@ -97,12 +104,12 @@ Cohesion: 0.06
 Nodes (31): 1. Architectural Overview, 2. File Directory, 3.1 TUI Layer (View / Controller), 3.2 Core Layer (Facade), 3.3 Services Layer, 3.4 Models Layer, 3. Layered Components Detail, 4. Concurrency & Thread-Safe UI Updates (+23 more)
 
 ### Community 5 - "Community 5"
-Cohesion: 0.13
-Nodes (15): code:block32 (✓  Playlist: {playlist title}), code:block33 (ℹ  Audio track — best available will be chosen for each vide), code:block34 (ℹ  Subtitle selection is based on the first video. Not all v), code:block35 (Files will be saved in:  {output_directory}/{playlist_title}), code:block36 (Download playlist), code:block37 (Downloading playlist: {playlist title}), code:block38 (✓  {video title}  ({x.x MB})), code:block39 (✗  {video title}  — skipped: {reason}) (+7 more)
+Cohesion: 0.05
+Nodes (43): 1.1 Ubiquitous Language & Model Alignment, 1.2 Structural Building Blocks, 1.3 Strategic Boundary Enforcement, 2.1 The Micro-Cycle Execution Algorithm, 2.2 Test Separation & Clarity, 3.1 Vulnerability Class Defenses, 4.1 Diagnostic Checklist Rules, 5.1 The Required Security & Quality Toolchain (+35 more)
 
 ### Community 6 - "Community 6"
 Cohesion: 0.07
-Nodes (28): 1. Existing Features (Current CLI), 2. New Features (Planned), 3. Updated PlantUML Architecture Diagram, 4. `requirements.txt`, 5. Feature Summary Table, code:plantuml (@startuml UltraTube Architecture (TUI Edition)), code:text (# ── Core downloader ──────────────────────────────────────), UltraTube — User Stories & Feature Inventory (+20 more)
+Nodes (28): 1. Existing Features (Current CLI), 2. New Features (Planned), 3. Updated PlantUML Architecture Diagram, 4. `requirements.txt`, 5. Feature Summary Table, code:plantuml (@startuml UltraTube Architecture (Updated Textual TUI Editio), code:text (# ── Core downloader ──────────────────────────────────────), UltraTube — User Stories & Feature Inventory (+20 more)
 
 ### Community 7 - "Community 7"
 Cohesion: 0.08
@@ -113,24 +120,28 @@ Cohesion: 0.06
 Nodes (36): code:block10 (Could not connect to YouTube. Check your internet connection), code:block11 (✓  {video title}), code:block12 (What do you want to download?), code:block13 (Audio format), code:block14 (Audio language), code:block15 (Default track (only one available)), code:block16 (Download subtitles  (optional)), code:block17 (No subtitles available for this video) (+28 more)
 
 ### Community 9 - "Community 9"
-Cohesion: 0.07
-Nodes (41): Enum, Message, str, DownloadErrorMsg, DownloadFinished, DownloadProgress, LogMsg, PlaylistFinished (+33 more)
+Cohesion: 0.06
+Nodes (45): Message, DownloadErrorMsg, DownloadFinished, DownloadProgress, LogMsg, PlaylistFinished, PlaylistProgress, run_download_thread() (+37 more)
 
 ### Community 10 - "Community 10"
 Cohesion: 0.04
-Nodes (45): App-Level Messages, App quit with active downloads, code:block1 (UltraTube  v1.0.0), code:block2 (Ctrl+T New tab    Ctrl+W Close tab    Ctrl+Tab Next    F1 He), code:block28 (Video quality), code:block29 (Embed chapters), code:block3 (No downloads yet.), code:block30 (Download video) (+37 more)
+Nodes (45): App-Level Messages, code:block1 (UltraTube  v1.0.0), code:block2 (Ctrl+T New tab    Ctrl+W Close tab    Ctrl+Tab Next    F1 He), code:block28 (Video quality), code:block29 (Embed chapters), code:block3 (No downloads yet.), code:block30 (Download video), code:block31 (Downloading video...) (+37 more)
 
 ### Community 11 - "Community 11"
-Cohesion: 0.10
-Nodes (15): make_progress_hook(), Redirects yt-dlp logs to our TUI logs., Redirects yt-dlp logs to our TUI logs., Download video from a URL.          Args:             url: URL to download from, Download video from a URL.          Args:             url: URL to download from, Download video from a URL.          Args:             url: URL to download from, Download video from a URL.          Args:             url: URL to download from, Download subtitles as .vtt files for a given URL.          Args:             url (+7 more)
+Cohesion: 0.20
+Nodes (8): Download video from a URL.          Args:             url: URL to download from, Download video from a URL.          Args:             url: URL to download from, Download video from a URL.          Args:             url: URL to download from, Download video from a URL.          Args:             url: URL to download from, Download subtitles as .vtt files for a given URL.          Args:             url, Download subtitles as .vtt files for a given URL.          Args:             url, Download subtitles as .vtt files for a given URL.          Args:             url, Download subtitles as .vtt files for a given URL.          Args:             url
 
 ### Community 21 - "Community 21"
-Cohesion: 0.12
-Nodes (4): BucketModal, BucketScreen, Modal screen for pasting multiple URLs and download options., Full-screen dashboard for pasting multiple URLs and configuring bulk download op
+Cohesion: 0.07
+Nodes (25): BaseModel, str, BucketModal, BucketScreen, Modal screen for pasting multiple URLs and download options., Full-screen dashboard for pasting multiple URLs and configuring bulk download op, BucketDownloadSettings, Configuration settings for a bulk download bucket. (+17 more)
 
 ### Community 24 - "Community 24"
-Cohesion: 0.14
+Cohesion: 0.15
 Nodes (11): format_size(), format_speed(), format_time(), Helper to format file size., Helper to format speed., Helper to format duration/ETA., BucketQueueTab, A single unified tab displaying a table of all downloads in a bucket batch. (+3 more)
+
+### Community 25 - "Community 25"
+Cohesion: 0.13
+Nodes (15): App quit with active downloads, code:block45 (A file named {filename} already exists in {directory}.), code:block46 (⚠  Low disk space — {x.x MB} remaining in {directory}.), code:block47 (Cancel this download?), code:block48 (Download cancelled.), code:block49 (UltraTube only supports YouTube URLs (youtube.com and youtu.), code:block50 (ℹ  A newer version of yt-dlp is available. Run  pip install ), code:block51 ({N} download(s) still in progress.) (+7 more)
 
 ### Community 26 - "Community 26"
 Cohesion: 0.15
@@ -141,35 +152,47 @@ Cohesion: 0.10
 Nodes (9): DownloadTab, Hides the options, progress, and logs, and displays the GitHub star panel., Resets the tab to the idle state to allow another download., Hides the options, progress, and logs, and displays the GitHub star panel., Resets the tab to the idle state to allow another download., Hides the options, progress, and logs, and displays the GitHub star panel., Resets the tab to the idle state to allow another download., DownloadQueuePanel (+1 more)
 
 ### Community 28 - "Community 28"
-Cohesion: 0.25
-Nodes (6): Get available subtitles for a YouTube video.          Args:             url: You, Get available subtitles for a YouTube video.          Args:             url: You, Information about a subtitle track., Information about a subtitle track., Information about a subtitle track., Subtitle
+Cohesion: 0.14
+Nodes (11): QuestionModal, Standard Yes/No dialog screen., Standard Yes/No dialog screen., Standard Yes/No dialog screen., Triggers the GitHub star suggestion panel on the specified tab., Triggers the GitHub star suggestion panel on the specified tab., Triggers the GitHub star suggestion panel on the specified tab., Triggers the GitHub star suggestion panel on the specified tab. (+3 more)
 
 ### Community 30 - "Community 30"
-Cohesion: 0.29
-Nodes (5): AudioTrack, Information about an audio track., Information about an audio track., Information about an audio track., YouTubeExtractor: Main facade that coordinates the services for YouTube download
+Cohesion: 0.18
+Nodes (7): ModalScreen, HelpScreen, Overlay displaying application keyboard shortcuts., Overlay displaying application keyboard shortcuts., Overlay displaying application keyboard shortcuts., HelpScreen, Overlay displaying application keyboard shortcuts.
+
+### Community 31 - "Community 31"
+Cohesion: 0.24
+Nodes (3): Full-screen dashboard for modifying and saving global download preferences., SettingsScreen, test_settings_screen_rendering()
 
 ### Community 32 - "Community 32"
 Cohesion: 0.22
 Nodes (7): DownloadService, Service for downloading media from YouTube and other platforms., Service for downloading media from YouTube and other platforms., Initialize the download service.          Args:             metadata_service: Se, Initialize the download service.          Args:             metadata_service: Se, Initialize the YouTube extractor with its required services., Initialize the YouTube extractor with its required services.
+
+### Community 33 - "Community 33"
+Cohesion: 0.25
+Nodes (3): Redirects yt-dlp logs to our TUI logs., Redirects yt-dlp logs to our TUI logs., YtDlpLogger
+
+### Community 34 - "Community 34"
+Cohesion: 0.33
+Nodes (4): make_progress_hook(), Creates a hook for yt-dlp to report progress back to a callback., Download audio from a URL.          Args:             url: URL to download from, Download audio from a URL.          Args:             url: URL to download from
 
 ### Community 35 - "Community 35"
 Cohesion: 0.33
 Nodes (5): FileService: Handles file operations for the YouTube downloader., ProcessOptions, Options for processing media files., Options for processing media files., Options for processing media files.
 
 ## Knowledge Gaps
-- **135 isolated node(s):** `code:mermaid (graph TD)`, `2. File Directory`, ``UltraTubeApp` (in `ultratube_app.py`)`, ``DownloadTab` (in `download_tab.py`)`, ``BucketQueueTab` (in `bucket_tab.py`)` (+130 more)
+- **154 isolated node(s):** `code:mermaid (graph TD)`, `2. File Directory`, ``UltraTubeApp` (in `ultratube_app.py`)`, ``DownloadTab` (in `download_tab.py`)`, ``BucketQueueTab` (in `bucket_tab.py`)` (+149 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **14 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **12 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `UltraTubeApp` connect `Community 0` to `Community 2`, `Community 9`, `Community 21`, `Community 24`, `Community 27`?**
-  _High betweenness centrality (0.126) - this node is a cross-community bridge._
-- **Why does `UltraTubeExtractor` connect `Community 9` to `Community 32`, `Community 0`, `Community 1`, `Community 2`, `Community 23`, `Community 25`, `Community 26`, `Community 27`, `Community 28`, `Community 29`, `Community 30`, `Community 31`?**
-  _High betweenness centrality (0.122) - this node is a cross-community bridge._
-- **Why does `MetadataService` connect `Community 1` to `Community 32`, `Community 33`, `Community 9`, `Community 11`, `Community 28`, `Community 30`?**
-  _High betweenness centrality (0.044) - this node is a cross-community bridge._
+- **Why does `UltraTubeApp` connect `Community 29` to `Community 0`, `Community 2`, `Community 36`, `Community 9`, `Community 21`, `Community 24`, `Community 27`, `Community 28`, `Community 30`, `Community 31`?**
+  _High betweenness centrality (0.109) - this node is a cross-community bridge._
+- **Why does `UltraTubeExtractor` connect `Community 9` to `Community 32`, `Community 1`, `Community 21`, `Community 23`, `Community 26`, `Community 27`, `Community 29`, `Community 30`?**
+  _High betweenness centrality (0.105) - this node is a cross-community bridge._
+- **Why does `MetadataService` connect `Community 1` to `Community 32`, `Community 33`, `Community 34`, `Community 9`?**
+  _High betweenness centrality (0.038) - this node is a cross-community bridge._
 - **Are the 20 inferred relationships involving `UltraTubeApp` (e.g. with `DownloadTab` and `SettingsScreen`) actually correct?**
   _`UltraTubeApp` has 20 INFERRED edges - model-reasoned connections that need verification._
 - **Are the 17 inferred relationships involving `UltraTubeExtractor` (e.g. with `DownloadTab` and `UltraTubeApp`) actually correct?**

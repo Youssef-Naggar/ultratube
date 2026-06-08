@@ -266,7 +266,7 @@
 ## 3. Updated PlantUML Architecture Diagram
 
 ```plantuml
-@startuml UltraTube Architecture (TUI Edition)
+@startuml UltraTube Architecture (Updated Textual TUI Edition)
 
 skinparam backgroundColor white
 skinparam packageStyle rectangle
@@ -275,66 +275,145 @@ skinparam classFontName Arial
 skinparam classAttributeFontSize 11
 skinparam classAttributeFontName Arial
 
-title UltraTube - YouTube Media Downloader Architecture (TUI Edition)
+title UltraTube - YouTube Media Downloader Architecture
 
 ' ─────────────────────────────────────────────
-package "TUI Layer (Textual + Rich)" {
-  class UltraTubeApp {
+package "TUI Layer (Modular - Textual App & Widgets)" {
+  class UltraTubeApp << (F,orchid) ultratube_app.py >> {
+    + extractor: UltraTubeExtractor
+    + tab_counter: int
+    + download_records: Dict[str, DownloadRecord]
+    + cancelled_tabs: set
+    + pending_merges: Dict[str, Tuple]
+    + settings: AppSettings
+    + compose()
     + on_mount()
+    + set_tab_label(pane_id, label)
+    + action_toggle_help()
+    + action_settings()
     + action_new_tab()
     + action_close_tab()
-    + action_quit()
+    + action_bucket()
+    + add_bucket_batch_downloads(settings)
+    + add_bucket_download(url, ...)
+    + on_button_pressed(event)
+    + on_input_submitted(event)
+    + validate_url_action(tab_id)
+    + do_validate_url(tab_id, url)
+    + handle_validation_result(tab_id, success, error_msg, data)
+    + toggle_mode_ui(tab_id, val)
+    + start_download_action(tab_id)
+    + on_download_progress(message)
+    + on_playlist_progress(message)
+    + on_log_msg(message)
+    + on_download_finished(message)
+    + on_playlist_finished(message)
+    + on_download_error_msg(message)
+    + update_sidebar_queue(tab_id)
+    + trigger_subtitle_merge_modal(tab_id)
+    + do_merge_subtitles(tab_id, media_file, subtitle_files)
+    + trigger_delete_original_modal(tab_id, ...)
+    + prompt_github_star(tab_id)
+    + handle_star_click(tab_id)
+    + handle_star_skip(tab_id)
+    + reset_tab_to_idle(tab_id)
+    + on_data_table_row_selected(event)
   }
 
-  class MainTabView {
-    + tabs: List[DownloadTab]
-    + active_tab: DownloadTab
-    + add_tab()
-    + close_tab()
-  }
-
-  class DownloadTab {
+  class DownloadTab << (W,lightblue) download_tab.py >> {
     + tab_id: str
-    + title: str
+    + extractor: UltraTubeExtractor
+    + url: Optional[str]
+    + bucket_settings: Optional[Dict]
+    + settings: Optional[AppSettings]
     + status: TabStatus
-    + url_input: URLInputWidget
-    + options_panel: OptionsPanel
-    + progress_widget: ProgressWidget
-    + on_download_start()
-    + on_download_complete()
-    + on_download_error()
+    + is_playlist: bool
+    + playlist_info: Optional[Dict]
+    + video_info: Optional[VideoInfo]
+    + audio_formats: List
+    + video_formats: List
+    + audio_tracks: List
+    + subtitle_tracks: List
+    + compose()
+    + update_status(text, status_class)
+    + show_star_panel()
+    + reset_to_idle()
+    + on_mount()
   }
 
-  class OptionsPanel {
-    + format_select: Select
-    + quality_select: Select
-    + audio_track_select: Select
-    + subtitle_select: MultiSelect
-    + metadata_toggle: Switch
-    + thumbnail_toggle: Switch
-    + chapters_toggle: Switch
-    + output_dir_input: Input
+  class BucketQueueTab << (W,lightblue) bucket_tab.py >> {
+    + tab_id: str
+    + urls: List[str]
+    + is_audio: bool
+    + format_val: str
+    + quality_val: str
+    + out_dir: str
+    + downloads: Dict[str, DownloadRecord]
+    + sub_id_to_url: Dict[str, str]
+    + row_keys: Dict[str, Any]
+    + compose()
+    + on_mount()
+    + update_download_progress()
+    + update_download_finished()
+    + update_download_error()
+    + update_log()
+    + update_overall_progress()
   }
 
-  class ProgressWidget {
-    + progress_bar: ProgressBar
-    + speed_label: Label
-    + eta_label: Label
-    + file_size_label: Label
-    + update(percent, speed, eta)
+  class DownloadQueuePanel << (W,lightblue) queue_panel.py >> {
+    + compose()
   }
 
-  class DownloadQueuePanel {
-    + items: List[DownloadRecord]
-    + add_record()
-    + update_record()
-    + render_table()
+  class HelpScreen << (S,lightgrey) app_screens.py >> {
+    + compose()
+    + on_key()
   }
 
-  class HelpOverlay {
-    + keybindings: Dict[str, str]
-    + show()
-    + hide()
+  class QuestionModal << (S,lightgrey) app_screens.py >> {
+    + dialog_title: str
+    + dialog_text: str
+    + yes_label: str
+    + no_label: str
+    + compose()
+    + on_button_pressed()
+  }
+
+  class BucketScreen << (S,lightgrey) app_screens.py >> {
+    + app_settings: Optional[AppSettings]
+    + prefilled_urls: Optional[List[str]]
+    + compose()
+    + on_mount()
+    + update_formats_dropdown(mode)
+    + on_select_changed(event)
+    + on_text_area_changed(event)
+    + validate_urls_realtime()
+    + action_cancel()
+    + action_submit()
+    + on_button_pressed(event)
+    + submit_settings()
+  }
+
+  class SettingsScreen << (S,lightgrey) settings_screen.py >> {
+    + settings: AppSettings
+    + compose()
+    + action_cancel()
+    + action_submit()
+    + on_button_pressed(event)
+    + save_preferences_action()
+  }
+
+  class WorkerMessages << (M,gold) app_messages.py >> {
+    + DownloadProgress
+    + DownloadFinished
+    + DownloadErrorMsg
+    + LogMsg
+    + PlaylistProgress
+    + PlaylistFinished
+  }
+
+  class WorkerThreads << (T,lightgreen) app_workers.py >> {
+    + run_download_thread()
+    + run_playlist_download_thread()
   }
 }
 
@@ -344,13 +423,14 @@ package "Core" {
     - metadata_service: MetadataService
     - download_service: DownloadService
     - file_service: FileService
-    + get_available_formats()
-    + get_audio_tracks()
-    + get_available_subtitles()
-    + get_playlist_info()
-    + download_audio()
-    + download_video()
-    + merge_subtitles()
+    + is_valid_url(url: str)
+    + get_available_formats(url, is_audio)
+    + get_audio_tracks(url)
+    + get_available_subtitles(url)
+    + get_playlist_info(url)
+    + download_audio(url, options, ...)
+    + download_video(url, quality, options, ...)
+    + merge_subtitles(media_file, subtitle_files, ...)
   }
 }
 
@@ -358,32 +438,38 @@ package "Core" {
 package "Services" {
   class DownloadService {
     - metadata_service: MetadataService
-    + download_audio()
-    + download_video()
-    + download_subtitles()
+    + download_audio(url, options, progress_callback, log_callback)
+    + download_video(url, quality, options, progress_callback, log_callback)
+    + download_subtitles(url, subtitle_ids, output_dir, log_callback)
   }
 
   class MetadataService {
-    - _video_info_cache: Dict[str, Dict[str, Any]]
-    - _cache_timestamps: Dict[str, float]
+    - _video_info_cache: Dict
+    - _cache_timestamps: Dict
     - _cache_ttl: int
     - supported_audio_formats: List[str]
     - supported_video_formats: List[str]
-    + get_available_formats()
-    + get_video_info()
-    + get_audio_tracks()
-    + get_available_subtitles()
-    - _extract_video_info()
-    - _create_video_info()
+    + get_available_formats(url, is_audio)
+    + get_video_info(url)
+    + get_playlist_info(url)
+    + get_audio_tracks(url)
+    + get_available_subtitles(url)
   }
 
   class FileService {
-    - _ffmpeg_path: str
-    + merge_subtitles()
-    + process_download()
-    + cleanup_temp_files()
-    - _run_ffmpeg_command()
-    - _get_ffmpeg_path()
+    + merge_subtitles(media_file, subtitle_files, output_file)
+    + process_download(file_path, options)
+    + cleanup_temp_files(files)
+    + get_ffmpeg_path()
+  }
+
+  class YtDlpLogger << (C,lightyellow) download_service.py >> {
+    + log_callback: callable
+    + debug(message)
+    + info(message)
+    + warning(message)
+    + error(message)
+    + error(message)
   }
 }
 
@@ -392,12 +478,12 @@ package "Models" {
   class VideoInfo {
     + id: str
     + title: str
-    + formats: List[Dict[str, Any]]
-    + subtitles: Dict[str, List[Dict[str, Any]]]
+    + formats: List[Dict]
+    + subtitles: Dict
     + duration: Optional[int]
     + thumbnail_url: Optional[str]
     + description: Optional[str]
-    + filename_safe_title: str <<property>>
+    + filename_safe_title()
   }
 
   class AudioTrack {
@@ -435,14 +521,33 @@ package "Models" {
   class DownloadRecord {
     + tab_id: str
     + title: str
-    + status: str
+    + status: TabStatus
     + file_size: Optional[int]
     + elapsed: Optional[float]
     + output_path: Optional[str]
+    + eta: Optional[float]
   }
 
-  class TabStatus {
-    <<enumeration>>
+  class BucketDownloadSettings {
+    + urls: List[str]
+    + is_audio: bool
+    + format: str
+    + quality: str
+    + out_dir: str
+  }
+
+  class AppSettings << (C,lightyellow) settings_service.py >> {
+    + out_dir: str
+    + default_mode: str
+    + default_audio_format: str
+    + default_video_format: str
+    + default_quality: str
+    + include_metadata: bool
+    + include_thumbnail: bool
+    + include_chapters: bool
+  }
+
+  enum TabStatus {
     IDLE
     FETCHING
     DOWNLOADING
@@ -452,70 +557,49 @@ package "Models" {
 }
 
 ' ─────────────────────────────────────────────
-package "External Libraries" {
-  class "yt_dlp" as ytdlp {
-    + YoutubeDL
-    + extract_info()
-    + download()
-    + DownloadError
-  }
-
-  class "static_ffmpeg" as sffmpeg {
-    + add_paths()
-    ' Returns bundled ffmpeg/ffprobe binaries
-  }
-
-  class "textual" as textual {
-    + App
-    + Widget
-    + TabbedContent
-    + ProgressBar
-    + Select / Input / Switch
-  }
-
-  class "rich" as rich {
-    + Table
-    + Text
-    + Panel
-    + Progress
-  }
-}
-
-' ─────────────────────────────────────────────
 ' Relationships
 
-UltraTubeApp *-- MainTabView
-MainTabView *-- "1..*" DownloadTab
-DownloadTab *-- OptionsPanel
-DownloadTab *-- ProgressWidget
-UltraTubeApp *-- DownloadQueuePanel
-UltraTubeApp *-- HelpOverlay
-
-UltraTubeApp --> UltraTubeExtractor : uses (one per app)
-DownloadTab --> UltraTubeExtractor : calls async workers
+UltraTubeApp *-- "many" DownloadTab : creates (via TabbedContent)
+UltraTubeApp *-- "many" BucketQueueTab : creates (via TabbedContent)
+UltraTubeApp *-- DownloadQueuePanel : renders
+UltraTubeApp ..> HelpScreen : pushes
+UltraTubeApp ..> QuestionModal : pushes
+UltraTubeApp ..> BucketScreen : pushes
+UltraTubeApp ..> SettingsScreen : pushes
+UltraTubeApp ..> WorkerMessages : listens to
+UltraTubeApp --> UltraTubeExtractor : coordinates
+UltraTubeApp --> AppSettings : holds & configures
 
 UltraTubeExtractor *-- DownloadService
 UltraTubeExtractor *-- MetadataService
 UltraTubeExtractor *-- FileService
 
 DownloadService --> MetadataService : uses
-DownloadService --> ytdlp : uses
-FileService --> sffmpeg : resolves binary path
-
 DownloadService --> DownloadOptions : uses
+DownloadService --> YtDlpLogger : uses
 FileService --> ProcessOptions : uses
-MetadataService --> VideoInfo : creates
-MetadataService --> AudioTrack : creates
-MetadataService --> Subtitle : creates
 
-DownloadQueuePanel --> DownloadRecord : renders
-DownloadTab --> TabStatus : has
-DownloadRecord --> TabStatus : references
+MetadataService --> VideoInfo : returns
+MetadataService --> AudioTrack : returns
+MetadataService --> Subtitle : returns
 
-UltraTubeApp --> textual : built on
-UltraTubeApp --> rich : styled with
+DownloadQueuePanel --> DownloadRecord : displays table of
+DownloadTab --> TabStatus : state tracking
+DownloadTab ..> WorkerThreads : starts
+DownloadTab --> AppSettings : references
 
-@enduml
+BucketQueueTab *-- "many" DownloadRecord : manages & displays
+BucketQueueTab --> TabStatus : state tracking
+
+BucketScreen ..> BucketDownloadSettings : creates & returns
+BucketScreen --> AppSettings : reads defaults from
+
+SettingsScreen --> AppSettings : modifies & saves via settings_service
+
+WorkerThreads ..> WorkerMessages : posts
+WorkerThreads --> UltraTubeExtractor : uses
+
+DownloadRecord --> TabStatus : state tracking
 ```
 
 ---

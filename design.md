@@ -136,22 +136,49 @@ The codebase consists of the following primary files:
 #### `HelpScreen` (in `app_screens.py`)
 - **Base Class**: `textual.screen.ModalScreen`
 - **Responsibility**: Keyboard shortcuts layout overlay. Dimmed background block showing keybindings.
+- **Key Methods**:
+  - `compose() -> ComposeResult`: Renders the keyboard shortcut reference table.
+  - `on_key(event)`: Dismisses the screen on `Escape` or `F1` press.
 
 #### `QuestionModal` (in `app_screens.py`)
 - **Base Class**: `textual.screen.ModalScreen[bool]`
 - **Responsibility**: General-purpose Yes/No dialog modal (e.g. asking to merge subtitles or delete original files).
+- **Key Attributes**:
+  - `dialog_title: str` — Title of the modal.
+  - `dialog_text: str` — Text message shown inside the modal.
+  - `yes_label: str` — Label for confirmation button (default "Yes").
+  - `no_label: str` — Label for cancellation button (default "No").
+- **Key Methods**:
+  - `compose() -> ComposeResult`: Renders dialog title, message prompt, and confirmation buttons.
+  - `on_button_pressed(event)`: Dismisses the screen and returns `True` or `False` based on selection.
 
 #### `BucketScreen` (in `app_screens.py`)
 - **Base Class**: `textual.screen.Screen[Optional[BucketDownloadSettings]]`
 - **Responsibility**: Configuration dashboard for bulk downloads. Validates a list of input URLs in real-time, displays parsed counts, and provides options (Mode, Format, Quality, Folder) for the batch.
+- **Key Attributes**:
+  - `app_settings: Optional[AppSettings]` — Currently loaded app settings to read defaults from.
+  - `prefilled_urls: Optional[List[str]]` — Optional pre-loaded list of URLs (e.g. from playlist expansion).
+- **Key Methods**:
+  - `compose() -> ComposeResult`: Lays out URLs text area, real-time count label, mode/format/quality/folder selectors, and action buttons.
+  - `on_mount()`: Initializes configurations and performs initial syntax validation.
+  - `update_formats_dropdown(mode)`: Dynamically changes format selector options based on audio or video mode selection.
+  - `validate_urls_realtime()`: Performs quick client-side syntax checks on URLs text area and updates parsed counts.
+  - `submit_settings()`: Bundles values and dismisses screen, returning the final `BucketDownloadSettings` record.
 
 #### `SettingsScreen` (in `settings_screen.py`)
 - **Base Class**: `textual.screen.Screen[None]`
 - **Responsibility**: Global preferences panel. Allows modifying default directory, format, mode, and features toggles. Updates saved settings on save submission.
+- **Key Attributes**:
+  - `settings: AppSettings` — Global preferences model reference.
+- **Key Methods**:
+  - `compose() -> ComposeResult`: Renders folder path input, defaults selectors grid, features switches toggles, and save/cancel actions.
+  - `save_preferences_action()`: Saves values to config file via `settings_service` and updates the active application settings.
 
 #### `DownloadQueuePanel` (in `queue_panel.py`)
 - **Base Class**: `textual.containers.Vertical`
 - **Responsibility**: Sidebar container that displays a `DataTable` of all active and past download records.
+- **Key Methods**:
+  - `compose() -> ComposeResult`: Renders the panel header and the downloads queue `DataTable` (columns: Title, Status, Size, Time).
 
 #### `app_messages.py` — Worker Messages
 Inherit from `textual.message.Message`. Posted from threads back to the main app thread:
