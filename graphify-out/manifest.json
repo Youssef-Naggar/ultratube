@@ -44,11 +44,6 @@
     "ast_hash": "414dfb6736a0f70d64f198b0debc4e37",
     "semantic_hash": "414dfb6736a0f70d64f198b0debc4e37"
   },
-  "C:\\programming\\projectes\\ultratube v2\\sprints_and_tickets.md": {
-    "mtime": 1774958408.2676094,
-    "ast_hash": "1d804684a55c935b5c8102bb4e72ccbe",
-    "semantic_hash": "1d804684a55c935b5c8102bb4e72ccbe"
-  },
   "C:\\programming\\projectes\\ultratube v2\\tui_menu_messages.md": {
     "mtime": 1774958413.5608864,
     "ast_hash": "38d9bb5958bf9768ae34a25d94457e6a",
@@ -157,6 +152,11 @@
   "C:\\programming\\projectes\\ultratube v2\\tests\\test_services.py": {
     "mtime": 1780954689.6213655,
     "ast_hash": "cb759a45fb242655c0fa75359350c1c9",
+    "semantic_hash": ""
+  },
+  "C:\\programming\\projectes\\ultratube v2\\Current State security and arch report and next steps.md": {
+    "mtime": 1780956435.2598968,
+    "ast_hash": "97c0aaf659a25e1884e36d78e0c88ab4",
     "semantic_hash": ""
   }
 }

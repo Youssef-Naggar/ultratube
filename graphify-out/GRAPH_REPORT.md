@@ -1,16 +1,16 @@
 # Graph Report - ultratube v2  (2026-06-09)
 
 ## Corpus Check
-- 30 files · ~23,807 words
+- 30 files · ~22,700 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 664 nodes · 1107 edges · 48 communities (38 shown, 10 thin omitted)
+- 678 nodes · 1120 edges · 38 communities (27 shown, 11 thin omitted)
 - Extraction: 88% EXTRACTED · 12% INFERRED · 0% AMBIGUOUS · INFERRED: 136 edges (avg confidence: 0.63)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `97b6063e`
+- Built from commit: `f3496df1`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -47,20 +47,10 @@
 - [[_COMMUNITY_Community 31|Community 31]]
 - [[_COMMUNITY_Community 32|Community 32]]
 - [[_COMMUNITY_Community 33|Community 33]]
-- [[_COMMUNITY_Community 34|Community 34]]
 - [[_COMMUNITY_Community 35|Community 35]]
 - [[_COMMUNITY_Community 36|Community 36]]
 - [[_COMMUNITY_Community 37|Community 37]]
-- [[_COMMUNITY_Community 38|Community 38]]
-- [[_COMMUNITY_Community 39|Community 39]]
-- [[_COMMUNITY_Community 40|Community 40]]
 - [[_COMMUNITY_Community 41|Community 41]]
-- [[_COMMUNITY_Community 42|Community 42]]
-- [[_COMMUNITY_Community 43|Community 43]]
-- [[_COMMUNITY_Community 44|Community 44]]
-- [[_COMMUNITY_Community 45|Community 45]]
-- [[_COMMUNITY_Community 46|Community 46]]
-- [[_COMMUNITY_Community 47|Community 47]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `UltraTubeApp` - 78 edges
@@ -91,18 +81,18 @@
 - **Facade Pattern Coordination Flow** — ultratube_extractor_ultratubeextractor, metadata_service_metadataservice, download_service_downloadservice, file_service_fileservice [EXTRACTED 1.00]
 - **Domain Data Modeling** — models_videoinfo, models_audiotrack, models_subtitle, models_downloadoptions, models_processoptions, models_downloadrecord [INFERRED 0.95]
 
-## Communities (48 total, 10 thin omitted)
+## Communities (38 total, 11 thin omitted)
 
 ### Community 0 - "Community 0"
-Cohesion: 0.24
-Nodes (11): BaseModel, test_app_settings_defaults(), test_settings_save_load(), AppSettings, load_settings(), Load settings from ~/.ultratube_settings.json, falling back to defaults., Save settings to ~/.ultratube_settings.json., Global configuration settings for UltraTube downloads. (+3 more)
+Cohesion: 0.13
+Nodes (15): test_download_service_audio_options_mapping(), test_file_service_ffmpeg_path_resolution(), test_file_service_run_ffmpeg_command(), DownloadService, Service for downloading media from YouTube and other platforms., Service for downloading media from YouTube and other platforms., Initialize the download service.          Args:             metadata_service: Se, Initialize the download service.          Args:             metadata_service: Se (+7 more)
 
 ### Community 1 - "Community 1"
-Cohesion: 0.20
-Nodes (8): test_metadata_service_cache_and_ttl(), MetadataService, Extracts information about a playlist, including a list of its video entries., Extracts information about a playlist, including a list of its video entries., Service for extracting and caching metadata from YouTube videos., Initialize the metadata service.          Args:             cache_ttl: Time-to-l, Service for extracting and caching metadata from YouTube videos., Initialize the metadata service.          Args:             cache_ttl: Time-to-l
+Cohesion: 0.09
+Nodes (19): test_metadata_service_cache_and_ttl(), MetadataService, Gets a list of available formats for a given URL that are supported by the appli, Get video information for a YouTube URL.          Args:             url: YouTube, Get video information for a YouTube URL.          Args:             url: YouTube, Extracts information about a playlist, including a list of its video entries., Extracts information about a playlist, including a list of its video entries., Get available subtitles for a YouTube video.          Args:             url: You (+11 more)
 
 ### Community 2 - "Community 2"
-Cohesion: 0.13
+Cohesion: 0.15
 Nodes (10): HelpScreen, Overlay displaying application keyboard shortcuts., Overlay displaying application keyboard shortcuts., Overlay displaying application keyboard shortcuts., copy_to_clipboard(), Copies text to the system clipboard on Windows using standard CLI utility., Configuration tab for modifying and saving global download preferences., SettingsTab (+2 more)
 
 ### Community 3 - "Community 3"
@@ -130,127 +120,83 @@ Cohesion: 0.06
 Nodes (36): code:block10 (Could not connect to YouTube. Check your internet connection), code:block11 (✓  {video title}), code:block12 (What do you want to download?), code:block13 (Audio format), code:block14 (Audio language), code:block15 (Default track (only one available)), code:block16 (Download subtitles  (optional)), code:block17 (No subtitles available for this video) (+28 more)
 
 ### Community 9 - "Community 9"
-Cohesion: 0.08
-Nodes (32): Message, ModalScreen, str, DownloadErrorMsg, DownloadFinished, DownloadProgress, LogMsg, PlaylistFinished (+24 more)
+Cohesion: 0.07
+Nodes (33): Message, ModalScreen, DownloadErrorMsg, DownloadFinished, DownloadProgress, LogMsg, PlaylistFinished, PlaylistProgress (+25 more)
 
 ### Community 10 - "Community 10"
-Cohesion: 0.20
-Nodes (10): code:block32 (✓  Playlist: {playlist title}), code:block37 (Downloading playlist: {playlist title}), code:block38 (✓  {video title}  ({x.x MB})), code:block39 (✗  {video title}  — skipped: {reason}), code:block40 (✓  Playlist download complete), code:block41 (Enjoying UltraTube? Please consider giving it a ⭐ on GitHub ), Flow 3 — Playlist Download, Step 1 · URL input (playlist detected) (+2 more)
+Cohesion: 0.04
+Nodes (45): App-Level Messages, code:block1 (UltraTube  v1.0.0), code:block2 (Ctrl+T New tab    Ctrl+W Close tab    Ctrl+Tab Next    F1 He), code:block28 (Video quality), code:block29 (Embed chapters), code:block3 (No downloads yet.), code:block30 (Download video), code:block31 (Downloading video...) (+37 more)
 
 ### Community 11 - "Community 11"
-Cohesion: 0.25
-Nodes (10): parse_urls_text(), Helper to parse raw text area content into list of sanitized URLs., test_bucket_download_settings_invalid_urls(), test_bucket_download_settings_valid(), test_bucket_screen_prefilled_urls(), test_bucket_screen_validation(), test_parse_urls_text(), test_playlist_validation_redirect_and_spawn() (+2 more)
+Cohesion: 0.15
+Nodes (7): Helper to set the label of a tab dynamically and thread-safely., Helper to set the label of a tab dynamically and thread-safely., Helper to set the label of a tab dynamically and thread-safely., Helper to set the label of a tab dynamically and thread-safely., Helper to set the label of a tab dynamically and thread-safely., Helper to set the label of a tab dynamically and thread-safely., Helper to set the label of a tab dynamically and thread-safely.
 
 ### Community 21 - "Community 21"
-Cohesion: 0.11
-Nodes (6): BucketModal, BucketScreen, Modal screen for pasting multiple URLs and download options., Full-screen dashboard for pasting multiple URLs and configuring bulk download op, test_bucket_screen_prefilled_urls(), test_bucket_screen_validation()
+Cohesion: 0.09
+Nodes (33): BaseModel, str, parse_urls_text(), Helper to parse raw text area content into list of sanitized URLs., test_app_settings_defaults(), test_bucket_download_settings_invalid_urls(), test_bucket_download_settings_valid(), test_bucket_screen_prefilled_urls() (+25 more)
 
 ### Community 23 - "Community 23"
 Cohesion: 0.07
 Nodes (26): test_facade_delegation_to_download_service(), test_facade_delegation_to_file_service(), test_facade_delegation_to_metadata_service(), test_is_valid_url_semantic_generic_error(), test_is_valid_url_semantic_success(), test_is_valid_url_semantic_value_error(), test_is_valid_url_syntax_check(), Get information about a playlist, including all its video entries.          Args (+18 more)
 
 ### Community 24 - "Community 24"
-Cohesion: 0.07
-Nodes (20): format_size(), format_speed(), format_time(), Helper to format file size., Helper to format speed., Helper to format duration/ETA., BucketQueueTab, A single unified tab displaying a table of all downloads in a bucket batch. (+12 more)
+Cohesion: 0.14
+Nodes (11): format_size(), format_speed(), format_time(), Helper to format file size., Helper to format speed., Helper to format duration/ETA., BucketQueueTab, A single unified tab displaying a table of all downloads in a bucket batch. (+3 more)
 
 ### Community 25 - "Community 25"
 Cohesion: 0.13
 Nodes (15): App quit with active downloads, code:block45 (A file named {filename} already exists in {directory}.), code:block46 (⚠  Low disk space — {x.x MB} remaining in {directory}.), code:block47 (Cancel this download?), code:block48 (Download cancelled.), code:block49 (UltraTube only supports YouTube URLs (youtube.com and youtu.), code:block50 (ℹ  A newer version of yt-dlp is available. Run  pip install ), code:block51 ({N} download(s) still in progress.) (+7 more)
 
 ### Community 26 - "Community 26"
-Cohesion: 0.05
-Nodes (36): test_download_service_audio_options_mapping(), test_file_service_ffmpeg_path_resolution(), test_file_service_run_ffmpeg_command(), DownloadService, make_progress_hook(), Redirects yt-dlp logs to our TUI logs., Redirects yt-dlp logs to our TUI logs., Download video from a URL.          Args:             url: URL to download from (+28 more)
+Cohesion: 0.10
+Nodes (15): make_progress_hook(), Redirects yt-dlp logs to our TUI logs., Redirects yt-dlp logs to our TUI logs., Download video from a URL.          Args:             url: URL to download from, Download video from a URL.          Args:             url: URL to download from, Download video from a URL.          Args:             url: URL to download from, Download video from a URL.          Args:             url: URL to download from, Download subtitles as .vtt files for a given URL.          Args:             url (+7 more)
 
 ### Community 27 - "Community 27"
-Cohesion: 0.22
-Nodes (4): DownloadTab, Resets the tab to the idle state to allow another download., Resets the tab to the idle state to allow another download., Resets the tab to the idle state to allow another download.
+Cohesion: 0.15
+Nodes (7): DownloadTab, Hides the options, progress, and logs, and displays the GitHub star panel., Resets the tab to the idle state to allow another download., Hides the options, progress, and logs, and displays the GitHub star panel., Resets the tab to the idle state to allow another download., Hides the options, progress, and logs, and displays the GitHub star panel., Resets the tab to the idle state to allow another download.
 
 ### Community 28 - "Community 28"
-Cohesion: 0.10
-Nodes (13): QuestionModal, Standard Yes/No dialog screen., Standard Yes/No dialog screen., Standard Yes/No dialog screen., QuestionModal, Triggers the GitHub star suggestion panel on the specified tab., Triggers the GitHub star suggestion panel on the specified tab., Triggers the GitHub star suggestion panel on the specified tab. (+5 more)
+Cohesion: 0.09
+Nodes (13): BucketModal, QuestionModal, Standard Yes/No dialog screen., Standard Yes/No dialog screen., Standard Yes/No dialog screen., Modal screen for pasting multiple URLs and download options., Triggers the GitHub star suggestion panel on the specified tab., Triggers the GitHub star suggestion panel on the specified tab. (+5 more)
 
 ### Community 29 - "Community 29"
-Cohesion: 0.19
+Cohesion: 0.23
 Nodes (8): App, test_app_bucket_modal_navigation(), test_app_composition_and_mounting(), test_app_handle_validation_result_failure(), test_app_help_screen_toggle(), test_app_settings_navigation(), test_app_tab_creation_and_removal_shortcuts(), UltraTubeApp
 
 ### Community 30 - "Community 30"
-Cohesion: 0.25
-Nodes (8): parse_urls_text(), Helper to parse raw text area content into list of sanitized URLs., test_bucket_download_settings_invalid_urls(), test_bucket_download_settings_valid(), test_parse_urls_text(), test_playlist_validation_redirect_and_spawn(), test_settings_screen_rendering(), test_settings_tab_rendering()
+Cohesion: 0.14
+Nodes (13): 1.1 Pytest Suite Execution, 1.2 Static Analysis Findings, 1. Refactor Silent Exceptions (Bandit B110), 2.1 Bounded Contexts & Infrastructure Isolation, 2.2 Domain Primitives & Aggregate Invariants, 2. Configure Bandit Scans for Tests, 3. Upgrade Vulnerable Dependencies (Safety Report), 4. Align with Domain-Driven Design (DDD) Guardrails & Fix Design Issues (+5 more)
 
 ### Community 31 - "Community 31"
-Cohesion: 0.24
-Nodes (3): test_settings_screen_rendering(), Full-screen dashboard for modifying and saving global download preferences., SettingsScreen
+Cohesion: 0.22
+Nodes (4): test_settings_screen_rendering(), Full-screen dashboard for modifying and saving global download preferences., SettingsScreen, test_settings_screen_rendering()
 
 ### Community 32 - "Community 32"
-Cohesion: 0.25
-Nodes (8): test_app_settings_validation_and_toggles(), test_bucket_download_settings_validation(), test_download_options_defaults(), test_download_record_creation(), test_video_info_filename_safe_title(), Information about a YouTube video., Information about a YouTube video., VideoInfo
-
-### Community 33 - "Community 33"
-Cohesion: 0.22
-Nodes (7): test_subtitle_representation(), Get available subtitles for a YouTube video.          Args:             url: You, Get available subtitles for a YouTube video.          Args:             url: You, Information about a subtitle track., Information about a subtitle track., Information about a subtitle track., Subtitle
-
-### Community 34 - "Community 34"
-Cohesion: 0.22
-Nodes (6): Gets a list of available formats for a given URL that are supported by the appli, Get video information for a YouTube URL.          Args:             url: YouTube, Get video information for a YouTube URL.          Args:             url: YouTube, Extract information from a YouTube URL using yt-dlp.          Args:, Extract information from a YouTube URL using yt-dlp.          Args:, Gets a list of available formats for a given URL that are supported by the appli
+Cohesion: 0.18
+Nodes (7): Resolve the absolute path to the FFmpeg binary.         Works in development and, Resolve the absolute path to the FFmpeg binary.         Works in development and, Run an FFmpeg command.                  Args:             command: FFmpeg comman, Run an FFmpeg command.          Args:             command: FFmpeg command as a l, Merge subtitles into a media file using ffmpeg.          Args:             media, Process a downloaded file according to the given options.                  Args:, Process a downloaded file according to the given options.          Args:
 
 ### Community 35 - "Community 35"
-Cohesion: 0.20
-Nodes (7): Enum, test_process_options_defaults(), FileService: Handles file operations for the YouTube downloader., ProcessOptions, Options for processing media files., Options for processing media files., Options for processing media files.
+Cohesion: 0.10
+Nodes (20): Enum, test_app_settings_validation_and_toggles(), test_bucket_download_settings_validation(), test_download_options_defaults(), test_download_record_creation(), test_process_options_defaults(), test_subtitle_representation(), test_video_info_filename_safe_title() (+12 more)
 
 ### Community 37 - "Community 37"
-Cohesion: 0.25
-Nodes (6): test_audio_track_representation(), AudioTrack, Information about an audio track., Information about an audio track., Information about an audio track., YouTubeExtractor: Main facade that coordinates the services for YouTube download
-
-### Community 38 - "Community 38"
-Cohesion: 0.25
-Nodes (8): code:block42 (Downloads), code:block43 (Maximum of 4 concurrent downloads reached.), code:block44 (Path copied to clipboard), Copying output path (on row select), Flow 4 — Concurrent Downloads (Multi-Tab), Max tabs reached, Queue panel header, Queue panel row format
-
-### Community 39 - "Community 39"
-Cohesion: 0.29
-Nodes (7): App-Level Messages, code:block1 (UltraTube  v1.0.0), code:block2 (Ctrl+T New tab    Ctrl+W Close tab    Ctrl+Tab Next    F1 He), code:block3 (No downloads yet.), Empty state (no tabs open), Footer (key hints — always visible), Header
-
-### Community 40 - "Community 40"
-Cohesion: 0.33
-Nodes (4): test_get_clean_language_name(), get_clean_language_name(), Get available audio tracks for a YouTube video.          Args:             url:, Get available audio tracks for a YouTube video.          Args:             url:
-
-### Community 42 - "Community 42"
-Cohesion: 0.33
-Nodes (6): code:block4 (Keyboard shortcuts), code:block5 (Press F1 or Escape to close), Dismiss hint, Help Overlay (F1), Keybinding table, Title
-
-### Community 43 - "Community 43"
-Cohesion: 0.40
-Nodes (4): code:block52 (App launch), Full Flow Summary, Tab Labels & Status Indicators, UltraTube — TUI Menu Messages & User Flows
-
-### Community 44 - "Community 44"
-Cohesion: 0.40
-Nodes (5): code:block28 (Video quality), code:block29 (Embed chapters), code:block30 (Download video), code:block31 (Downloading video...), Flow 2 — Single Video Download
-
-### Community 45 - "Community 45"
-Cohesion: 0.40
-Nodes (5): code:block33 (ℹ  Audio track — best available will be chosen for each vide), code:block34 (ℹ  Subtitle selection is based on the first video. Not all v), code:block35 (Files will be saved in:  {output_directory}/{playlist_title}), code:block36 (Download playlist), Step 2 · Options Panel — Playlist mode
-
-### Community 46 - "Community 46"
-Cohesion: 0.50
-Nodes (3): Hides the options, progress, and logs, and displays the GitHub star panel., Hides the options, progress, and logs, and displays the GitHub star panel., Hides the options, progress, and logs, and displays the GitHub star panel.
-
-### Community 47 - "Community 47"
-Cohesion: 0.50
-Nodes (3): Create a VideoInfo object from raw yt-dlp data.          Args:             raw_i, Create a VideoInfo object from raw yt-dlp data.          Args:             raw_i, Create a VideoInfo object from raw yt-dlp data.          Args:             raw_i
+Cohesion: 0.18
+Nodes (9): test_audio_track_representation(), test_get_clean_language_name(), get_clean_language_name(), Get available audio tracks for a YouTube video.          Args:             url:, Get available audio tracks for a YouTube video.          Args:             url:, AudioTrack, Information about an audio track., Information about an audio track. (+1 more)
 
 ## Knowledge Gaps
-- **154 isolated node(s):** `code:mermaid (graph TD)`, `2. File Directory`, ``UltraTubeApp` (in `ultratube_app.py`)`, ``DownloadTab` (in `download_tab.py`)`, ``BucketQueueTab` (in `bucket_tab.py`)` (+149 more)
+- **163 isolated node(s):** `1.1 Pytest Suite Execution`, `1.2 Static Analysis Findings`, `2.1 Bounded Contexts & Infrastructure Isolation`, `2.2 Domain Primitives & Aggregate Invariants`, `1. Refactor Silent Exceptions (Bandit B110)` (+158 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **10 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **11 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `UltraTubeApp` connect `Community 29` to `Community 2`, `Community 36`, `Community 9`, `Community 11`, `Community 21`, `Community 23`, `Community 24`, `Community 27`, `Community 28`, `Community 30`, `Community 31`?**
-  _High betweenness centrality (0.123) - this node is a cross-community bridge._
-- **Why does `UltraTubeExtractor` connect `Community 23` to `Community 1`, `Community 33`, `Community 37`, `Community 9`, `Community 26`, `Community 27`, `Community 28`, `Community 29`?**
-  _High betweenness centrality (0.109) - this node is a cross-community bridge._
-- **Why does `MetadataService` connect `Community 1` to `Community 32`, `Community 33`, `Community 34`, `Community 37`, `Community 40`, `Community 47`, `Community 23`, `Community 26`?**
-  _High betweenness centrality (0.036) - this node is a cross-community bridge._
+- **Why does `UltraTubeApp` connect `Community 29` to `Community 33`, `Community 2`, `Community 36`, `Community 9`, `Community 11`, `Community 21`, `Community 23`, `Community 24`, `Community 27`, `Community 28`, `Community 31`?**
+  _High betweenness centrality (0.118) - this node is a cross-community bridge._
+- **Why does `UltraTubeExtractor` connect `Community 23` to `Community 0`, `Community 1`, `Community 35`, `Community 37`, `Community 9`, `Community 27`, `Community 29`?**
+  _High betweenness centrality (0.104) - this node is a cross-community bridge._
+- **Why does `MetadataService` connect `Community 1` to `Community 0`, `Community 35`, `Community 37`, `Community 23`, `Community 26`?**
+  _High betweenness centrality (0.035) - this node is a cross-community bridge._
 - **Are the 20 inferred relationships involving `UltraTubeApp` (e.g. with `DownloadTab` and `SettingsScreen`) actually correct?**
   _`UltraTubeApp` has 20 INFERRED edges - model-reasoned connections that need verification._
 - **Are the 17 inferred relationships involving `UltraTubeExtractor` (e.g. with `DownloadTab` and `UltraTubeApp`) actually correct?**

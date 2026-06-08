@@ -183,7 +183,7 @@
       "source_file": "app_screens.py",
       "source_location": "L1",
       "id": "app_screens_py",
-      "community": 21,
+      "community": 28,
       "norm_label": "app_screens.py"
     },
     {
@@ -237,7 +237,7 @@
       "source_file": "app_screens.py",
       "source_location": "L43",
       "id": "ultratube_v2_app_screens_questionmodal_init",
-      "community": 21,
+      "community": 28,
       "norm_label": ".__init__()"
     },
     {
@@ -273,7 +273,7 @@
       "source_file": "app_screens.py",
       "source_location": "L80",
       "id": "ultratube_v2_app_screens_bucketscreen_init",
-      "community": 21,
+      "community": 28,
       "norm_label": ".__init__()"
     },
     {
@@ -507,7 +507,7 @@
       "source_file": "bucket_tab.py",
       "source_location": "L1",
       "id": "bucket_tab_py",
-      "community": 9,
+      "community": 24,
       "norm_label": "bucket_tab.py"
     },
     {
@@ -525,7 +525,7 @@
       "source_file": "",
       "source_location": "",
       "id": "vertical",
-      "community": 24,
+      "community": 33,
       "norm_label": "vertical"
     },
     {
@@ -543,7 +543,7 @@
       "source_file": "bucket_tab.py",
       "source_location": "L36",
       "id": "ultratube_v2_bucket_tab_bucketqueuetab_compose",
-      "community": 24,
+      "community": 33,
       "norm_label": ".compose()"
     },
     {
@@ -687,7 +687,7 @@
       "source_file": "download_service.py",
       "source_location": "L76",
       "id": "ultratube_v2_download_service_downloadservice",
-      "community": 26,
+      "community": 0,
       "norm_label": "downloadservice"
     },
     {
@@ -696,7 +696,7 @@
       "source_file": "download_service.py",
       "source_location": "L79",
       "id": "ultratube_v2_download_service_downloadservice_init",
-      "community": 26,
+      "community": 0,
       "norm_label": ".__init__()"
     },
     {
@@ -750,7 +750,7 @@
       "source_file": "download_service.py",
       "source_location": "L77",
       "id": "ultratube_v2_download_service_rationale_77",
-      "community": 26,
+      "community": 0,
       "norm_label": "service for downloading media from youtube and other platforms."
     },
     {
@@ -759,7 +759,7 @@
       "source_file": "download_service.py",
       "source_location": "L80",
       "id": "ultratube_v2_download_service_rationale_80",
-      "community": 26,
+      "community": 0,
       "norm_label": "initialize the download service.          args:             metadata_service: se"
     },
     {
@@ -822,7 +822,7 @@
       "source_file": "download_tab.py",
       "source_location": "L48",
       "id": "ultratube_v2_download_tab_downloadtab_compose",
-      "community": 24,
+      "community": 33,
       "norm_label": ".compose()"
     },
     {
@@ -840,7 +840,7 @@
       "source_file": "download_tab.py",
       "source_location": "L275",
       "id": "ultratube_v2_download_tab_downloadtab_show_star_panel",
-      "community": 46,
+      "community": 27,
       "norm_label": ".show_star_panel()"
     },
     {
@@ -867,7 +867,7 @@
       "source_file": "download_tab.py",
       "source_location": "L276",
       "id": "ultratube_v2_download_tab_rationale_276",
-      "community": 46,
+      "community": 27,
       "norm_label": "hides the options, progress, and logs, and displays the github star panel."
     },
     {
@@ -894,7 +894,7 @@
       "source_file": "file_service.py",
       "source_location": "L16",
       "id": "ultratube_v2_file_service_fileservice",
-      "community": 26,
+      "community": 0,
       "norm_label": "fileservice"
     },
     {
@@ -903,7 +903,7 @@
       "source_file": "file_service.py",
       "source_location": "L19",
       "id": "ultratube_v2_file_service_fileservice_merge_subtitles",
-      "community": 26,
+      "community": 32,
       "norm_label": ".merge_subtitles()"
     },
     {
@@ -912,7 +912,7 @@
       "source_file": "file_service.py",
       "source_location": "L77",
       "id": "ultratube_v2_file_service_fileservice_process_download",
-      "community": 26,
+      "community": 32,
       "norm_label": ".process_download()"
     },
     {
@@ -921,7 +921,7 @@
       "source_file": "file_service.py",
       "source_location": "L126",
       "id": "ultratube_v2_file_service_fileservice_cleanup_temp_files",
-      "community": 26,
+      "community": 0,
       "norm_label": ".cleanup_temp_files()"
     },
     {
@@ -930,7 +930,7 @@
       "source_file": "file_service.py",
       "source_location": "L141",
       "id": "ultratube_v2_file_service_fileservice_get_ffmpeg_path",
-      "community": 26,
+      "community": 32,
       "norm_label": ".get_ffmpeg_path()"
     },
     {
@@ -939,7 +939,7 @@
       "source_file": "file_service.py",
       "source_location": "L173",
       "id": "ultratube_v2_file_service_fileservice_run_ffmpeg_command",
-      "community": 26,
+      "community": 32,
       "norm_label": "._run_ffmpeg_command()"
     },
     {
@@ -957,7 +957,7 @@
       "source_file": "file_service.py",
       "source_location": "L17",
       "id": "ultratube_v2_file_service_rationale_17",
-      "community": 26,
+      "community": 0,
       "norm_label": "service for file operations related to media processing."
     },
     {
@@ -966,7 +966,7 @@
       "source_file": "file_service.py",
       "source_location": "L25",
       "id": "ultratube_v2_file_service_rationale_25",
-      "community": 26,
+      "community": 32,
       "norm_label": "merge subtitles into a media file using ffmpeg.          args:             media"
     },
     {
@@ -975,7 +975,7 @@
       "source_file": "file_service.py",
       "source_location": "L78",
       "id": "ultratube_v2_file_service_rationale_78",
-      "community": 26,
+      "community": 32,
       "norm_label": "process a downloaded file according to the given options.          args:"
     },
     {
@@ -984,7 +984,7 @@
       "source_file": "file_service.py",
       "source_location": "L127",
       "id": "ultratube_v2_file_service_rationale_127",
-      "community": 26,
+      "community": 0,
       "norm_label": "clean up temporary files.          args:             files: list of file paths t"
     },
     {
@@ -993,7 +993,7 @@
       "source_file": "file_service.py",
       "source_location": "L142",
       "id": "ultratube_v2_file_service_rationale_142",
-      "community": 26,
+      "community": 32,
       "norm_label": "resolve the absolute path to the ffmpeg binary.         works in development and"
     },
     {
@@ -1002,7 +1002,7 @@
       "source_file": "file_service.py",
       "source_location": "L174",
       "id": "ultratube_v2_file_service_rationale_174",
-      "community": 26,
+      "community": 32,
       "norm_label": "run an ffmpeg command.          args:             command: ffmpeg command as a l"
     },
     {
@@ -1020,7 +1020,7 @@
       "source_file": "metadata_service.py",
       "source_location": "L1",
       "id": "metadata_service_py",
-      "community": 40,
+      "community": 37,
       "norm_label": "metadata_service.py"
     },
     {
@@ -1029,7 +1029,7 @@
       "source_file": "metadata_service.py",
       "source_location": "L10",
       "id": "ultratube_v2_metadata_service_get_clean_language_name",
-      "community": 40,
+      "community": 37,
       "norm_label": "get_clean_language_name()"
     },
     {
@@ -1056,7 +1056,7 @@
       "source_file": "metadata_service.py",
       "source_location": "L103",
       "id": "ultratube_v2_metadata_service_metadataservice_get_available_formats",
-      "community": 34,
+      "community": 1,
       "norm_label": ".get_available_formats()"
     },
     {
@@ -1065,7 +1065,7 @@
       "source_file": "metadata_service.py",
       "source_location": "L135",
       "id": "ultratube_v2_metadata_service_metadataservice_get_video_info",
-      "community": 34,
+      "community": 1,
       "norm_label": ".get_video_info()"
     },
     {
@@ -1083,7 +1083,7 @@
       "source_file": "metadata_service.py",
       "source_location": "L192",
       "id": "ultratube_v2_metadata_service_metadataservice_get_audio_tracks",
-      "community": 40,
+      "community": 37,
       "norm_label": ".get_audio_tracks()"
     },
     {
@@ -1092,7 +1092,7 @@
       "source_file": "metadata_service.py",
       "source_location": "L251",
       "id": "ultratube_v2_metadata_service_metadataservice_get_available_subtitles",
-      "community": 33,
+      "community": 1,
       "norm_label": ".get_available_subtitles()"
     },
     {
@@ -1101,7 +1101,7 @@
       "source_file": "metadata_service.py",
       "source_location": "L281",
       "id": "ultratube_v2_metadata_service_metadataservice_extract_video_info",
-      "community": 34,
+      "community": 1,
       "norm_label": "._extract_video_info()"
     },
     {
@@ -1110,7 +1110,7 @@
       "source_file": "metadata_service.py",
       "source_location": "L309",
       "id": "ultratube_v2_metadata_service_metadataservice_create_video_info",
-      "community": 47,
+      "community": 1,
       "norm_label": "._create_video_info()"
     },
     {
@@ -1137,7 +1137,7 @@
       "source_file": "metadata_service.py",
       "source_location": "L104",
       "id": "ultratube_v2_metadata_service_rationale_104",
-      "community": 34,
+      "community": 1,
       "norm_label": "gets a list of available formats for a given url that are supported by the appli"
     },
     {
@@ -1146,7 +1146,7 @@
       "source_file": "metadata_service.py",
       "source_location": "L136",
       "id": "ultratube_v2_metadata_service_rationale_136",
-      "community": 34,
+      "community": 1,
       "norm_label": "get video information for a youtube url.          args:             url: youtube"
     },
     {
@@ -1164,7 +1164,7 @@
       "source_file": "metadata_service.py",
       "source_location": "L193",
       "id": "ultratube_v2_metadata_service_rationale_193",
-      "community": 40,
+      "community": 37,
       "norm_label": "get available audio tracks for a youtube video.          args:             url:"
     },
     {
@@ -1173,7 +1173,7 @@
       "source_file": "metadata_service.py",
       "source_location": "L252",
       "id": "ultratube_v2_metadata_service_rationale_252",
-      "community": 33,
+      "community": 1,
       "norm_label": "get available subtitles for a youtube video.          args:             url: you"
     },
     {
@@ -1182,7 +1182,7 @@
       "source_file": "metadata_service.py",
       "source_location": "L282",
       "id": "ultratube_v2_metadata_service_rationale_282",
-      "community": 34,
+      "community": 1,
       "norm_label": "extract information from a youtube url using yt-dlp.          args:"
     },
     {
@@ -1191,7 +1191,7 @@
       "source_file": "metadata_service.py",
       "source_location": "L310",
       "id": "ultratube_v2_metadata_service_rationale_310",
-      "community": 47,
+      "community": 1,
       "norm_label": "create a videoinfo object from raw yt-dlp data.          args:             raw_i"
     },
     {
@@ -1209,7 +1209,7 @@
       "source_file": "models.py",
       "source_location": "L8",
       "id": "ultratube_v2_models_videoinfo",
-      "community": 32,
+      "community": 35,
       "norm_label": "videoinfo"
     },
     {
@@ -1245,7 +1245,7 @@
       "source_file": "models.py",
       "source_location": "L41",
       "id": "ultratube_v2_models_subtitle",
-      "community": 33,
+      "community": 35,
       "norm_label": "subtitle"
     },
     {
@@ -1254,7 +1254,7 @@
       "source_file": "models.py",
       "source_location": "L49",
       "id": "ultratube_v2_models_subtitle_str",
-      "community": 33,
+      "community": 35,
       "norm_label": ".__str__()"
     },
     {
@@ -1290,7 +1290,7 @@
       "source_file": "",
       "source_location": "",
       "id": "str",
-      "community": 9,
+      "community": 21,
       "norm_label": "str"
     },
     {
@@ -1317,7 +1317,7 @@
       "source_file": "models.py",
       "source_location": "L97",
       "id": "ultratube_v2_models_bucketdownloadsettings",
-      "community": 11,
+      "community": 21,
       "norm_label": "bucketdownloadsettings"
     },
     {
@@ -1326,7 +1326,7 @@
       "source_file": "",
       "source_location": "",
       "id": "basemodel",
-      "community": 0,
+      "community": 21,
       "norm_label": "basemodel"
     },
     {
@@ -1335,7 +1335,7 @@
       "source_file": "models.py",
       "source_location": "L9",
       "id": "ultratube_v2_models_rationale_9",
-      "community": 32,
+      "community": 35,
       "norm_label": "information about a youtube video."
     },
     {
@@ -1362,7 +1362,7 @@
       "source_file": "models.py",
       "source_location": "L42",
       "id": "ultratube_v2_models_rationale_42",
-      "community": 33,
+      "community": 35,
       "norm_label": "information about a subtitle track."
     },
     {
@@ -1398,7 +1398,7 @@
       "source_file": "models.py",
       "source_location": "L98",
       "id": "ultratube_v2_models_rationale_98",
-      "community": 11,
+      "community": 21,
       "norm_label": "configuration settings for a bulk download bucket."
     },
     {
@@ -1407,7 +1407,7 @@
       "source_file": "queue_panel.py",
       "source_location": "L1",
       "id": "queue_panel_py",
-      "community": 24,
+      "community": 33,
       "norm_label": "queue_panel.py"
     },
     {
@@ -1416,7 +1416,7 @@
       "source_file": "queue_panel.py",
       "source_location": "L6",
       "id": "ultratube_v2_queue_panel_downloadqueuepanel",
-      "community": 24,
+      "community": 33,
       "norm_label": "downloadqueuepanel"
     },
     {
@@ -1425,7 +1425,7 @@
       "source_file": "queue_panel.py",
       "source_location": "L7",
       "id": "ultratube_v2_queue_panel_downloadqueuepanel_compose",
-      "community": 24,
+      "community": 33,
       "norm_label": ".compose()"
     },
     {
@@ -1515,7 +1515,7 @@
       "source_file": "settings_service.py",
       "source_location": "L1",
       "id": "settings_service_py",
-      "community": 0,
+      "community": 21,
       "norm_label": "settings_service.py"
     },
     {
@@ -1524,7 +1524,7 @@
       "source_file": "settings_service.py",
       "source_location": "L6",
       "id": "ultratube_v2_settings_service_appsettings",
-      "community": 0,
+      "community": 21,
       "norm_label": "appsettings"
     },
     {
@@ -1533,7 +1533,7 @@
       "source_file": "settings_service.py",
       "source_location": "L24",
       "id": "ultratube_v2_settings_service_load_settings",
-      "community": 0,
+      "community": 21,
       "norm_label": "load_settings()"
     },
     {
@@ -1542,7 +1542,7 @@
       "source_file": "settings_service.py",
       "source_location": "L36",
       "id": "ultratube_v2_settings_service_save_settings",
-      "community": 0,
+      "community": 21,
       "norm_label": "save_settings()"
     },
     {
@@ -1551,7 +1551,7 @@
       "source_file": "settings_service.py",
       "source_location": "L7",
       "id": "ultratube_v2_settings_service_rationale_7",
-      "community": 0,
+      "community": 21,
       "norm_label": "global configuration settings for ultratube downloads."
     },
     {
@@ -1560,7 +1560,7 @@
       "source_file": "settings_service.py",
       "source_location": "L25",
       "id": "ultratube_v2_settings_service_rationale_25",
-      "community": 0,
+      "community": 21,
       "norm_label": "load settings from ~/.ultratube_settings.json, falling back to defaults."
     },
     {
@@ -1569,7 +1569,7 @@
       "source_file": "settings_service.py",
       "source_location": "L37",
       "id": "ultratube_v2_settings_service_rationale_37",
-      "community": 0,
+      "community": 21,
       "norm_label": "save settings to ~/.ultratube_settings.json."
     },
     {
@@ -1614,7 +1614,7 @@
       "source_file": "ultratube_app.py",
       "source_location": "L66",
       "id": "ultratube_v2_ultratube_app_ultratubeapp_compose",
-      "community": 24,
+      "community": 33,
       "norm_label": ".compose()"
     },
     {
@@ -1623,7 +1623,7 @@
       "source_file": "ultratube_app.py",
       "source_location": "L79",
       "id": "ultratube_v2_ultratube_app_ultratubeapp_on_mount",
-      "community": 2,
+      "community": 29,
       "norm_label": ".on_mount()"
     },
     {
@@ -1632,7 +1632,7 @@
       "source_file": "ultratube_app.py",
       "source_location": "L84",
       "id": "ultratube_v2_ultratube_app_ultratubeapp_set_tab_label",
-      "community": 24,
+      "community": 11,
       "norm_label": ".set_tab_label()"
     },
     {
@@ -1659,7 +1659,7 @@
       "source_file": "ultratube_app.py",
       "source_location": "L114",
       "id": "ultratube_v2_ultratube_app_ultratubeapp_action_new_tab",
-      "community": 9,
+      "community": 29,
       "norm_label": ".action_new_tab()"
     },
     {
@@ -1677,7 +1677,7 @@
       "source_file": "ultratube_app.py",
       "source_location": "L155",
       "id": "ultratube_v2_ultratube_app_ultratubeapp_action_bucket",
-      "community": 21,
+      "community": 28,
       "norm_label": ".action_bucket()"
     },
     {
@@ -1704,7 +1704,7 @@
       "source_file": "ultratube_app.py",
       "source_location": "L290",
       "id": "ultratube_v2_ultratube_app_ultratubeapp_on_button_pressed",
-      "community": 29,
+      "community": 11,
       "norm_label": ".on_button_pressed()"
     },
     {
@@ -1713,7 +1713,7 @@
       "source_file": "ultratube_app.py",
       "source_location": "L309",
       "id": "ultratube_v2_ultratube_app_ultratubeapp_on_input_submitted",
-      "community": 29,
+      "community": 11,
       "norm_label": ".on_input_submitted()"
     },
     {
@@ -1722,7 +1722,7 @@
       "source_file": "ultratube_app.py",
       "source_location": "L315",
       "id": "ultratube_v2_ultratube_app_ultratubeapp_validate_url_action",
-      "community": 29,
+      "community": 11,
       "norm_label": ".validate_url_action()"
     },
     {
@@ -1731,7 +1731,7 @@
       "source_file": "ultratube_app.py",
       "source_location": "L339",
       "id": "ultratube_v2_ultratube_app_ultratubeapp_do_validate_url",
-      "community": 29,
+      "community": 11,
       "norm_label": ".do_validate_url()"
     },
     {
@@ -1830,7 +1830,7 @@
       "source_file": "ultratube_app.py",
       "source_location": "L950",
       "id": "ultratube_v2_ultratube_app_ultratubeapp_trigger_subtitle_merge_modal",
-      "community": 28,
+      "community": 9,
       "norm_label": ".trigger_subtitle_merge_modal()"
     },
     {
@@ -1848,7 +1848,7 @@
       "source_file": "ultratube_app.py",
       "source_location": "L1010",
       "id": "ultratube_v2_ultratube_app_ultratubeapp_trigger_delete_original_modal",
-      "community": 28,
+      "community": 9,
       "norm_label": ".trigger_delete_original_modal()"
     },
     {
@@ -1866,7 +1866,7 @@
       "source_file": "ultratube_app.py",
       "source_location": "L1055",
       "id": "ultratube_v2_ultratube_app_ultratubeapp_handle_star_click",
-      "community": 29,
+      "community": 11,
       "norm_label": ".handle_star_click()"
     },
     {
@@ -1875,7 +1875,7 @@
       "source_file": "ultratube_app.py",
       "source_location": "L1067",
       "id": "ultratube_v2_ultratube_app_ultratubeapp_handle_star_skip",
-      "community": 29,
+      "community": 11,
       "norm_label": ".handle_star_skip()"
     },
     {
@@ -1884,7 +1884,7 @@
       "source_file": "ultratube_app.py",
       "source_location": "L1070",
       "id": "ultratube_v2_ultratube_app_ultratubeapp_reset_tab_to_idle",
-      "community": 29,
+      "community": 11,
       "norm_label": ".reset_tab_to_idle()"
     },
     {
@@ -1911,7 +1911,7 @@
       "source_file": "ultratube_app.py",
       "source_location": "L85",
       "id": "ultratube_v2_ultratube_app_rationale_85",
-      "community": 24,
+      "community": 11,
       "norm_label": "helper to set the label of a tab dynamically and thread-safely."
     },
     {
@@ -1929,7 +1929,7 @@
       "source_file": "ultratube_extractor.py",
       "source_location": "L1",
       "id": "ultratube_extractor_py",
-      "community": 37,
+      "community": 0,
       "norm_label": "ultratube_extractor.py"
     },
     {
@@ -1947,7 +1947,7 @@
       "source_file": "ultratube_extractor.py",
       "source_location": "L18",
       "id": "ultratube_v2_ultratube_extractor_ultratubeextractor_init",
-      "community": 26,
+      "community": 0,
       "norm_label": ".__init__()"
     },
     {
@@ -2028,7 +2028,7 @@
       "source_file": "ultratube_extractor.py",
       "source_location": "L1",
       "id": "ultratube_v2_ultratube_extractor_rationale_1",
-      "community": 37,
+      "community": 0,
       "norm_label": "youtubeextractor: main facade that coordinates the services for youtube download"
     },
     {
@@ -2046,7 +2046,7 @@
       "source_file": "ultratube_extractor.py",
       "source_location": "L19",
       "id": "ultratube_v2_ultratube_extractor_rationale_19",
-      "community": 26,
+      "community": 0,
       "norm_label": "initialize the youtube extractor with its required services."
     },
     {
@@ -2208,7 +2208,7 @@
       "source_file": "tests/test_bucket.py",
       "source_location": "L1",
       "id": "tests_test_bucket_py",
-      "community": 11,
+      "community": 21,
       "norm_label": "test_bucket.py"
     },
     {
@@ -2217,7 +2217,7 @@
       "source_file": "tests/test_bucket.py",
       "source_location": "L12",
       "id": "tests_test_bucket_parse_urls_text",
-      "community": 11,
+      "community": 21,
       "norm_label": "parse_urls_text()"
     },
     {
@@ -2226,7 +2226,7 @@
       "source_file": "tests/test_bucket.py",
       "source_location": "L17",
       "id": "tests_test_bucket_test_parse_urls_text",
-      "community": 11,
+      "community": 21,
       "norm_label": "test_parse_urls_text()"
     },
     {
@@ -2235,7 +2235,7 @@
       "source_file": "tests/test_bucket.py",
       "source_location": "L31",
       "id": "tests_test_bucket_test_bucket_download_settings_valid",
-      "community": 11,
+      "community": 21,
       "norm_label": "test_bucket_download_settings_valid()"
     },
     {
@@ -2244,7 +2244,7 @@
       "source_file": "tests/test_bucket.py",
       "source_location": "L49",
       "id": "tests_test_bucket_test_bucket_download_settings_invalid_urls",
-      "community": 11,
+      "community": 21,
       "norm_label": "test_bucket_download_settings_invalid_urls()"
     },
     {
@@ -2253,7 +2253,7 @@
       "source_file": "tests/test_bucket.py",
       "source_location": "L64",
       "id": "tests_test_bucket_test_bucket_screen_validation",
-      "community": 11,
+      "community": 21,
       "norm_label": "test_bucket_screen_validation()"
     },
     {
@@ -2262,7 +2262,7 @@
       "source_file": "tests/test_bucket.py",
       "source_location": "L86",
       "id": "tests_test_bucket_test_app_settings_defaults",
-      "community": 0,
+      "community": 21,
       "norm_label": "test_app_settings_defaults()"
     },
     {
@@ -2271,7 +2271,7 @@
       "source_file": "tests/test_bucket.py",
       "source_location": "L98",
       "id": "tests_test_bucket_test_settings_save_load",
-      "community": 0,
+      "community": 21,
       "norm_label": "test_settings_save_load()"
     },
     {
@@ -2289,7 +2289,7 @@
       "source_file": "tests/test_bucket.py",
       "source_location": "L140",
       "id": "tests_test_bucket_test_bucket_screen_prefilled_urls",
-      "community": 11,
+      "community": 21,
       "norm_label": "test_bucket_screen_prefilled_urls()"
     },
     {
@@ -2298,7 +2298,7 @@
       "source_file": "tests/test_bucket.py",
       "source_location": "L160",
       "id": "tests_test_bucket_test_playlist_validation_redirect_and_spawn",
-      "community": 11,
+      "community": 21,
       "norm_label": "test_playlist_validation_redirect_and_spawn()"
     },
     {
@@ -2307,7 +2307,7 @@
       "source_file": "tests/test_bucket.py",
       "source_location": "L13",
       "id": "tests_test_bucket_rationale_13",
-      "community": 11,
+      "community": 21,
       "norm_label": "helper to parse raw text area content into list of sanitized urls."
     },
     {
@@ -2388,7 +2388,7 @@
       "source_file": "tests/test_models.py",
       "source_location": "L1",
       "id": "tests_test_models_py",
-      "community": 32,
+      "community": 35,
       "norm_label": "test_models.py"
     },
     {
@@ -2397,7 +2397,7 @@
       "source_file": "tests/test_models.py",
       "source_location": "L16",
       "id": "tests_test_models_test_video_info_filename_safe_title",
-      "community": 32,
+      "community": 35,
       "norm_label": "test_video_info_filename_safe_title()"
     },
     {
@@ -2415,7 +2415,7 @@
       "source_file": "tests/test_models.py",
       "source_location": "L38",
       "id": "tests_test_models_test_subtitle_representation",
-      "community": 33,
+      "community": 35,
       "norm_label": "test_subtitle_representation()"
     },
     {
@@ -2424,7 +2424,7 @@
       "source_file": "tests/test_models.py",
       "source_location": "L50",
       "id": "tests_test_models_test_download_options_defaults",
-      "community": 32,
+      "community": 35,
       "norm_label": "test_download_options_defaults()"
     },
     {
@@ -2442,7 +2442,7 @@
       "source_file": "tests/test_models.py",
       "source_location": "L68",
       "id": "tests_test_models_test_download_record_creation",
-      "community": 32,
+      "community": 35,
       "norm_label": "test_download_record_creation()"
     },
     {
@@ -2451,7 +2451,7 @@
       "source_file": "tests/test_models.py",
       "source_location": "L87",
       "id": "tests_test_models_test_bucket_download_settings_validation",
-      "community": 32,
+      "community": 35,
       "norm_label": "test_bucket_download_settings_validation()"
     },
     {
@@ -2460,7 +2460,7 @@
       "source_file": "tests/test_models.py",
       "source_location": "L110",
       "id": "tests_test_models_test_app_settings_validation_and_toggles",
-      "community": 32,
+      "community": 35,
       "norm_label": "test_app_settings_validation_and_toggles()"
     },
     {
@@ -2469,7 +2469,7 @@
       "source_file": "tests/test_services.py",
       "source_location": "L1",
       "id": "tests_test_services_py",
-      "community": 26,
+      "community": 0,
       "norm_label": "test_services.py"
     },
     {
@@ -2478,7 +2478,7 @@
       "source_file": "tests/test_services.py",
       "source_location": "L12",
       "id": "tests_test_services_test_get_clean_language_name",
-      "community": 40,
+      "community": 37,
       "norm_label": "test_get_clean_language_name()"
     },
     {
@@ -2496,7 +2496,7 @@
       "source_file": "tests/test_services.py",
       "source_location": "L59",
       "id": "tests_test_services_test_file_service_ffmpeg_path_resolution",
-      "community": 26,
+      "community": 0,
       "norm_label": "test_file_service_ffmpeg_path_resolution()"
     },
     {
@@ -2505,7 +2505,7 @@
       "source_file": "tests/test_services.py",
       "source_location": "L79",
       "id": "tests_test_services_test_file_service_run_ffmpeg_command",
-      "community": 26,
+      "community": 0,
       "norm_label": "test_file_service_run_ffmpeg_command()"
     },
     {
@@ -2514,8 +2514,134 @@
       "source_file": "tests/test_services.py",
       "source_location": "L91",
       "id": "tests_test_services_test_download_service_audio_options_mapping",
-      "community": 26,
+      "community": 0,
       "norm_label": "test_download_service_audio_options_mapping()"
+    },
+    {
+      "label": "Current State security and arch report and next steps.md",
+      "file_type": "document",
+      "source_file": "Current State security and arch report and next steps.md",
+      "source_location": "L1",
+      "id": "current_state_security_and_arch_report_and_next_steps_md",
+      "community": 30,
+      "norm_label": "current state security and arch report and next steps.md"
+    },
+    {
+      "label": "Comprehensive Security & Architecture Report",
+      "file_type": "document",
+      "source_file": "Current State security and arch report and next steps.md",
+      "source_location": "L1",
+      "id": "ultratube_v2_current_state_security_and_arch_report_and_next_steps_comprehensive_security_architecture_report",
+      "community": 30,
+      "norm_label": "comprehensive security & architecture report"
+    },
+    {
+      "label": "Part 1: Security & Quality Report",
+      "file_type": "document",
+      "source_file": "Current State security and arch report and next steps.md",
+      "source_location": "L7",
+      "id": "ultratube_v2_current_state_security_and_arch_report_and_next_steps_part_1_security_quality_report",
+      "community": 30,
+      "norm_label": "part 1: security & quality report"
+    },
+    {
+      "label": "1.1 Pytest Suite Execution",
+      "file_type": "document",
+      "source_file": "Current State security and arch report and next steps.md",
+      "source_location": "L9",
+      "id": "ultratube_v2_current_state_security_and_arch_report_and_next_steps_1_1_pytest_suite_execution",
+      "community": 30,
+      "norm_label": "1.1 pytest suite execution"
+    },
+    {
+      "label": "1.2 Static Analysis Findings",
+      "file_type": "document",
+      "source_file": "Current State security and arch report and next steps.md",
+      "source_location": "L16",
+      "id": "ultratube_v2_current_state_security_and_arch_report_and_next_steps_1_2_static_analysis_findings",
+      "community": 30,
+      "norm_label": "1.2 static analysis findings"
+    },
+    {
+      "label": "Part 2: Architecture & Design Review",
+      "file_type": "document",
+      "source_file": "Current State security and arch report and next steps.md",
+      "source_location": "L29",
+      "id": "ultratube_v2_current_state_security_and_arch_report_and_next_steps_part_2_architecture_design_review",
+      "community": 30,
+      "norm_label": "part 2: architecture & design review"
+    },
+    {
+      "label": "2.1 Bounded Contexts & Infrastructure Isolation",
+      "file_type": "document",
+      "source_file": "Current State security and arch report and next steps.md",
+      "source_location": "L31",
+      "id": "ultratube_v2_current_state_security_and_arch_report_and_next_steps_2_1_bounded_contexts_infrastructure_isolation",
+      "community": 30,
+      "norm_label": "2.1 bounded contexts & infrastructure isolation"
+    },
+    {
+      "label": "2.2 Domain Primitives & Aggregate Invariants",
+      "file_type": "document",
+      "source_file": "Current State security and arch report and next steps.md",
+      "source_location": "L38",
+      "id": "ultratube_v2_current_state_security_and_arch_report_and_next_steps_2_2_domain_primitives_aggregate_invariants",
+      "community": 30,
+      "norm_label": "2.2 domain primitives & aggregate invariants"
+    },
+    {
+      "label": "Part 3: Recommended Actions & Next Steps",
+      "file_type": "document",
+      "source_file": "Current State security and arch report and next steps.md",
+      "source_location": "L46",
+      "id": "ultratube_v2_current_state_security_and_arch_report_and_next_steps_part_3_recommended_actions_next_steps",
+      "community": 30,
+      "norm_label": "part 3: recommended actions & next steps"
+    },
+    {
+      "label": "1. Refactor Silent Exceptions (Bandit B110)",
+      "file_type": "document",
+      "source_file": "Current State security and arch report and next steps.md",
+      "source_location": "L50",
+      "id": "ultratube_v2_current_state_security_and_arch_report_and_next_steps_1_refactor_silent_exceptions_bandit_b110",
+      "community": 30,
+      "norm_label": "1. refactor silent exceptions (bandit b110)"
+    },
+    {
+      "label": "2. Configure Bandit Scans for Tests",
+      "file_type": "document",
+      "source_file": "Current State security and arch report and next steps.md",
+      "source_location": "L54",
+      "id": "ultratube_v2_current_state_security_and_arch_report_and_next_steps_2_configure_bandit_scans_for_tests",
+      "community": 30,
+      "norm_label": "2. configure bandit scans for tests"
+    },
+    {
+      "label": "3. Upgrade Vulnerable Dependencies (Safety Report)",
+      "file_type": "document",
+      "source_file": "Current State security and arch report and next steps.md",
+      "source_location": "L58",
+      "id": "ultratube_v2_current_state_security_and_arch_report_and_next_steps_3_upgrade_vulnerable_dependencies_safety_report",
+      "community": 30,
+      "norm_label": "3. upgrade vulnerable dependencies (safety report)"
+    },
+    {
+      "label": "4. Align with Domain-Driven Design (DDD) Guardrails & Fix Design Issues",
+      "file_type": "document",
+      "source_file": "Current State security and arch report and next steps.md",
+      "source_location": "L64",
+      "id": "ultratube_v2_current_state_security_and_arch_report_and_next_steps_4_align_with_domain_driven_design_ddd_guardrails_fix_design_issues",
+      "community": 30,
+      "norm_label": "4. align with domain-driven design (ddd) guardrails & fix design issues"
+    },
+    {
+      "label": "Recommended Next Step",
+      "file_type": "document",
+      "source_file": "Current State security and arch report and next steps.md",
+      "source_location": "L73",
+      "id": "ultratube_v2_current_state_security_and_arch_report_and_next_steps_recommended_next_step",
+      "community": 30,
+      "norm_label": "recommended next step"
     },
     {
       "label": "design.md",
@@ -2806,237 +2932,12 @@
       "norm_label": "5. external dependencies"
     },
     {
-      "label": "sprints_and_tickets.md",
-      "file_type": "document",
-      "source_file": "sprints_and_tickets.md",
-      "source_location": "L1",
-      "id": "sprints_and_tickets_md",
-      "community": 7,
-      "norm_label": "sprints_and_tickets.md"
-    },
-    {
-      "label": "UltraTube \u2014 Sprints & Tickets",
-      "file_type": "document",
-      "source_file": "sprints_and_tickets.md",
-      "source_location": "L1",
-      "id": "ultratube_v2_sprints_and_tickets_ultratube_sprints_tickets",
-      "community": 7,
-      "norm_label": "ultratube \u2014 sprints & tickets"
-    },
-    {
-      "label": "Sprint 1 \u2014 Foundation & Packaging",
-      "file_type": "document",
-      "source_file": "sprints_and_tickets.md",
-      "source_location": "L5",
-      "id": "ultratube_v2_sprints_and_tickets_sprint_1_foundation_packaging",
-      "community": 7,
-      "norm_label": "sprint 1 \u2014 foundation & packaging"
-    },
-    {
-      "label": "UT-001 \u00b7 Replace system FFmpeg with `static-ffmpeg`",
-      "file_type": "document",
-      "source_file": "sprints_and_tickets.md",
-      "source_location": "L18",
-      "id": "ultratube_v2_sprints_and_tickets_ut_001_replace_system_ffmpeg_with_static_ffmpeg",
-      "community": 7,
-      "norm_label": "ut-001 \u00b7 replace system ffmpeg with `static-ffmpeg`"
-    },
-    {
-      "label": "UT-002 \u00b7 Add `pyproject.toml` and pip entry point",
-      "file_type": "document",
-      "source_file": "sprints_and_tickets.md",
-      "source_location": "L32",
-      "id": "ultratube_v2_sprints_and_tickets_ut_002_add_pyproject_toml_and_pip_entry_point",
-      "community": 7,
-      "norm_label": "ut-002 \u00b7 add `pyproject.toml` and pip entry point"
-    },
-    {
-      "label": "UT-003 \u00b7 Implement `is_valid_url()` in `UltraTubeExtractor`",
-      "file_type": "document",
-      "source_file": "sprints_and_tickets.md",
-      "source_location": "L46",
-      "id": "ultratube_v2_sprints_and_tickets_ut_003_implement_is_valid_url_in_ultratubeextractor",
-      "community": 7,
-      "norm_label": "ut-003 \u00b7 implement `is_valid_url()` in `ultratubeextractor`"
-    },
-    {
-      "label": "Sprint 2 \u2014 TUI Shell & Navigation",
-      "file_type": "document",
-      "source_file": "sprints_and_tickets.md",
-      "source_location": "L59",
-      "id": "ultratube_v2_sprints_and_tickets_sprint_2_tui_shell_navigation",
-      "community": 7,
-      "norm_label": "sprint 2 \u2014 tui shell & navigation"
-    },
-    {
-      "label": "UT-004 \u00b7 Scaffold Textual app shell (`UltraTubeApp`)",
-      "file_type": "document",
-      "source_file": "sprints_and_tickets.md",
-      "source_location": "L73",
-      "id": "ultratube_v2_sprints_and_tickets_ut_004_scaffold_textual_app_shell_ultratubeapp",
-      "community": 7,
-      "norm_label": "ut-004 \u00b7 scaffold textual app shell (`ultratubeapp`)"
-    },
-    {
-      "label": "UT-005 \u00b7 Add `HelpOverlay` widget (F1 toggle)",
-      "file_type": "document",
-      "source_file": "sprints_and_tickets.md",
-      "source_location": "L87",
-      "id": "ultratube_v2_sprints_and_tickets_ut_005_add_helpoverlay_widget_f1_toggle",
-      "community": 7,
-      "norm_label": "ut-005 \u00b7 add `helpoverlay` widget (f1 toggle)"
-    },
-    {
-      "label": "UT-006 \u00b7 Build `MainTabView` with multi-tab support",
-      "file_type": "document",
-      "source_file": "sprints_and_tickets.md",
-      "source_location": "L100",
-      "id": "ultratube_v2_sprints_and_tickets_ut_006_build_maintabview_with_multi_tab_support",
-      "community": 7,
-      "norm_label": "ut-006 \u00b7 build `maintabview` with multi-tab support"
-    },
-    {
-      "label": "UT-007 \u00b7 Remove legacy `ultratube_main.py` CLI loop",
-      "file_type": "document",
-      "source_file": "sprints_and_tickets.md",
-      "source_location": "L114",
-      "id": "ultratube_v2_sprints_and_tickets_ut_007_remove_legacy_ultratube_main_py_cli_loop",
-      "community": 7,
-      "norm_label": "ut-007 \u00b7 remove legacy `ultratube_main.py` cli loop"
-    },
-    {
-      "label": "Sprint 3 \u2014 Download Tab & URL Validation UX",
-      "file_type": "document",
-      "source_file": "sprints_and_tickets.md",
-      "source_location": "L126",
-      "id": "ultratube_v2_sprints_and_tickets_sprint_3_download_tab_url_validation_ux",
-      "community": 7,
-      "norm_label": "sprint 3 \u2014 download tab & url validation ux"
-    },
-    {
-      "label": "UT-008 \u00b7 URL input widget with inline validation feedback",
-      "file_type": "document",
-      "source_file": "sprints_and_tickets.md",
-      "source_location": "L140",
-      "id": "ultratube_v2_sprints_and_tickets_ut_008_url_input_widget_with_inline_validation_feedback",
-      "community": 7,
-      "norm_label": "ut-008 \u00b7 url input widget with inline validation feedback"
-    },
-    {
-      "label": "UT-009 \u00b7 Build `OptionsPanel` widget",
-      "file_type": "document",
-      "source_file": "sprints_and_tickets.md",
-      "source_location": "L154",
-      "id": "ultratube_v2_sprints_and_tickets_ut_009_build_optionspanel_widget",
-      "community": 7,
-      "norm_label": "ut-009 \u00b7 build `optionspanel` widget"
-    },
-    {
-      "label": "UT-010 \u00b7 Async download worker per tab with `ProgressWidget`",
-      "file_type": "document",
-      "source_file": "sprints_and_tickets.md",
-      "source_location": "L170",
-      "id": "ultratube_v2_sprints_and_tickets_ut_010_async_download_worker_per_tab_with_progresswidget",
-      "community": 7,
-      "norm_label": "ut-010 \u00b7 async download worker per tab with `progresswidget`"
-    },
-    {
-      "label": "UT-011 \u00b7 Playlist download support in TUI",
-      "file_type": "document",
-      "source_file": "sprints_and_tickets.md",
-      "source_location": "L185",
-      "id": "ultratube_v2_sprints_and_tickets_ut_011_playlist_download_support_in_tui",
-      "community": 7,
-      "norm_label": "ut-011 \u00b7 playlist download support in tui"
-    },
-    {
-      "label": "Sprint 4 \u2014 Queue Panel, Distribution & Polish",
-      "file_type": "document",
-      "source_file": "sprints_and_tickets.md",
-      "source_location": "L198",
-      "id": "ultratube_v2_sprints_and_tickets_sprint_4_queue_panel_distribution_polish",
-      "community": 7,
-      "norm_label": "sprint 4 \u2014 queue panel, distribution & polish"
-    },
-    {
-      "label": "UT-012 \u00b7 Build `DownloadQueuePanel` history sidebar",
-      "file_type": "document",
-      "source_file": "sprints_and_tickets.md",
-      "source_location": "L213",
-      "id": "ultratube_v2_sprints_and_tickets_ut_012_build_downloadqueuepanel_history_sidebar",
-      "community": 7,
-      "norm_label": "ut-012 \u00b7 build `downloadqueuepanel` history sidebar"
-    },
-    {
-      "label": "UT-013 \u00b7 Subtitle merge modal post-download",
-      "file_type": "document",
-      "source_file": "sprints_and_tickets.md",
-      "source_location": "L227",
-      "id": "ultratube_v2_sprints_and_tickets_ut_013_subtitle_merge_modal_post_download",
-      "community": 7,
-      "norm_label": "ut-013 \u00b7 subtitle merge modal post-download"
-    },
-    {
-      "label": "UT-014 \u00b7 Build PyInstaller executable for Windows",
-      "file_type": "document",
-      "source_file": "sprints_and_tickets.md",
-      "source_location": "L240",
-      "id": "ultratube_v2_sprints_and_tickets_ut_014_build_pyinstaller_executable_for_windows",
-      "community": 7,
-      "norm_label": "ut-014 \u00b7 build pyinstaller executable for windows"
-    },
-    {
-      "label": "UT-015 \u00b7 Publish to PyPI + author WinGet manifest",
-      "file_type": "document",
-      "source_file": "sprints_and_tickets.md",
-      "source_location": "L254",
-      "id": "ultratube_v2_sprints_and_tickets_ut_015_publish_to_pypi_author_winget_manifest",
-      "community": 7,
-      "norm_label": "ut-015 \u00b7 publish to pypi + author winget manifest"
-    },
-    {
-      "label": "UT-016 \u00b7 Final polish: TCSS theming, resize handling, README",
-      "file_type": "document",
-      "source_file": "sprints_and_tickets.md",
-      "source_location": "L268",
-      "id": "ultratube_v2_sprints_and_tickets_ut_016_final_polish_tcss_theming_resize_handling_readme",
-      "community": 7,
-      "norm_label": "ut-016 \u00b7 final polish: tcss theming, resize handling, readme"
-    },
-    {
-      "label": "Dependency Map",
-      "file_type": "document",
-      "source_file": "sprints_and_tickets.md",
-      "source_location": "L282",
-      "id": "ultratube_v2_sprints_and_tickets_dependency_map",
-      "community": 7,
-      "norm_label": "dependency map"
-    },
-    {
-      "label": "code:block1 (UT-001 \u2500\u2500\u25ba UT-002 \u2500\u2500\u25ba UT-004 \u2500\u2500\u25ba UT-006 \u2500\u2500\u25ba UT-008 \u2500\u2500\u25ba UT-00)",
-      "file_type": "document",
-      "source_file": "sprints_and_tickets.md",
-      "source_location": "L284",
-      "id": "ultratube_v2_sprints_and_tickets_codeblock_1",
-      "community": 7,
-      "norm_label": "code:block1 (ut-001 \u2500\u2500\u25ba ut-002 \u2500\u2500\u25ba ut-004 \u2500\u2500\u25ba ut-006 \u2500\u2500\u25ba ut-008 \u2500\u2500\u25ba ut-00)"
-    },
-    {
-      "label": "Total Points Summary",
-      "file_type": "document",
-      "source_file": "sprints_and_tickets.md",
-      "source_location": "L298",
-      "id": "ultratube_v2_sprints_and_tickets_total_points_summary",
-      "community": 7,
-      "norm_label": "total points summary"
-    },
-    {
       "label": "tui_menu_messages.md",
       "file_type": "document",
       "source_file": "tui_menu_messages.md",
       "source_location": "L1",
       "id": "tui_menu_messages_md",
-      "community": 43,
+      "community": 10,
       "norm_label": "tui_menu_messages.md"
     },
     {
@@ -3045,7 +2946,7 @@
       "source_file": "tui_menu_messages.md",
       "source_location": "L1",
       "id": "ultratube_v2_tui_menu_messages_ultratube_tui_menu_messages_user_flows",
-      "community": 43,
+      "community": 10,
       "norm_label": "ultratube \u2014 tui menu messages & user flows"
     },
     {
@@ -3054,7 +2955,7 @@
       "source_file": "tui_menu_messages.md",
       "source_location": "L7",
       "id": "ultratube_v2_tui_menu_messages_app_level_messages",
-      "community": 39,
+      "community": 10,
       "norm_label": "app-level messages"
     },
     {
@@ -3063,7 +2964,7 @@
       "source_file": "tui_menu_messages.md",
       "source_location": "L9",
       "id": "ultratube_v2_tui_menu_messages_header",
-      "community": 39,
+      "community": 10,
       "norm_label": "header"
     },
     {
@@ -3072,7 +2973,7 @@
       "source_file": "tui_menu_messages.md",
       "source_location": "L10",
       "id": "ultratube_v2_tui_menu_messages_codeblock_1",
-      "community": 39,
+      "community": 10,
       "norm_label": "code:block1 (ultratube  v1.0.0)"
     },
     {
@@ -3081,7 +2982,7 @@
       "source_file": "tui_menu_messages.md",
       "source_location": "L14",
       "id": "ultratube_v2_tui_menu_messages_footer_key_hints_always_visible",
-      "community": 39,
+      "community": 10,
       "norm_label": "footer (key hints \u2014 always visible)"
     },
     {
@@ -3090,7 +2991,7 @@
       "source_file": "tui_menu_messages.md",
       "source_location": "L15",
       "id": "ultratube_v2_tui_menu_messages_codeblock_2",
-      "community": 39,
+      "community": 10,
       "norm_label": "code:block2 (ctrl+t new tab    ctrl+w close tab    ctrl+tab next    f1 he)"
     },
     {
@@ -3099,7 +3000,7 @@
       "source_file": "tui_menu_messages.md",
       "source_location": "L19",
       "id": "ultratube_v2_tui_menu_messages_empty_state_no_tabs_open",
-      "community": 39,
+      "community": 10,
       "norm_label": "empty state (no tabs open)"
     },
     {
@@ -3108,7 +3009,7 @@
       "source_file": "tui_menu_messages.md",
       "source_location": "L20",
       "id": "ultratube_v2_tui_menu_messages_codeblock_3",
-      "community": 39,
+      "community": 10,
       "norm_label": "code:block3 (no downloads yet.)"
     },
     {
@@ -3117,7 +3018,7 @@
       "source_file": "tui_menu_messages.md",
       "source_location": "L27",
       "id": "ultratube_v2_tui_menu_messages_help_overlay_f1",
-      "community": 42,
+      "community": 10,
       "norm_label": "help overlay (f1)"
     },
     {
@@ -3126,7 +3027,7 @@
       "source_file": "tui_menu_messages.md",
       "source_location": "L29",
       "id": "ultratube_v2_tui_menu_messages_title",
-      "community": 42,
+      "community": 10,
       "norm_label": "title"
     },
     {
@@ -3135,7 +3036,7 @@
       "source_file": "tui_menu_messages.md",
       "source_location": "L30",
       "id": "ultratube_v2_tui_menu_messages_codeblock_4",
-      "community": 42,
+      "community": 10,
       "norm_label": "code:block4 (keyboard shortcuts)"
     },
     {
@@ -3144,7 +3045,7 @@
       "source_file": "tui_menu_messages.md",
       "source_location": "L34",
       "id": "ultratube_v2_tui_menu_messages_keybinding_table",
-      "community": 42,
+      "community": 10,
       "norm_label": "keybinding table"
     },
     {
@@ -3153,7 +3054,7 @@
       "source_file": "tui_menu_messages.md",
       "source_location": "L47",
       "id": "ultratube_v2_tui_menu_messages_dismiss_hint",
-      "community": 42,
+      "community": 10,
       "norm_label": "dismiss hint"
     },
     {
@@ -3162,7 +3063,7 @@
       "source_file": "tui_menu_messages.md",
       "source_location": "L48",
       "id": "ultratube_v2_tui_menu_messages_codeblock_5",
-      "community": 42,
+      "community": 10,
       "norm_label": "code:block5 (press f1 or escape to close)"
     },
     {
@@ -3171,7 +3072,7 @@
       "source_file": "tui_menu_messages.md",
       "source_location": "L54",
       "id": "ultratube_v2_tui_menu_messages_tab_labels_status_indicators",
-      "community": 43,
+      "community": 10,
       "norm_label": "tab labels & status indicators"
     },
     {
@@ -3504,7 +3405,7 @@
       "source_file": "tui_menu_messages.md",
       "source_location": "L226",
       "id": "ultratube_v2_tui_menu_messages_flow_2_single_video_download",
-      "community": 44,
+      "community": 10,
       "norm_label": "flow 2 \u2014 single video download"
     },
     {
@@ -3513,7 +3414,7 @@
       "source_file": "tui_menu_messages.md",
       "source_location": "L233",
       "id": "ultratube_v2_tui_menu_messages_codeblock_28",
-      "community": 44,
+      "community": 10,
       "norm_label": "code:block28 (video quality)"
     },
     {
@@ -3522,7 +3423,7 @@
       "source_file": "tui_menu_messages.md",
       "source_location": "L239",
       "id": "ultratube_v2_tui_menu_messages_codeblock_29",
-      "community": 44,
+      "community": 10,
       "norm_label": "code:block29 (embed chapters)"
     },
     {
@@ -3531,7 +3432,7 @@
       "source_file": "tui_menu_messages.md",
       "source_location": "L244",
       "id": "ultratube_v2_tui_menu_messages_codeblock_30",
-      "community": 44,
+      "community": 10,
       "norm_label": "code:block30 (download video)"
     },
     {
@@ -3540,7 +3441,7 @@
       "source_file": "tui_menu_messages.md",
       "source_location": "L249",
       "id": "ultratube_v2_tui_menu_messages_codeblock_31",
-      "community": 44,
+      "community": 10,
       "norm_label": "code:block31 (downloading video...)"
     },
     {
@@ -3576,7 +3477,7 @@
       "source_file": "tui_menu_messages.md",
       "source_location": "L270",
       "id": "ultratube_v2_tui_menu_messages_step_2_options_panel_playlist_mode",
-      "community": 45,
+      "community": 10,
       "norm_label": "step 2 \u00b7 options panel \u2014 playlist mode"
     },
     {
@@ -3585,7 +3486,7 @@
       "source_file": "tui_menu_messages.md",
       "source_location": "L275",
       "id": "ultratube_v2_tui_menu_messages_codeblock_33",
-      "community": 45,
+      "community": 10,
       "norm_label": "code:block33 (i  audio track \u2014 best available will be chosen for each vide)"
     },
     {
@@ -3594,7 +3495,7 @@
       "source_file": "tui_menu_messages.md",
       "source_location": "L280",
       "id": "ultratube_v2_tui_menu_messages_codeblock_34",
-      "community": 45,
+      "community": 10,
       "norm_label": "code:block34 (i  subtitle selection is based on the first video. not all v)"
     },
     {
@@ -3603,7 +3504,7 @@
       "source_file": "tui_menu_messages.md",
       "source_location": "L285",
       "id": "ultratube_v2_tui_menu_messages_codeblock_35",
-      "community": 45,
+      "community": 10,
       "norm_label": "code:block35 (files will be saved in:  {output_directory}/{playlist_title})"
     },
     {
@@ -3612,7 +3513,7 @@
       "source_file": "tui_menu_messages.md",
       "source_location": "L290",
       "id": "ultratube_v2_tui_menu_messages_codeblock_36",
-      "community": 45,
+      "community": 10,
       "norm_label": "code:block36 (download playlist)"
     },
     {
@@ -3684,7 +3585,7 @@
       "source_file": "tui_menu_messages.md",
       "source_location": "L343",
       "id": "ultratube_v2_tui_menu_messages_flow_4_concurrent_downloads_multi_tab",
-      "community": 38,
+      "community": 10,
       "norm_label": "flow 4 \u2014 concurrent downloads (multi-tab)"
     },
     {
@@ -3693,7 +3594,7 @@
       "source_file": "tui_menu_messages.md",
       "source_location": "L347",
       "id": "ultratube_v2_tui_menu_messages_queue_panel_header",
-      "community": 38,
+      "community": 10,
       "norm_label": "queue panel header"
     },
     {
@@ -3702,7 +3603,7 @@
       "source_file": "tui_menu_messages.md",
       "source_location": "L348",
       "id": "ultratube_v2_tui_menu_messages_codeblock_42",
-      "community": 38,
+      "community": 10,
       "norm_label": "code:block42 (downloads)"
     },
     {
@@ -3711,7 +3612,7 @@
       "source_file": "tui_menu_messages.md",
       "source_location": "L352",
       "id": "ultratube_v2_tui_menu_messages_queue_panel_row_format",
-      "community": 38,
+      "community": 10,
       "norm_label": "queue panel row format"
     },
     {
@@ -3720,7 +3621,7 @@
       "source_file": "tui_menu_messages.md",
       "source_location": "L361",
       "id": "ultratube_v2_tui_menu_messages_max_tabs_reached",
-      "community": 38,
+      "community": 10,
       "norm_label": "max tabs reached"
     },
     {
@@ -3729,7 +3630,7 @@
       "source_file": "tui_menu_messages.md",
       "source_location": "L362",
       "id": "ultratube_v2_tui_menu_messages_codeblock_43",
-      "community": 38,
+      "community": 10,
       "norm_label": "code:block43 (maximum of 4 concurrent downloads reached.)"
     },
     {
@@ -3738,7 +3639,7 @@
       "source_file": "tui_menu_messages.md",
       "source_location": "L367",
       "id": "ultratube_v2_tui_menu_messages_copying_output_path_on_row_select",
-      "community": 38,
+      "community": 10,
       "norm_label": "copying output path (on row select)"
     },
     {
@@ -3747,7 +3648,7 @@
       "source_file": "tui_menu_messages.md",
       "source_location": "L368",
       "id": "ultratube_v2_tui_menu_messages_codeblock_44",
-      "community": 38,
+      "community": 10,
       "norm_label": "code:block44 (path copied to clipboard)"
     },
     {
@@ -3891,7 +3792,7 @@
       "source_file": "tui_menu_messages.md",
       "source_location": "L425",
       "id": "ultratube_v2_tui_menu_messages_full_flow_summary",
-      "community": 43,
+      "community": 10,
       "norm_label": "full flow summary"
     },
     {
@@ -3900,7 +3801,7 @@
       "source_file": "tui_menu_messages.md",
       "source_location": "L427",
       "id": "ultratube_v2_tui_menu_messages_codeblock_52",
-      "community": 43,
+      "community": 10,
       "norm_label": "code:block52 (app launch)"
     },
     {
@@ -4606,11 +4507,236 @@
       "norm_label": "workflow: graphify"
     },
     {
+      "label": "sprints_and_tickets.md",
+      "file_type": "document",
+      "source_file": "sprints_and_tickets.md",
+      "source_location": "L1",
+      "community": 7,
+      "norm_label": "sprints_and_tickets.md",
+      "id": "sprints_and_tickets_md"
+    },
+    {
+      "label": "UltraTube \u2014 Sprints & Tickets",
+      "file_type": "document",
+      "source_file": "sprints_and_tickets.md",
+      "source_location": "L1",
+      "community": 7,
+      "norm_label": "ultratube \u2014 sprints & tickets",
+      "id": "ultratube_v2_sprints_and_tickets_ultratube_sprints_tickets"
+    },
+    {
+      "label": "Sprint 1 \u2014 Foundation & Packaging",
+      "file_type": "document",
+      "source_file": "sprints_and_tickets.md",
+      "source_location": "L5",
+      "community": 7,
+      "norm_label": "sprint 1 \u2014 foundation & packaging",
+      "id": "ultratube_v2_sprints_and_tickets_sprint_1_foundation_packaging"
+    },
+    {
+      "label": "UT-001 \u00b7 Replace system FFmpeg with `static-ffmpeg`",
+      "file_type": "document",
+      "source_file": "sprints_and_tickets.md",
+      "source_location": "L18",
+      "community": 7,
+      "norm_label": "ut-001 \u00b7 replace system ffmpeg with `static-ffmpeg`",
+      "id": "ultratube_v2_sprints_and_tickets_ut_001_replace_system_ffmpeg_with_static_ffmpeg"
+    },
+    {
+      "label": "UT-002 \u00b7 Add `pyproject.toml` and pip entry point",
+      "file_type": "document",
+      "source_file": "sprints_and_tickets.md",
+      "source_location": "L32",
+      "community": 7,
+      "norm_label": "ut-002 \u00b7 add `pyproject.toml` and pip entry point",
+      "id": "ultratube_v2_sprints_and_tickets_ut_002_add_pyproject_toml_and_pip_entry_point"
+    },
+    {
+      "label": "UT-003 \u00b7 Implement `is_valid_url()` in `UltraTubeExtractor`",
+      "file_type": "document",
+      "source_file": "sprints_and_tickets.md",
+      "source_location": "L46",
+      "community": 7,
+      "norm_label": "ut-003 \u00b7 implement `is_valid_url()` in `ultratubeextractor`",
+      "id": "ultratube_v2_sprints_and_tickets_ut_003_implement_is_valid_url_in_ultratubeextractor"
+    },
+    {
+      "label": "Sprint 2 \u2014 TUI Shell & Navigation",
+      "file_type": "document",
+      "source_file": "sprints_and_tickets.md",
+      "source_location": "L59",
+      "community": 7,
+      "norm_label": "sprint 2 \u2014 tui shell & navigation",
+      "id": "ultratube_v2_sprints_and_tickets_sprint_2_tui_shell_navigation"
+    },
+    {
+      "label": "UT-004 \u00b7 Scaffold Textual app shell (`UltraTubeApp`)",
+      "file_type": "document",
+      "source_file": "sprints_and_tickets.md",
+      "source_location": "L73",
+      "community": 7,
+      "norm_label": "ut-004 \u00b7 scaffold textual app shell (`ultratubeapp`)",
+      "id": "ultratube_v2_sprints_and_tickets_ut_004_scaffold_textual_app_shell_ultratubeapp"
+    },
+    {
+      "label": "UT-005 \u00b7 Add `HelpOverlay` widget (F1 toggle)",
+      "file_type": "document",
+      "source_file": "sprints_and_tickets.md",
+      "source_location": "L87",
+      "community": 7,
+      "norm_label": "ut-005 \u00b7 add `helpoverlay` widget (f1 toggle)",
+      "id": "ultratube_v2_sprints_and_tickets_ut_005_add_helpoverlay_widget_f1_toggle"
+    },
+    {
+      "label": "UT-006 \u00b7 Build `MainTabView` with multi-tab support",
+      "file_type": "document",
+      "source_file": "sprints_and_tickets.md",
+      "source_location": "L100",
+      "community": 7,
+      "norm_label": "ut-006 \u00b7 build `maintabview` with multi-tab support",
+      "id": "ultratube_v2_sprints_and_tickets_ut_006_build_maintabview_with_multi_tab_support"
+    },
+    {
+      "label": "UT-007 \u00b7 Remove legacy `ultratube_main.py` CLI loop",
+      "file_type": "document",
+      "source_file": "sprints_and_tickets.md",
+      "source_location": "L114",
+      "community": 7,
+      "norm_label": "ut-007 \u00b7 remove legacy `ultratube_main.py` cli loop",
+      "id": "ultratube_v2_sprints_and_tickets_ut_007_remove_legacy_ultratube_main_py_cli_loop"
+    },
+    {
+      "label": "Sprint 3 \u2014 Download Tab & URL Validation UX",
+      "file_type": "document",
+      "source_file": "sprints_and_tickets.md",
+      "source_location": "L126",
+      "community": 7,
+      "norm_label": "sprint 3 \u2014 download tab & url validation ux",
+      "id": "ultratube_v2_sprints_and_tickets_sprint_3_download_tab_url_validation_ux"
+    },
+    {
+      "label": "UT-008 \u00b7 URL input widget with inline validation feedback",
+      "file_type": "document",
+      "source_file": "sprints_and_tickets.md",
+      "source_location": "L140",
+      "community": 7,
+      "norm_label": "ut-008 \u00b7 url input widget with inline validation feedback",
+      "id": "ultratube_v2_sprints_and_tickets_ut_008_url_input_widget_with_inline_validation_feedback"
+    },
+    {
+      "label": "UT-009 \u00b7 Build `OptionsPanel` widget",
+      "file_type": "document",
+      "source_file": "sprints_and_tickets.md",
+      "source_location": "L154",
+      "community": 7,
+      "norm_label": "ut-009 \u00b7 build `optionspanel` widget",
+      "id": "ultratube_v2_sprints_and_tickets_ut_009_build_optionspanel_widget"
+    },
+    {
+      "label": "UT-010 \u00b7 Async download worker per tab with `ProgressWidget`",
+      "file_type": "document",
+      "source_file": "sprints_and_tickets.md",
+      "source_location": "L170",
+      "community": 7,
+      "norm_label": "ut-010 \u00b7 async download worker per tab with `progresswidget`",
+      "id": "ultratube_v2_sprints_and_tickets_ut_010_async_download_worker_per_tab_with_progresswidget"
+    },
+    {
+      "label": "UT-011 \u00b7 Playlist download support in TUI",
+      "file_type": "document",
+      "source_file": "sprints_and_tickets.md",
+      "source_location": "L185",
+      "community": 7,
+      "norm_label": "ut-011 \u00b7 playlist download support in tui",
+      "id": "ultratube_v2_sprints_and_tickets_ut_011_playlist_download_support_in_tui"
+    },
+    {
+      "label": "Sprint 4 \u2014 Queue Panel, Distribution & Polish",
+      "file_type": "document",
+      "source_file": "sprints_and_tickets.md",
+      "source_location": "L198",
+      "community": 7,
+      "norm_label": "sprint 4 \u2014 queue panel, distribution & polish",
+      "id": "ultratube_v2_sprints_and_tickets_sprint_4_queue_panel_distribution_polish"
+    },
+    {
+      "label": "UT-012 \u00b7 Build `DownloadQueuePanel` history sidebar",
+      "file_type": "document",
+      "source_file": "sprints_and_tickets.md",
+      "source_location": "L213",
+      "community": 7,
+      "norm_label": "ut-012 \u00b7 build `downloadqueuepanel` history sidebar",
+      "id": "ultratube_v2_sprints_and_tickets_ut_012_build_downloadqueuepanel_history_sidebar"
+    },
+    {
+      "label": "UT-013 \u00b7 Subtitle merge modal post-download",
+      "file_type": "document",
+      "source_file": "sprints_and_tickets.md",
+      "source_location": "L227",
+      "community": 7,
+      "norm_label": "ut-013 \u00b7 subtitle merge modal post-download",
+      "id": "ultratube_v2_sprints_and_tickets_ut_013_subtitle_merge_modal_post_download"
+    },
+    {
+      "label": "UT-014 \u00b7 Build PyInstaller executable for Windows",
+      "file_type": "document",
+      "source_file": "sprints_and_tickets.md",
+      "source_location": "L240",
+      "community": 7,
+      "norm_label": "ut-014 \u00b7 build pyinstaller executable for windows",
+      "id": "ultratube_v2_sprints_and_tickets_ut_014_build_pyinstaller_executable_for_windows"
+    },
+    {
+      "label": "UT-015 \u00b7 Publish to PyPI + author WinGet manifest",
+      "file_type": "document",
+      "source_file": "sprints_and_tickets.md",
+      "source_location": "L254",
+      "community": 7,
+      "norm_label": "ut-015 \u00b7 publish to pypi + author winget manifest",
+      "id": "ultratube_v2_sprints_and_tickets_ut_015_publish_to_pypi_author_winget_manifest"
+    },
+    {
+      "label": "UT-016 \u00b7 Final polish: TCSS theming, resize handling, README",
+      "file_type": "document",
+      "source_file": "sprints_and_tickets.md",
+      "source_location": "L268",
+      "community": 7,
+      "norm_label": "ut-016 \u00b7 final polish: tcss theming, resize handling, readme",
+      "id": "ultratube_v2_sprints_and_tickets_ut_016_final_polish_tcss_theming_resize_handling_readme"
+    },
+    {
+      "label": "Dependency Map",
+      "file_type": "document",
+      "source_file": "sprints_and_tickets.md",
+      "source_location": "L282",
+      "community": 7,
+      "norm_label": "dependency map",
+      "id": "ultratube_v2_sprints_and_tickets_dependency_map"
+    },
+    {
+      "label": "code:block1 (UT-001 \u2500\u2500\u25ba UT-002 \u2500\u2500\u25ba UT-004 \u2500\u2500\u25ba UT-006 \u2500\u2500\u25ba UT-008 \u2500\u2500\u25ba UT-00)",
+      "file_type": "document",
+      "source_file": "sprints_and_tickets.md",
+      "source_location": "L284",
+      "community": 7,
+      "norm_label": "code:block1 (ut-001 \u2500\u2500\u25ba ut-002 \u2500\u2500\u25ba ut-004 \u2500\u2500\u25ba ut-006 \u2500\u2500\u25ba ut-008 \u2500\u2500\u25ba ut-00)",
+      "id": "ultratube_v2_sprints_and_tickets_codeblock_1"
+    },
+    {
+      "label": "Total Points Summary",
+      "file_type": "document",
+      "source_file": "sprints_and_tickets.md",
+      "source_location": "L298",
+      "community": 7,
+      "norm_label": "total points summary",
+      "id": "ultratube_v2_sprints_and_tickets_total_points_summary"
+    },
+    {
       "label": "test_bucket.py",
       "file_type": "code",
       "source_file": "test_bucket.py",
       "source_location": "L1",
-      "community": 30,
+      "community": 21,
       "norm_label": "test_bucket.py",
       "id": "test_bucket_py"
     },
@@ -4619,7 +4745,7 @@
       "file_type": "code",
       "source_file": "test_bucket.py",
       "source_location": "L12",
-      "community": 30,
+      "community": 21,
       "norm_label": "parse_urls_text()",
       "id": "ultratube_v2_test_bucket_parse_urls_text"
     },
@@ -4628,7 +4754,7 @@
       "file_type": "code",
       "source_file": "test_bucket.py",
       "source_location": "L17",
-      "community": 30,
+      "community": 21,
       "norm_label": "test_parse_urls_text()",
       "id": "ultratube_v2_test_bucket_test_parse_urls_text"
     },
@@ -4637,7 +4763,7 @@
       "file_type": "code",
       "source_file": "test_bucket.py",
       "source_location": "L31",
-      "community": 30,
+      "community": 21,
       "norm_label": "test_bucket_download_settings_valid()",
       "id": "ultratube_v2_test_bucket_test_bucket_download_settings_valid"
     },
@@ -4646,7 +4772,7 @@
       "file_type": "code",
       "source_file": "test_bucket.py",
       "source_location": "L49",
-      "community": 30,
+      "community": 21,
       "norm_label": "test_bucket_download_settings_invalid_urls()",
       "id": "ultratube_v2_test_bucket_test_bucket_download_settings_invalid_urls"
     },
@@ -4664,7 +4790,7 @@
       "file_type": "code",
       "source_file": "test_bucket.py",
       "source_location": "L86",
-      "community": 0,
+      "community": 21,
       "norm_label": "test_app_settings_defaults()",
       "id": "ultratube_v2_test_bucket_test_app_settings_defaults"
     },
@@ -4673,7 +4799,7 @@
       "file_type": "code",
       "source_file": "test_bucket.py",
       "source_location": "L98",
-      "community": 0,
+      "community": 21,
       "norm_label": "test_settings_save_load()",
       "id": "ultratube_v2_test_bucket_test_settings_save_load"
     },
@@ -4682,7 +4808,7 @@
       "file_type": "code",
       "source_file": "test_bucket.py",
       "source_location": "L121",
-      "community": 30,
+      "community": 31,
       "norm_label": "test_settings_screen_rendering()",
       "id": "ultratube_v2_test_bucket_test_settings_screen_rendering"
     },
@@ -4700,7 +4826,7 @@
       "file_type": "code",
       "source_file": "test_bucket.py",
       "source_location": "L160",
-      "community": 30,
+      "community": 21,
       "norm_label": "test_playlist_validation_redirect_and_spawn()",
       "id": "ultratube_v2_test_bucket_test_playlist_validation_redirect_and_spawn"
     },
@@ -4709,7 +4835,7 @@
       "file_type": "rationale",
       "source_file": "test_bucket.py",
       "source_location": "L13",
-      "community": 30,
+      "community": 21,
       "norm_label": "helper to parse raw text area content into list of sanitized urls.",
       "id": "ultratube_v2_test_bucket_rationale_13"
     },
@@ -4727,7 +4853,7 @@
       "file_type": "rationale",
       "source_file": "ultratube_app.py",
       "source_location": "L84",
-      "community": 24,
+      "community": 11,
       "norm_label": "helper to set the label of a tab dynamically and thread-safely.",
       "id": "ultratube_v2_ultratube_app_rationale_84"
     },
@@ -4763,7 +4889,7 @@
       "file_type": "code",
       "source_file": "settings_tab.py",
       "source_location": "L19",
-      "community": 2,
+      "community": 33,
       "norm_label": ".compose()",
       "id": "ultratube_v2_settings_tab_settingstab_compose"
     },
@@ -4790,7 +4916,7 @@
       "file_type": "code",
       "source_file": "test_bucket.py",
       "source_location": "L121",
-      "community": 30,
+      "community": 21,
       "norm_label": "test_settings_tab_rendering()",
       "id": "ultratube_v2_test_bucket_test_settings_tab_rendering"
     },
@@ -4799,7 +4925,7 @@
       "file_type": "rationale",
       "source_file": "ultratube_app.py",
       "source_location": "L92",
-      "community": 24,
+      "community": 11,
       "norm_label": "helper to set the label of a tab dynamically and thread-safely.",
       "id": "ultratube_v2_ultratube_app_rationale_92"
     },
@@ -4817,7 +4943,7 @@
       "file_type": "rationale",
       "source_file": "download_tab.py",
       "source_location": "L243",
-      "community": 46,
+      "community": 27,
       "norm_label": "hides the options, progress, and logs, and displays the github star panel.",
       "id": "ultratube_v2_download_tab_rationale_243"
     },
@@ -4835,7 +4961,7 @@
       "file_type": "rationale",
       "source_file": "ultratube_app.py",
       "source_location": "L81",
-      "community": 24,
+      "community": 11,
       "norm_label": "helper to set the label of a tab dynamically and thread-safely.",
       "id": "ultratube_v2_ultratube_app_rationale_81"
     },
@@ -4853,7 +4979,7 @@
       "file_type": "code",
       "source_file": "app_screens.py",
       "source_location": "L71",
-      "community": 21,
+      "community": 28,
       "norm_label": "bucketmodal",
       "id": "ultratube_v2_app_screens_bucketmodal"
     },
@@ -4862,7 +4988,7 @@
       "file_type": "code",
       "source_file": "app_screens.py",
       "source_location": "L74",
-      "community": 21,
+      "community": 28,
       "norm_label": ".compose()",
       "id": "ultratube_v2_app_screens_bucketmodal_compose"
     },
@@ -4871,7 +4997,7 @@
       "file_type": "code",
       "source_file": "app_screens.py",
       "source_location": "L136",
-      "community": 21,
+      "community": 28,
       "norm_label": ".on_mount()",
       "id": "ultratube_v2_app_screens_bucketmodal_on_mount"
     },
@@ -4880,7 +5006,7 @@
       "file_type": "code",
       "source_file": "app_screens.py",
       "source_location": "L139",
-      "community": 21,
+      "community": 28,
       "norm_label": ".update_formats_dropdown()",
       "id": "ultratube_v2_app_screens_bucketmodal_update_formats_dropdown"
     },
@@ -4889,7 +5015,7 @@
       "file_type": "code",
       "source_file": "app_screens.py",
       "source_location": "L154",
-      "community": 21,
+      "community": 28,
       "norm_label": ".on_select_changed()",
       "id": "ultratube_v2_app_screens_bucketmodal_on_select_changed"
     },
@@ -4898,7 +5024,7 @@
       "file_type": "code",
       "source_file": "app_screens.py",
       "source_location": "L158",
-      "community": 21,
+      "community": 28,
       "norm_label": ".on_button_pressed()",
       "id": "ultratube_v2_app_screens_bucketmodal_on_button_pressed"
     },
@@ -4925,7 +5051,7 @@
       "file_type": "rationale",
       "source_file": "app_screens.py",
       "source_location": "L72",
-      "community": 21,
+      "community": 28,
       "norm_label": "modal screen for pasting multiple urls and download options.",
       "id": "ultratube_v2_app_screens_rationale_72"
     },
@@ -4934,7 +5060,7 @@
       "file_type": "rationale",
       "source_file": "models.py",
       "source_location": "L8",
-      "community": 32,
+      "community": 35,
       "norm_label": "information about a youtube video.",
       "id": "ultratube_v2_models_rationale_8"
     },
@@ -4961,7 +5087,7 @@
       "file_type": "rationale",
       "source_file": "models.py",
       "source_location": "L41",
-      "community": 33,
+      "community": 35,
       "norm_label": "information about a subtitle track.",
       "id": "ultratube_v2_models_rationale_41"
     },
@@ -4997,7 +5123,7 @@
       "file_type": "rationale",
       "source_file": "ultratube_app.py",
       "source_location": "L80",
-      "community": 24,
+      "community": 11,
       "norm_label": "helper to set the label of a tab dynamically and thread-safely.",
       "id": "ultratube_v2_ultratube_app_rationale_80"
     },
@@ -5051,7 +5177,7 @@
       "file_type": "rationale",
       "source_file": "download_tab.py",
       "source_location": "L211",
-      "community": 46,
+      "community": 27,
       "norm_label": "hides the options, progress, and logs, and displays the github star panel.",
       "id": "ultratube_v2_download_tab_rationale_211"
     },
@@ -5069,7 +5195,7 @@
       "file_type": "rationale",
       "source_file": "ultratube_app.py",
       "source_location": "L79",
-      "community": 24,
+      "community": 11,
       "norm_label": "helper to set the label of a tab dynamically and thread-safely.",
       "id": "ultratube_v2_ultratube_app_rationale_79"
     },
@@ -5105,7 +5231,7 @@
       "file_type": "rationale",
       "source_file": "download_service.py",
       "source_location": "L76",
-      "community": 26,
+      "community": 0,
       "norm_label": "service for downloading media from youtube and other platforms.",
       "id": "ultratube_v2_download_service_rationale_76"
     },
@@ -5114,7 +5240,7 @@
       "file_type": "rationale",
       "source_file": "download_service.py",
       "source_location": "L79",
-      "community": 26,
+      "community": 0,
       "norm_label": "initialize the download service.          args:             metadata_service: se",
       "id": "ultratube_v2_download_service_rationale_79"
     },
@@ -5150,7 +5276,7 @@
       "file_type": "rationale",
       "source_file": "file_service.py",
       "source_location": "L75",
-      "community": 26,
+      "community": 32,
       "norm_label": "process a downloaded file according to the given options.                  args:",
       "id": "ultratube_v2_file_service_rationale_75"
     },
@@ -5159,7 +5285,7 @@
       "file_type": "rationale",
       "source_file": "file_service.py",
       "source_location": "L125",
-      "community": 26,
+      "community": 0,
       "norm_label": "clean up temporary files.                  args:             files: list of file",
       "id": "ultratube_v2_file_service_rationale_125"
     },
@@ -5168,7 +5294,7 @@
       "file_type": "rationale",
       "source_file": "file_service.py",
       "source_location": "L140",
-      "community": 26,
+      "community": 32,
       "norm_label": "resolve the absolute path to the ffmpeg binary.         works in development and",
       "id": "ultratube_v2_file_service_rationale_140"
     },
@@ -5177,7 +5303,7 @@
       "file_type": "rationale",
       "source_file": "file_service.py",
       "source_location": "L172",
-      "community": 26,
+      "community": 32,
       "norm_label": "run an ffmpeg command.                  args:             command: ffmpeg comman",
       "id": "ultratube_v2_file_service_rationale_172"
     },
@@ -5204,7 +5330,7 @@
       "file_type": "rationale",
       "source_file": "metadata_service.py",
       "source_location": "L95",
-      "community": 34,
+      "community": 1,
       "norm_label": "gets a list of available formats for a given url that are supported by the appli",
       "id": "ultratube_v2_metadata_service_rationale_95"
     },
@@ -5213,7 +5339,7 @@
       "file_type": "rationale",
       "source_file": "metadata_service.py",
       "source_location": "L127",
-      "community": 34,
+      "community": 1,
       "norm_label": "get video information for a youtube url.          args:             url: youtube",
       "id": "ultratube_v2_metadata_service_rationale_127"
     },
@@ -5231,7 +5357,7 @@
       "file_type": "rationale",
       "source_file": "metadata_service.py",
       "source_location": "L184",
-      "community": 40,
+      "community": 37,
       "norm_label": "get available audio tracks for a youtube video.          args:             url:",
       "id": "ultratube_v2_metadata_service_rationale_184"
     },
@@ -5240,7 +5366,7 @@
       "file_type": "rationale",
       "source_file": "metadata_service.py",
       "source_location": "L238",
-      "community": 33,
+      "community": 1,
       "norm_label": "get available subtitles for a youtube video.          args:             url: you",
       "id": "ultratube_v2_metadata_service_rationale_238"
     },
@@ -5249,7 +5375,7 @@
       "file_type": "rationale",
       "source_file": "metadata_service.py",
       "source_location": "L268",
-      "community": 34,
+      "community": 1,
       "norm_label": "extract information from a youtube url using yt-dlp.          args:",
       "id": "ultratube_v2_metadata_service_rationale_268"
     },
@@ -5258,7 +5384,7 @@
       "file_type": "rationale",
       "source_file": "metadata_service.py",
       "source_location": "L296",
-      "community": 47,
+      "community": 1,
       "norm_label": "create a videoinfo object from raw yt-dlp data.          args:             raw_i",
       "id": "ultratube_v2_metadata_service_rationale_296"
     },
@@ -5285,7 +5411,7 @@
       "file_type": "rationale",
       "source_file": "models.py",
       "source_location": "L39",
-      "community": 33,
+      "community": 35,
       "norm_label": "information about a subtitle track.",
       "id": "ultratube_v2_models_rationale_39"
     },
@@ -5510,7 +5636,7 @@
       "file_type": "code",
       "source_file": "ultratube_app.py",
       "source_location": "L302",
-      "community": 28,
+      "community": 9,
       "norm_label": "questionmodal",
       "id": "ultratube_v2_ultratube_app_questionmodal"
     },
@@ -5519,7 +5645,7 @@
       "file_type": "code",
       "source_file": "ultratube_app.py",
       "source_location": "L304",
-      "community": 28,
+      "community": 9,
       "norm_label": ".__init__()",
       "id": "ultratube_v2_ultratube_app_questionmodal_init"
     },
@@ -5528,7 +5654,7 @@
       "file_type": "code",
       "source_file": "ultratube_app.py",
       "source_location": "L311",
-      "community": 28,
+      "community": 9,
       "norm_label": ".compose()",
       "id": "ultratube_v2_ultratube_app_questionmodal_compose"
     },
@@ -5537,7 +5663,7 @@
       "file_type": "code",
       "source_file": "ultratube_app.py",
       "source_location": "L319",
-      "community": 28,
+      "community": 9,
       "norm_label": ".on_button_pressed()",
       "id": "ultratube_v2_ultratube_app_questionmodal_on_button_pressed"
     },
@@ -5564,7 +5690,7 @@
       "file_type": "code",
       "source_file": "ultratube_app.py",
       "source_location": "L344",
-      "community": 24,
+      "community": 33,
       "norm_label": ".compose()",
       "id": "ultratube_v2_ultratube_app_downloadtab_compose"
     },
@@ -5618,7 +5744,7 @@
       "file_type": "rationale",
       "source_file": "ultratube_app.py",
       "source_location": "L303",
-      "community": 28,
+      "community": 9,
       "norm_label": "standard yes/no dialog screen.",
       "id": "ultratube_v2_ultratube_app_rationale_303"
     },
@@ -5627,7 +5753,7 @@
       "file_type": "rationale",
       "source_file": "ultratube_app.py",
       "source_location": "L480",
-      "community": 24,
+      "community": 11,
       "norm_label": "helper to set the label of a tab dynamically and thread-safely.",
       "id": "ultratube_v2_ultratube_app_rationale_480"
     },
@@ -5645,7 +5771,7 @@
       "file_type": "rationale",
       "source_file": "ultratube_extractor.py",
       "source_location": "L18",
-      "community": 26,
+      "community": 0,
       "norm_label": "initialize the youtube extractor with its required services.",
       "id": "ultratube_v2_ultratube_extractor_rationale_18"
     },
@@ -5744,7 +5870,7 @@
       "file_type": "rationale",
       "source_file": "metadata_service.py",
       "source_location": "L295",
-      "community": 47,
+      "community": 1,
       "norm_label": "create a videoinfo object from raw yt-dlp data.          args:             raw_i",
       "id": "ultratube_v2_metadata_service_rationale_295"
     },
@@ -6901,9 +7027,9 @@
       "source_file": "tests/test_app.py",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_app_py",
-      "target": "ultratube_v2_app_screens_helpscreen",
-      "confidence_score": 1.0
+      "target": "ultratube_v2_app_screens_helpscreen"
     },
     {
       "relation": "uses",
@@ -7077,9 +7203,9 @@
       "source_file": "tests/test_app.py",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_app_py",
-      "target": "ultratube_v2_app_screens_questionmodal",
-      "confidence_score": 1.0
+      "target": "ultratube_v2_app_screens_questionmodal"
     },
     {
       "relation": "uses",
@@ -7303,9 +7429,9 @@
       "source_file": "tests/test_app.py",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_app_py",
-      "target": "ultratube_v2_app_screens_bucketscreen",
-      "confidence_score": 1.0
+      "target": "ultratube_v2_app_screens_bucketscreen"
     },
     {
       "relation": "imports",
@@ -7314,9 +7440,9 @@
       "source_file": "tests/test_bucket.py",
       "source_location": "L66",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_bucket_py",
-      "target": "ultratube_v2_app_screens_bucketscreen",
-      "confidence_score": 1.0
+      "target": "ultratube_v2_app_screens_bucketscreen"
     },
     {
       "relation": "uses",
@@ -8440,9 +8566,9 @@
       "source_file": "tests/test_services.py",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_services_py",
-      "target": "ultratube_v2_download_service_ytdlplogger",
-      "confidence_score": 1.0
+      "target": "ultratube_v2_download_service_ytdlplogger"
     },
     {
       "relation": "uses",
@@ -8584,9 +8710,9 @@
       "source_file": "tests/test_services.py",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_services_py",
-      "target": "ultratube_v2_download_service_downloadservice",
-      "confidence_score": 1.0
+      "target": "ultratube_v2_download_service_downloadservice"
     },
     {
       "relation": "uses",
@@ -8989,9 +9115,9 @@
       "source_file": "tests/test_app.py",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_app_py",
-      "target": "ultratube_v2_download_tab_downloadtab",
-      "confidence_score": 1.0
+      "target": "ultratube_v2_download_tab_downloadtab"
     },
     {
       "relation": "uses",
@@ -9235,9 +9361,9 @@
       "source_file": "tests/test_services.py",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_services_py",
-      "target": "ultratube_v2_file_service_fileservice",
-      "confidence_score": 1.0
+      "target": "ultratube_v2_file_service_fileservice"
     },
     {
       "relation": "uses",
@@ -9519,9 +9645,9 @@
       "source_file": "tests/test_services.py",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_services_py",
-      "target": "ultratube_v2_metadata_service_get_clean_language_name",
-      "confidence_score": 1.0
+      "target": "ultratube_v2_metadata_service_get_clean_language_name"
     },
     {
       "relation": "calls",
@@ -9530,9 +9656,9 @@
       "source_file": "tests/test_services.py",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_services_test_get_clean_language_name",
-      "target": "ultratube_v2_metadata_service_get_clean_language_name",
-      "confidence_score": 1.0
+      "target": "ultratube_v2_metadata_service_get_clean_language_name"
     },
     {
       "relation": "method",
@@ -9642,9 +9768,9 @@
       "source_file": "tests/test_services.py",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_services_py",
-      "target": "ultratube_v2_metadata_service_metadataservice",
-      "confidence_score": 1.0
+      "target": "ultratube_v2_metadata_service_metadataservice"
     },
     {
       "relation": "uses",
@@ -10116,9 +10242,9 @@
       "source_file": "tests/test_extractor.py",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_extractor_py",
-      "target": "ultratube_v2_models_videoinfo",
-      "confidence_score": 1.0
+      "target": "ultratube_v2_models_videoinfo"
     },
     {
       "relation": "imports",
@@ -10127,9 +10253,9 @@
       "source_file": "tests/test_models.py",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_models_py",
-      "target": "ultratube_v2_models_videoinfo",
-      "confidence_score": 1.0
+      "target": "ultratube_v2_models_videoinfo"
     },
     {
       "relation": "calls",
@@ -10138,9 +10264,9 @@
       "source_file": "tests/test_models.py",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_models_test_video_info_filename_safe_title",
-      "target": "ultratube_v2_models_videoinfo",
-      "confidence_score": 1.0
+      "target": "ultratube_v2_models_videoinfo"
     },
     {
       "relation": "rationale_for",
@@ -10190,9 +10316,9 @@
       "source_file": "tests/test_extractor.py",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_extractor_py",
-      "target": "ultratube_v2_models_audiotrack",
-      "confidence_score": 1.0
+      "target": "ultratube_v2_models_audiotrack"
     },
     {
       "relation": "imports",
@@ -10201,9 +10327,9 @@
       "source_file": "tests/test_models.py",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_models_py",
-      "target": "ultratube_v2_models_audiotrack",
-      "confidence_score": 1.0
+      "target": "ultratube_v2_models_audiotrack"
     },
     {
       "relation": "calls",
@@ -10212,9 +10338,9 @@
       "source_file": "tests/test_models.py",
       "source_location": "L27",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_models_test_audio_track_representation",
-      "target": "ultratube_v2_models_audiotrack",
-      "confidence_score": 1.0
+      "target": "ultratube_v2_models_audiotrack"
     },
     {
       "relation": "uses",
@@ -10284,9 +10410,9 @@
       "source_file": "tests/test_extractor.py",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_extractor_py",
-      "target": "ultratube_v2_models_subtitle",
-      "confidence_score": 1.0
+      "target": "ultratube_v2_models_subtitle"
     },
     {
       "relation": "imports",
@@ -10295,9 +10421,9 @@
       "source_file": "tests/test_models.py",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_models_py",
-      "target": "ultratube_v2_models_subtitle",
-      "confidence_score": 1.0
+      "target": "ultratube_v2_models_subtitle"
     },
     {
       "relation": "calls",
@@ -10306,9 +10432,9 @@
       "source_file": "tests/test_models.py",
       "source_location": "L39",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_models_test_subtitle_representation",
-      "target": "ultratube_v2_models_subtitle",
-      "confidence_score": 1.0
+      "target": "ultratube_v2_models_subtitle"
     },
     {
       "relation": "uses",
@@ -10368,9 +10494,9 @@
       "source_file": "tests/test_extractor.py",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_extractor_py",
-      "target": "ultratube_v2_models_downloadoptions",
-      "confidence_score": 1.0
+      "target": "ultratube_v2_models_downloadoptions"
     },
     {
       "relation": "imports",
@@ -10379,9 +10505,9 @@
       "source_file": "tests/test_models.py",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_models_py",
-      "target": "ultratube_v2_models_downloadoptions",
-      "confidence_score": 1.0
+      "target": "ultratube_v2_models_downloadoptions"
     },
     {
       "relation": "imports",
@@ -10390,9 +10516,9 @@
       "source_file": "tests/test_services.py",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_services_py",
-      "target": "ultratube_v2_models_downloadoptions",
-      "confidence_score": 1.0
+      "target": "ultratube_v2_models_downloadoptions"
     },
     {
       "relation": "calls",
@@ -10401,9 +10527,9 @@
       "source_file": "tests/test_models.py",
       "source_location": "L51",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_models_test_download_options_defaults",
-      "target": "ultratube_v2_models_downloadoptions",
-      "confidence_score": 1.0
+      "target": "ultratube_v2_models_downloadoptions"
     },
     {
       "relation": "uses",
@@ -10607,9 +10733,9 @@
       "source_file": "tests/test_models.py",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_models_py",
-      "target": "ultratube_v2_models_processoptions",
-      "confidence_score": 1.0
+      "target": "ultratube_v2_models_processoptions"
     },
     {
       "relation": "imports",
@@ -10618,9 +10744,9 @@
       "source_file": "tests/test_services.py",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_services_py",
-      "target": "ultratube_v2_models_processoptions",
-      "confidence_score": 1.0
+      "target": "ultratube_v2_models_processoptions"
     },
     {
       "relation": "calls",
@@ -10629,9 +10755,9 @@
       "source_file": "tests/test_models.py",
       "source_location": "L62",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_models_test_process_options_defaults",
-      "target": "ultratube_v2_models_processoptions",
-      "confidence_score": 1.0
+      "target": "ultratube_v2_models_processoptions"
     },
     {
       "relation": "rationale_for",
@@ -10691,9 +10817,9 @@
       "source_file": "tests/test_models.py",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_models_py",
-      "target": "ultratube_v2_models_tabstatus",
-      "confidence_score": 1.0
+      "target": "ultratube_v2_models_tabstatus"
     },
     {
       "relation": "uses",
@@ -11031,9 +11157,9 @@
       "source_file": "tests/test_models.py",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_models_py",
-      "target": "ultratube_v2_models_downloadrecord",
-      "confidence_score": 1.0
+      "target": "ultratube_v2_models_downloadrecord"
     },
     {
       "relation": "calls",
@@ -11042,9 +11168,9 @@
       "source_file": "tests/test_models.py",
       "source_location": "L69",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_models_test_download_record_creation",
-      "target": "ultratube_v2_models_downloadrecord",
-      "confidence_score": 1.0
+      "target": "ultratube_v2_models_downloadrecord"
     },
     {
       "relation": "uses",
@@ -11236,9 +11362,9 @@
       "source_file": "tests/test_bucket.py",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_bucket_py",
-      "target": "ultratube_v2_models_bucketdownloadsettings",
-      "confidence_score": 1.0
+      "target": "ultratube_v2_models_bucketdownloadsettings"
     },
     {
       "relation": "imports",
@@ -11247,9 +11373,9 @@
       "source_file": "tests/test_models.py",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_models_py",
-      "target": "ultratube_v2_models_bucketdownloadsettings",
-      "confidence_score": 1.0
+      "target": "ultratube_v2_models_bucketdownloadsettings"
     },
     {
       "relation": "calls",
@@ -11258,9 +11384,9 @@
       "source_file": "tests/test_bucket.py",
       "source_location": "L35",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_bucket_test_bucket_download_settings_valid",
-      "target": "ultratube_v2_models_bucketdownloadsettings",
-      "confidence_score": 1.0
+      "target": "ultratube_v2_models_bucketdownloadsettings"
     },
     {
       "relation": "calls",
@@ -11269,9 +11395,9 @@
       "source_file": "tests/test_bucket.py",
       "source_location": "L54",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_bucket_test_bucket_download_settings_invalid_urls",
-      "target": "ultratube_v2_models_bucketdownloadsettings",
-      "confidence_score": 1.0
+      "target": "ultratube_v2_models_bucketdownloadsettings"
     },
     {
       "relation": "calls",
@@ -11280,9 +11406,9 @@
       "source_file": "tests/test_models.py",
       "source_location": "L89",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_models_test_bucket_download_settings_validation",
-      "target": "ultratube_v2_models_bucketdownloadsettings",
-      "confidence_score": 1.0
+      "target": "ultratube_v2_models_bucketdownloadsettings"
     },
     {
       "relation": "uses",
@@ -11542,9 +11668,9 @@
       "source_file": "tests/test_app.py",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_app_py",
-      "target": "ultratube_v2_settings_screen_settingsscreen",
-      "confidence_score": 1.0
+      "target": "ultratube_v2_settings_screen_settingsscreen"
     },
     {
       "relation": "imports",
@@ -11553,9 +11679,9 @@
       "source_file": "tests/test_bucket.py",
       "source_location": "L123",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_bucket_py",
-      "target": "ultratube_v2_settings_screen_settingsscreen",
-      "confidence_score": 1.0
+      "target": "ultratube_v2_settings_screen_settingsscreen"
     },
     {
       "relation": "uses",
@@ -11712,9 +11838,9 @@
       "source_file": "tests/test_bucket.py",
       "source_location": "L88",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_bucket_py",
-      "target": "ultratube_v2_settings_service_appsettings",
-      "confidence_score": 1.0
+      "target": "ultratube_v2_settings_service_appsettings"
     },
     {
       "relation": "imports",
@@ -11723,9 +11849,9 @@
       "source_file": "tests/test_models.py",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_models_py",
-      "target": "ultratube_v2_settings_service_appsettings",
-      "confidence_score": 1.0
+      "target": "ultratube_v2_settings_service_appsettings"
     },
     {
       "relation": "calls",
@@ -11734,9 +11860,9 @@
       "source_file": "tests/test_bucket.py",
       "source_location": "L92",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_bucket_test_app_settings_defaults",
-      "target": "ultratube_v2_settings_service_appsettings",
-      "confidence_score": 1.0
+      "target": "ultratube_v2_settings_service_appsettings"
     },
     {
       "relation": "calls",
@@ -11745,9 +11871,9 @@
       "source_file": "tests/test_bucket.py",
       "source_location": "L110",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_bucket_test_settings_save_load",
-      "target": "ultratube_v2_settings_service_appsettings",
-      "confidence_score": 1.0
+      "target": "ultratube_v2_settings_service_appsettings"
     },
     {
       "relation": "calls",
@@ -11756,9 +11882,9 @@
       "source_file": "tests/test_models.py",
       "source_location": "L111",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_models_test_app_settings_validation_and_toggles",
-      "target": "ultratube_v2_settings_service_appsettings",
-      "confidence_score": 1.0
+      "target": "ultratube_v2_settings_service_appsettings"
     },
     {
       "relation": "imports",
@@ -11842,9 +11968,9 @@
       "source_file": "tests/test_bucket.py",
       "source_location": "L100",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_bucket_py",
-      "target": "ultratube_v2_settings_service_load_settings",
-      "confidence_score": 1.0
+      "target": "ultratube_v2_settings_service_load_settings"
     },
     {
       "relation": "calls",
@@ -11853,9 +11979,9 @@
       "source_file": "tests/test_bucket.py",
       "source_location": "L113",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_bucket_test_settings_save_load",
-      "target": "ultratube_v2_settings_service_load_settings",
-      "confidence_score": 1.0
+      "target": "ultratube_v2_settings_service_load_settings"
     },
     {
       "relation": "calls",
@@ -11907,9 +12033,9 @@
       "source_file": "tests/test_bucket.py",
       "source_location": "L100",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_bucket_py",
-      "target": "ultratube_v2_settings_service_save_settings",
-      "confidence_score": 1.0
+      "target": "ultratube_v2_settings_service_save_settings"
     },
     {
       "relation": "calls",
@@ -11918,9 +12044,9 @@
       "source_file": "tests/test_bucket.py",
       "source_location": "L111",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_bucket_test_settings_save_load",
-      "target": "ultratube_v2_settings_service_save_settings",
-      "confidence_score": 1.0
+      "target": "ultratube_v2_settings_service_save_settings"
     },
     {
       "relation": "imports",
@@ -12537,9 +12663,9 @@
       "source_file": "tests/test_app.py",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_app_py",
-      "target": "ultratube_v2_ultratube_app_ultratubeapp",
-      "confidence_score": 1.0
+      "target": "ultratube_v2_ultratube_app_ultratubeapp"
     },
     {
       "relation": "imports",
@@ -12548,9 +12674,9 @@
       "source_file": "tests/test_bucket.py",
       "source_location": "L65",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_bucket_py",
-      "target": "ultratube_v2_ultratube_app_ultratubeapp",
-      "confidence_score": 1.0
+      "target": "ultratube_v2_ultratube_app_ultratubeapp"
     },
     {
       "relation": "uses",
@@ -13740,9 +13866,9 @@
       "source_file": "tests/test_extractor.py",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_extractor_py",
-      "target": "ultratube_v2_ultratube_extractor_ultratubeextractor",
-      "confidence_score": 1.0
+      "target": "ultratube_v2_ultratube_extractor_ultratubeextractor"
     },
     {
       "relation": "calls",
@@ -13751,9 +13877,9 @@
       "source_file": "tests/test_extractor.py",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_extractor_test_is_valid_url_syntax_check",
-      "target": "ultratube_v2_ultratube_extractor_ultratubeextractor",
-      "confidence_score": 1.0
+      "target": "ultratube_v2_ultratube_extractor_ultratubeextractor"
     },
     {
       "relation": "calls",
@@ -14127,9 +14253,9 @@
       "source_file": "tests/test_app.py",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_app_py",
-      "target": "tests_test_app_test_app_composition_and_mounting",
-      "confidence_score": 1.0
+      "target": "tests_test_app_test_app_composition_and_mounting"
     },
     {
       "relation": "contains",
@@ -14137,9 +14263,9 @@
       "source_file": "tests/test_app.py",
       "source_location": "L24",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_app_py",
-      "target": "tests_test_app_test_app_tab_creation_and_removal_shortcuts",
-      "confidence_score": 1.0
+      "target": "tests_test_app_test_app_tab_creation_and_removal_shortcuts"
     },
     {
       "relation": "contains",
@@ -14147,9 +14273,9 @@
       "source_file": "tests/test_app.py",
       "source_location": "L42",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_app_py",
-      "target": "tests_test_app_test_app_help_screen_toggle",
-      "confidence_score": 1.0
+      "target": "tests_test_app_test_app_help_screen_toggle"
     },
     {
       "relation": "contains",
@@ -14157,9 +14283,9 @@
       "source_file": "tests/test_app.py",
       "source_location": "L55",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_app_py",
-      "target": "tests_test_app_test_app_settings_navigation",
-      "confidence_score": 1.0
+      "target": "tests_test_app_test_app_settings_navigation"
     },
     {
       "relation": "contains",
@@ -14167,9 +14293,9 @@
       "source_file": "tests/test_app.py",
       "source_location": "L68",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_app_py",
-      "target": "tests_test_app_test_app_bucket_modal_navigation",
-      "confidence_score": 1.0
+      "target": "tests_test_app_test_app_bucket_modal_navigation"
     },
     {
       "relation": "contains",
@@ -14177,9 +14303,9 @@
       "source_file": "tests/test_app.py",
       "source_location": "L81",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_app_py",
-      "target": "tests_test_app_test_app_handle_validation_result_failure",
-      "confidence_score": 1.0
+      "target": "tests_test_app_test_app_handle_validation_result_failure"
     },
     {
       "relation": "contains",
@@ -14187,9 +14313,9 @@
       "source_file": "tests/test_bucket.py",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_bucket_py",
-      "target": "tests_test_bucket_parse_urls_text",
-      "confidence_score": 1.0
+      "target": "tests_test_bucket_parse_urls_text"
     },
     {
       "relation": "contains",
@@ -14197,9 +14323,9 @@
       "source_file": "tests/test_bucket.py",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_bucket_py",
-      "target": "tests_test_bucket_test_parse_urls_text",
-      "confidence_score": 1.0
+      "target": "tests_test_bucket_test_parse_urls_text"
     },
     {
       "relation": "contains",
@@ -14207,9 +14333,9 @@
       "source_file": "tests/test_bucket.py",
       "source_location": "L31",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_bucket_py",
-      "target": "tests_test_bucket_test_bucket_download_settings_valid",
-      "confidence_score": 1.0
+      "target": "tests_test_bucket_test_bucket_download_settings_valid"
     },
     {
       "relation": "contains",
@@ -14217,9 +14343,9 @@
       "source_file": "tests/test_bucket.py",
       "source_location": "L49",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_bucket_py",
-      "target": "tests_test_bucket_test_bucket_download_settings_invalid_urls",
-      "confidence_score": 1.0
+      "target": "tests_test_bucket_test_bucket_download_settings_invalid_urls"
     },
     {
       "relation": "contains",
@@ -14227,9 +14353,9 @@
       "source_file": "tests/test_bucket.py",
       "source_location": "L64",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_bucket_py",
-      "target": "tests_test_bucket_test_bucket_screen_validation",
-      "confidence_score": 1.0
+      "target": "tests_test_bucket_test_bucket_screen_validation"
     },
     {
       "relation": "contains",
@@ -14237,9 +14363,9 @@
       "source_file": "tests/test_bucket.py",
       "source_location": "L86",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_bucket_py",
-      "target": "tests_test_bucket_test_app_settings_defaults",
-      "confidence_score": 1.0
+      "target": "tests_test_bucket_test_app_settings_defaults"
     },
     {
       "relation": "contains",
@@ -14247,9 +14373,9 @@
       "source_file": "tests/test_bucket.py",
       "source_location": "L98",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_bucket_py",
-      "target": "tests_test_bucket_test_settings_save_load",
-      "confidence_score": 1.0
+      "target": "tests_test_bucket_test_settings_save_load"
     },
     {
       "relation": "contains",
@@ -14257,9 +14383,9 @@
       "source_file": "tests/test_bucket.py",
       "source_location": "L121",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_bucket_py",
-      "target": "tests_test_bucket_test_settings_screen_rendering",
-      "confidence_score": 1.0
+      "target": "tests_test_bucket_test_settings_screen_rendering"
     },
     {
       "relation": "contains",
@@ -14267,9 +14393,9 @@
       "source_file": "tests/test_bucket.py",
       "source_location": "L140",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_bucket_py",
-      "target": "tests_test_bucket_test_bucket_screen_prefilled_urls",
-      "confidence_score": 1.0
+      "target": "tests_test_bucket_test_bucket_screen_prefilled_urls"
     },
     {
       "relation": "contains",
@@ -14277,9 +14403,9 @@
       "source_file": "tests/test_bucket.py",
       "source_location": "L160",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_bucket_py",
-      "target": "tests_test_bucket_test_playlist_validation_redirect_and_spawn",
-      "confidence_score": 1.0
+      "target": "tests_test_bucket_test_playlist_validation_redirect_and_spawn"
     },
     {
       "relation": "calls",
@@ -14288,9 +14414,9 @@
       "source_file": "tests/test_bucket.py",
       "source_location": "L24",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_bucket_test_parse_urls_text",
-      "target": "tests_test_bucket_parse_urls_text",
-      "confidence_score": 1.0
+      "target": "tests_test_bucket_parse_urls_text"
     },
     {
       "relation": "rationale_for",
@@ -14298,9 +14424,9 @@
       "source_file": "tests/test_bucket.py",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_bucket_rationale_13",
-      "target": "tests_test_bucket_parse_urls_text",
-      "confidence_score": 1.0
+      "target": "tests_test_bucket_parse_urls_text"
     },
     {
       "relation": "contains",
@@ -14308,9 +14434,9 @@
       "source_file": "tests/test_extractor.py",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_extractor_py",
-      "target": "tests_test_extractor_test_is_valid_url_syntax_check",
-      "confidence_score": 1.0
+      "target": "tests_test_extractor_test_is_valid_url_syntax_check"
     },
     {
       "relation": "contains",
@@ -14318,9 +14444,9 @@
       "source_file": "tests/test_extractor.py",
       "source_location": "L26",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_extractor_py",
-      "target": "tests_test_extractor_test_is_valid_url_semantic_success",
-      "confidence_score": 1.0
+      "target": "tests_test_extractor_test_is_valid_url_semantic_success"
     },
     {
       "relation": "contains",
@@ -14328,9 +14454,9 @@
       "source_file": "tests/test_extractor.py",
       "source_location": "L40",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_extractor_py",
-      "target": "tests_test_extractor_test_is_valid_url_semantic_value_error",
-      "confidence_score": 1.0
+      "target": "tests_test_extractor_test_is_valid_url_semantic_value_error"
     },
     {
       "relation": "contains",
@@ -14338,9 +14464,9 @@
       "source_file": "tests/test_extractor.py",
       "source_location": "L58",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_extractor_py",
-      "target": "tests_test_extractor_test_is_valid_url_semantic_generic_error",
-      "confidence_score": 1.0
+      "target": "tests_test_extractor_test_is_valid_url_semantic_generic_error"
     },
     {
       "relation": "contains",
@@ -14348,9 +14474,9 @@
       "source_file": "tests/test_extractor.py",
       "source_location": "L69",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_extractor_py",
-      "target": "tests_test_extractor_test_facade_delegation_to_metadata_service",
-      "confidence_score": 1.0
+      "target": "tests_test_extractor_test_facade_delegation_to_metadata_service"
     },
     {
       "relation": "contains",
@@ -14358,9 +14484,9 @@
       "source_file": "tests/test_extractor.py",
       "source_location": "L91",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_extractor_py",
-      "target": "tests_test_extractor_test_facade_delegation_to_download_service",
-      "confidence_score": 1.0
+      "target": "tests_test_extractor_test_facade_delegation_to_download_service"
     },
     {
       "relation": "contains",
@@ -14368,9 +14494,9 @@
       "source_file": "tests/test_extractor.py",
       "source_location": "L106",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_extractor_py",
-      "target": "tests_test_extractor_test_facade_delegation_to_file_service",
-      "confidence_score": 1.0
+      "target": "tests_test_extractor_test_facade_delegation_to_file_service"
     },
     {
       "relation": "contains",
@@ -14378,9 +14504,9 @@
       "source_file": "tests/test_models.py",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_models_py",
-      "target": "tests_test_models_test_video_info_filename_safe_title",
-      "confidence_score": 1.0
+      "target": "tests_test_models_test_video_info_filename_safe_title"
     },
     {
       "relation": "contains",
@@ -14388,9 +14514,9 @@
       "source_file": "tests/test_models.py",
       "source_location": "L26",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_models_py",
-      "target": "tests_test_models_test_audio_track_representation",
-      "confidence_score": 1.0
+      "target": "tests_test_models_test_audio_track_representation"
     },
     {
       "relation": "contains",
@@ -14398,9 +14524,9 @@
       "source_file": "tests/test_models.py",
       "source_location": "L38",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_models_py",
-      "target": "tests_test_models_test_subtitle_representation",
-      "confidence_score": 1.0
+      "target": "tests_test_models_test_subtitle_representation"
     },
     {
       "relation": "contains",
@@ -14408,9 +14534,9 @@
       "source_file": "tests/test_models.py",
       "source_location": "L50",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_models_py",
-      "target": "tests_test_models_test_download_options_defaults",
-      "confidence_score": 1.0
+      "target": "tests_test_models_test_download_options_defaults"
     },
     {
       "relation": "contains",
@@ -14418,9 +14544,9 @@
       "source_file": "tests/test_models.py",
       "source_location": "L61",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_models_py",
-      "target": "tests_test_models_test_process_options_defaults",
-      "confidence_score": 1.0
+      "target": "tests_test_models_test_process_options_defaults"
     },
     {
       "relation": "contains",
@@ -14428,9 +14554,9 @@
       "source_file": "tests/test_models.py",
       "source_location": "L68",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_models_py",
-      "target": "tests_test_models_test_download_record_creation",
-      "confidence_score": 1.0
+      "target": "tests_test_models_test_download_record_creation"
     },
     {
       "relation": "contains",
@@ -14438,9 +14564,9 @@
       "source_file": "tests/test_models.py",
       "source_location": "L87",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_models_py",
-      "target": "tests_test_models_test_bucket_download_settings_validation",
-      "confidence_score": 1.0
+      "target": "tests_test_models_test_bucket_download_settings_validation"
     },
     {
       "relation": "contains",
@@ -14448,9 +14574,9 @@
       "source_file": "tests/test_models.py",
       "source_location": "L110",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_models_py",
-      "target": "tests_test_models_test_app_settings_validation_and_toggles",
-      "confidence_score": 1.0
+      "target": "tests_test_models_test_app_settings_validation_and_toggles"
     },
     {
       "relation": "contains",
@@ -14458,9 +14584,9 @@
       "source_file": "tests/test_services.py",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_services_py",
-      "target": "tests_test_services_test_get_clean_language_name",
-      "confidence_score": 1.0
+      "target": "tests_test_services_test_get_clean_language_name"
     },
     {
       "relation": "contains",
@@ -14468,9 +14594,9 @@
       "source_file": "tests/test_services.py",
       "source_location": "L27",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_services_py",
-      "target": "tests_test_services_test_metadata_service_cache_and_ttl",
-      "confidence_score": 1.0
+      "target": "tests_test_services_test_metadata_service_cache_and_ttl"
     },
     {
       "relation": "contains",
@@ -14478,9 +14604,9 @@
       "source_file": "tests/test_services.py",
       "source_location": "L59",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_services_py",
-      "target": "tests_test_services_test_file_service_ffmpeg_path_resolution",
-      "confidence_score": 1.0
+      "target": "tests_test_services_test_file_service_ffmpeg_path_resolution"
     },
     {
       "relation": "contains",
@@ -14488,9 +14614,9 @@
       "source_file": "tests/test_services.py",
       "source_location": "L79",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_services_py",
-      "target": "tests_test_services_test_file_service_run_ffmpeg_command",
-      "confidence_score": 1.0
+      "target": "tests_test_services_test_file_service_run_ffmpeg_command"
     },
     {
       "relation": "contains",
@@ -14498,8 +14624,138 @@
       "source_file": "tests/test_services.py",
       "source_location": "L91",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_services_py",
-      "target": "tests_test_services_test_download_service_audio_options_mapping",
+      "target": "tests_test_services_test_download_service_audio_options_mapping"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Current State security and arch report and next steps.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "current_state_security_and_arch_report_and_next_steps_md",
+      "target": "ultratube_v2_current_state_security_and_arch_report_and_next_steps_comprehensive_security_architecture_report",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Current State security and arch report and next steps.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "ultratube_v2_current_state_security_and_arch_report_and_next_steps_comprehensive_security_architecture_report",
+      "target": "ultratube_v2_current_state_security_and_arch_report_and_next_steps_part_1_security_quality_report",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Current State security and arch report and next steps.md",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "ultratube_v2_current_state_security_and_arch_report_and_next_steps_comprehensive_security_architecture_report",
+      "target": "ultratube_v2_current_state_security_and_arch_report_and_next_steps_part_2_architecture_design_review",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Current State security and arch report and next steps.md",
+      "source_location": "L46",
+      "weight": 1.0,
+      "source": "ultratube_v2_current_state_security_and_arch_report_and_next_steps_comprehensive_security_architecture_report",
+      "target": "ultratube_v2_current_state_security_and_arch_report_and_next_steps_part_3_recommended_actions_next_steps",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Current State security and arch report and next steps.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "ultratube_v2_current_state_security_and_arch_report_and_next_steps_part_1_security_quality_report",
+      "target": "ultratube_v2_current_state_security_and_arch_report_and_next_steps_1_1_pytest_suite_execution",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Current State security and arch report and next steps.md",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "ultratube_v2_current_state_security_and_arch_report_and_next_steps_part_1_security_quality_report",
+      "target": "ultratube_v2_current_state_security_and_arch_report_and_next_steps_1_2_static_analysis_findings",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Current State security and arch report and next steps.md",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "ultratube_v2_current_state_security_and_arch_report_and_next_steps_part_2_architecture_design_review",
+      "target": "ultratube_v2_current_state_security_and_arch_report_and_next_steps_2_1_bounded_contexts_infrastructure_isolation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Current State security and arch report and next steps.md",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "ultratube_v2_current_state_security_and_arch_report_and_next_steps_part_2_architecture_design_review",
+      "target": "ultratube_v2_current_state_security_and_arch_report_and_next_steps_2_2_domain_primitives_aggregate_invariants",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Current State security and arch report and next steps.md",
+      "source_location": "L50",
+      "weight": 1.0,
+      "source": "ultratube_v2_current_state_security_and_arch_report_and_next_steps_part_3_recommended_actions_next_steps",
+      "target": "ultratube_v2_current_state_security_and_arch_report_and_next_steps_1_refactor_silent_exceptions_bandit_b110",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Current State security and arch report and next steps.md",
+      "source_location": "L54",
+      "weight": 1.0,
+      "source": "ultratube_v2_current_state_security_and_arch_report_and_next_steps_part_3_recommended_actions_next_steps",
+      "target": "ultratube_v2_current_state_security_and_arch_report_and_next_steps_2_configure_bandit_scans_for_tests",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Current State security and arch report and next steps.md",
+      "source_location": "L58",
+      "weight": 1.0,
+      "source": "ultratube_v2_current_state_security_and_arch_report_and_next_steps_part_3_recommended_actions_next_steps",
+      "target": "ultratube_v2_current_state_security_and_arch_report_and_next_steps_3_upgrade_vulnerable_dependencies_safety_report",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Current State security and arch report and next steps.md",
+      "source_location": "L64",
+      "weight": 1.0,
+      "source": "ultratube_v2_current_state_security_and_arch_report_and_next_steps_part_3_recommended_actions_next_steps",
+      "target": "ultratube_v2_current_state_security_and_arch_report_and_next_steps_4_align_with_domain_driven_design_ddd_guardrails_fix_design_issues",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Current State security and arch report and next steps.md",
+      "source_location": "L73",
+      "weight": 1.0,
+      "source": "ultratube_v2_current_state_security_and_arch_report_and_next_steps_part_3_recommended_actions_next_steps",
+      "target": "ultratube_v2_current_state_security_and_arch_report_and_next_steps_recommended_next_step",
       "confidence_score": 1.0
     },
     {
@@ -14811,246 +15067,6 @@
       "confidence_score": 1.0,
       "source": "ultratube_v2_design_thread_communication_flow",
       "target": "ultratube_v2_design_codeblock_3"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "sprints_and_tickets.md",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "sprints_and_tickets_md",
-      "target": "ultratube_v2_sprints_and_tickets_ultratube_sprints_tickets"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "sprints_and_tickets.md",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "ultratube_v2_sprints_and_tickets_ultratube_sprints_tickets",
-      "target": "ultratube_v2_sprints_and_tickets_sprint_1_foundation_packaging"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "sprints_and_tickets.md",
-      "source_location": "L59",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "ultratube_v2_sprints_and_tickets_ultratube_sprints_tickets",
-      "target": "ultratube_v2_sprints_and_tickets_sprint_2_tui_shell_navigation"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "sprints_and_tickets.md",
-      "source_location": "L126",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "ultratube_v2_sprints_and_tickets_ultratube_sprints_tickets",
-      "target": "ultratube_v2_sprints_and_tickets_sprint_3_download_tab_url_validation_ux"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "sprints_and_tickets.md",
-      "source_location": "L198",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "ultratube_v2_sprints_and_tickets_ultratube_sprints_tickets",
-      "target": "ultratube_v2_sprints_and_tickets_sprint_4_queue_panel_distribution_polish"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "sprints_and_tickets.md",
-      "source_location": "L282",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "ultratube_v2_sprints_and_tickets_ultratube_sprints_tickets",
-      "target": "ultratube_v2_sprints_and_tickets_dependency_map"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "sprints_and_tickets.md",
-      "source_location": "L298",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "ultratube_v2_sprints_and_tickets_ultratube_sprints_tickets",
-      "target": "ultratube_v2_sprints_and_tickets_total_points_summary"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "sprints_and_tickets.md",
-      "source_location": "L18",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "ultratube_v2_sprints_and_tickets_sprint_1_foundation_packaging",
-      "target": "ultratube_v2_sprints_and_tickets_ut_001_replace_system_ffmpeg_with_static_ffmpeg"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "sprints_and_tickets.md",
-      "source_location": "L32",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "ultratube_v2_sprints_and_tickets_sprint_1_foundation_packaging",
-      "target": "ultratube_v2_sprints_and_tickets_ut_002_add_pyproject_toml_and_pip_entry_point"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "sprints_and_tickets.md",
-      "source_location": "L46",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "ultratube_v2_sprints_and_tickets_sprint_1_foundation_packaging",
-      "target": "ultratube_v2_sprints_and_tickets_ut_003_implement_is_valid_url_in_ultratubeextractor"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "sprints_and_tickets.md",
-      "source_location": "L73",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "ultratube_v2_sprints_and_tickets_sprint_2_tui_shell_navigation",
-      "target": "ultratube_v2_sprints_and_tickets_ut_004_scaffold_textual_app_shell_ultratubeapp"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "sprints_and_tickets.md",
-      "source_location": "L87",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "ultratube_v2_sprints_and_tickets_sprint_2_tui_shell_navigation",
-      "target": "ultratube_v2_sprints_and_tickets_ut_005_add_helpoverlay_widget_f1_toggle"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "sprints_and_tickets.md",
-      "source_location": "L100",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "ultratube_v2_sprints_and_tickets_sprint_2_tui_shell_navigation",
-      "target": "ultratube_v2_sprints_and_tickets_ut_006_build_maintabview_with_multi_tab_support"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "sprints_and_tickets.md",
-      "source_location": "L114",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "ultratube_v2_sprints_and_tickets_sprint_2_tui_shell_navigation",
-      "target": "ultratube_v2_sprints_and_tickets_ut_007_remove_legacy_ultratube_main_py_cli_loop"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "sprints_and_tickets.md",
-      "source_location": "L140",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "ultratube_v2_sprints_and_tickets_sprint_3_download_tab_url_validation_ux",
-      "target": "ultratube_v2_sprints_and_tickets_ut_008_url_input_widget_with_inline_validation_feedback"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "sprints_and_tickets.md",
-      "source_location": "L154",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "ultratube_v2_sprints_and_tickets_sprint_3_download_tab_url_validation_ux",
-      "target": "ultratube_v2_sprints_and_tickets_ut_009_build_optionspanel_widget"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "sprints_and_tickets.md",
-      "source_location": "L170",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "ultratube_v2_sprints_and_tickets_sprint_3_download_tab_url_validation_ux",
-      "target": "ultratube_v2_sprints_and_tickets_ut_010_async_download_worker_per_tab_with_progresswidget"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "sprints_and_tickets.md",
-      "source_location": "L185",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "ultratube_v2_sprints_and_tickets_sprint_3_download_tab_url_validation_ux",
-      "target": "ultratube_v2_sprints_and_tickets_ut_011_playlist_download_support_in_tui"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "sprints_and_tickets.md",
-      "source_location": "L213",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "ultratube_v2_sprints_and_tickets_sprint_4_queue_panel_distribution_polish",
-      "target": "ultratube_v2_sprints_and_tickets_ut_012_build_downloadqueuepanel_history_sidebar"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "sprints_and_tickets.md",
-      "source_location": "L227",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "ultratube_v2_sprints_and_tickets_sprint_4_queue_panel_distribution_polish",
-      "target": "ultratube_v2_sprints_and_tickets_ut_013_subtitle_merge_modal_post_download"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "sprints_and_tickets.md",
-      "source_location": "L240",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "ultratube_v2_sprints_and_tickets_sprint_4_queue_panel_distribution_polish",
-      "target": "ultratube_v2_sprints_and_tickets_ut_014_build_pyinstaller_executable_for_windows"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "sprints_and_tickets.md",
-      "source_location": "L254",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "ultratube_v2_sprints_and_tickets_sprint_4_queue_panel_distribution_polish",
-      "target": "ultratube_v2_sprints_and_tickets_ut_015_publish_to_pypi_author_winget_manifest"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "sprints_and_tickets.md",
-      "source_location": "L268",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "ultratube_v2_sprints_and_tickets_sprint_4_queue_panel_distribution_polish",
-      "target": "ultratube_v2_sprints_and_tickets_ut_016_final_polish_tcss_theming_resize_handling_readme"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "sprints_and_tickets.md",
-      "source_location": "L284",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "ultratube_v2_sprints_and_tickets_dependency_map",
-      "target": "ultratube_v2_sprints_and_tickets_codeblock_1"
     },
     {
       "relation": "contains",
@@ -16745,6 +16761,246 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "sprints_and_tickets.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sprints_and_tickets_md",
+      "target": "ultratube_v2_sprints_and_tickets_ultratube_sprints_tickets"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "sprints_and_tickets.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ultratube_v2_sprints_and_tickets_ultratube_sprints_tickets",
+      "target": "ultratube_v2_sprints_and_tickets_sprint_1_foundation_packaging"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "sprints_and_tickets.md",
+      "source_location": "L59",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ultratube_v2_sprints_and_tickets_ultratube_sprints_tickets",
+      "target": "ultratube_v2_sprints_and_tickets_sprint_2_tui_shell_navigation"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "sprints_and_tickets.md",
+      "source_location": "L126",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ultratube_v2_sprints_and_tickets_ultratube_sprints_tickets",
+      "target": "ultratube_v2_sprints_and_tickets_sprint_3_download_tab_url_validation_ux"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "sprints_and_tickets.md",
+      "source_location": "L198",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ultratube_v2_sprints_and_tickets_ultratube_sprints_tickets",
+      "target": "ultratube_v2_sprints_and_tickets_sprint_4_queue_panel_distribution_polish"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "sprints_and_tickets.md",
+      "source_location": "L282",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ultratube_v2_sprints_and_tickets_ultratube_sprints_tickets",
+      "target": "ultratube_v2_sprints_and_tickets_dependency_map"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "sprints_and_tickets.md",
+      "source_location": "L298",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ultratube_v2_sprints_and_tickets_ultratube_sprints_tickets",
+      "target": "ultratube_v2_sprints_and_tickets_total_points_summary"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "sprints_and_tickets.md",
+      "source_location": "L18",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ultratube_v2_sprints_and_tickets_sprint_1_foundation_packaging",
+      "target": "ultratube_v2_sprints_and_tickets_ut_001_replace_system_ffmpeg_with_static_ffmpeg"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "sprints_and_tickets.md",
+      "source_location": "L32",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ultratube_v2_sprints_and_tickets_sprint_1_foundation_packaging",
+      "target": "ultratube_v2_sprints_and_tickets_ut_002_add_pyproject_toml_and_pip_entry_point"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "sprints_and_tickets.md",
+      "source_location": "L46",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ultratube_v2_sprints_and_tickets_sprint_1_foundation_packaging",
+      "target": "ultratube_v2_sprints_and_tickets_ut_003_implement_is_valid_url_in_ultratubeextractor"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "sprints_and_tickets.md",
+      "source_location": "L73",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ultratube_v2_sprints_and_tickets_sprint_2_tui_shell_navigation",
+      "target": "ultratube_v2_sprints_and_tickets_ut_004_scaffold_textual_app_shell_ultratubeapp"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "sprints_and_tickets.md",
+      "source_location": "L87",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ultratube_v2_sprints_and_tickets_sprint_2_tui_shell_navigation",
+      "target": "ultratube_v2_sprints_and_tickets_ut_005_add_helpoverlay_widget_f1_toggle"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "sprints_and_tickets.md",
+      "source_location": "L100",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ultratube_v2_sprints_and_tickets_sprint_2_tui_shell_navigation",
+      "target": "ultratube_v2_sprints_and_tickets_ut_006_build_maintabview_with_multi_tab_support"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "sprints_and_tickets.md",
+      "source_location": "L114",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ultratube_v2_sprints_and_tickets_sprint_2_tui_shell_navigation",
+      "target": "ultratube_v2_sprints_and_tickets_ut_007_remove_legacy_ultratube_main_py_cli_loop"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "sprints_and_tickets.md",
+      "source_location": "L140",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ultratube_v2_sprints_and_tickets_sprint_3_download_tab_url_validation_ux",
+      "target": "ultratube_v2_sprints_and_tickets_ut_008_url_input_widget_with_inline_validation_feedback"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "sprints_and_tickets.md",
+      "source_location": "L154",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ultratube_v2_sprints_and_tickets_sprint_3_download_tab_url_validation_ux",
+      "target": "ultratube_v2_sprints_and_tickets_ut_009_build_optionspanel_widget"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "sprints_and_tickets.md",
+      "source_location": "L170",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ultratube_v2_sprints_and_tickets_sprint_3_download_tab_url_validation_ux",
+      "target": "ultratube_v2_sprints_and_tickets_ut_010_async_download_worker_per_tab_with_progresswidget"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "sprints_and_tickets.md",
+      "source_location": "L185",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ultratube_v2_sprints_and_tickets_sprint_3_download_tab_url_validation_ux",
+      "target": "ultratube_v2_sprints_and_tickets_ut_011_playlist_download_support_in_tui"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "sprints_and_tickets.md",
+      "source_location": "L213",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ultratube_v2_sprints_and_tickets_sprint_4_queue_panel_distribution_polish",
+      "target": "ultratube_v2_sprints_and_tickets_ut_012_build_downloadqueuepanel_history_sidebar"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "sprints_and_tickets.md",
+      "source_location": "L227",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ultratube_v2_sprints_and_tickets_sprint_4_queue_panel_distribution_polish",
+      "target": "ultratube_v2_sprints_and_tickets_ut_013_subtitle_merge_modal_post_download"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "sprints_and_tickets.md",
+      "source_location": "L240",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ultratube_v2_sprints_and_tickets_sprint_4_queue_panel_distribution_polish",
+      "target": "ultratube_v2_sprints_and_tickets_ut_014_build_pyinstaller_executable_for_windows"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "sprints_and_tickets.md",
+      "source_location": "L254",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ultratube_v2_sprints_and_tickets_sprint_4_queue_panel_distribution_polish",
+      "target": "ultratube_v2_sprints_and_tickets_ut_015_publish_to_pypi_author_winget_manifest"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "sprints_and_tickets.md",
+      "source_location": "L268",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ultratube_v2_sprints_and_tickets_sprint_4_queue_panel_distribution_polish",
+      "target": "ultratube_v2_sprints_and_tickets_ut_016_final_polish_tcss_theming_resize_handling_readme"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "sprints_and_tickets.md",
+      "source_location": "L284",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ultratube_v2_sprints_and_tickets_dependency_map",
+      "target": "ultratube_v2_sprints_and_tickets_codeblock_1"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "test_bucket.py",
       "source_location": "L12",
       "weight": 1.0,
@@ -17647,5 +17903,5 @@
       "source_file": "models.py"
     }
   ],
-  "built_at_commit": "97b6063e4d38b04a688ccc373601a8ed5f8cd22a"
+  "built_at_commit": "f3496df11d09e24c1dedd958f159baf68550b2b7"
 }
