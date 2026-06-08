@@ -1,0 +1,365 @@
+﻿ERROR Argument `dict[str, YtDlpLogger | bool | list[(d: Unknown) -> None] | list[str] | list[dict[str, str]] | str | dict[str, dict[Unknown, Unknown]] | dict[str, dict[str, list[str]]]]` is not assignable to parameter `params` with type `_Params | None` in function `yt_dlp.YoutubeDL.YoutubeDL.__init__` [bad-argument-type]
+   --> download_service.py:154:35
+    |
+154 |             with yt_dlp.YoutubeDL(ydl_opts) as ydl:
+    |                                   ^^^^^^^^
+    |
+  `YtDlpLogger.debug` has type `(self: YtDlpLogger, msg: Unknown) -> None`, which is not assignable to `(self: YtDlpLogger, message: str) -> None`, the type of `_LoggerProtocol.debug`
+ERROR Argument `object | Unknown` is not assignable to parameter `path` with type `PathLike[bytes] | PathLike[str] | bytes | int | str` in function `genericpath.exists` [bad-argument-type]
+   --> download_service.py:164:66
+    |
+164 |                     if not audio_file_path or not os.path.exists(audio_file_path):
+    |                                                                  ^^^^^^^^^^^^^^^
+    |
+  Protocol `PathLike` requires attribute `__fspath__`
+ERROR Type `None` is not iterable [not-iterable]
+   --> download_service.py:166:96
+    |
+166 |                         safe_title = "".join(c if c.isalnum() or c in " -_." else "_" for c in title)
+    |                                                                                                ^^^^^
+    |
+ERROR Returned type `tuple[object | str | Unknown, list[str] | list[Unknown]]` is not assignable to declared return type `tuple[str | None, list[str]]` [bad-return]
+   --> download_service.py:183:16
+    |
+183 |         return audio_file_path, subtitle_files
+    |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+   ::: download_service.py:93:10
+    |
+ 93 |     ) -> Tuple[Optional[str], List[str]]:
+    |          ------------------------------- declared return type
+    |
+ERROR Argument `dict[str, YtDlpLogger | bool | list[(d: Unknown) -> None] | list[str] | list[Unknown] | str | dict[str, dict[Unknown, Unknown]] | dict[str, dict[str, list[str]]]]` is not assignable to parameter `params` with type `_Params | None` in function `yt_dlp.YoutubeDL.YoutubeDL.__init__` [bad-argument-type]
+   --> download_service.py:267:35
+    |
+267 |             with yt_dlp.YoutubeDL(ydl_opts) as ydl:
+    |                                   ^^^^^^^^
+    |
+  `YtDlpLogger.debug` has type `(self: YtDlpLogger, msg: Unknown) -> None`, which is not assignable to `(self: YtDlpLogger, message: str) -> None`, the type of `_LoggerProtocol.debug`
+ERROR Argument `object | Unknown` is not assignable to parameter `path` with type `PathLike[bytes] | PathLike[str] | bytes | int | str` in function `genericpath.exists` [bad-argument-type]
+   --> download_service.py:277:66
+    |
+277 |                     if not video_file_path or not os.path.exists(video_file_path):
+    |                                                                  ^^^^^^^^^^^^^^^
+    |
+  Protocol `PathLike` requires attribute `__fspath__`
+ERROR Type `None` is not iterable [not-iterable]
+   --> download_service.py:279:96
+    |
+279 |                         safe_title = "".join(c if c.isalnum() or c in " -_." else "_" for c in title)
+    |                                                                                                ^^^^^
+    |
+ERROR Returned type `tuple[object | str | Unknown, list[str] | list[Unknown]]` is not assignable to declared return type `tuple[str | None, list[str]]` [bad-return]
+   --> download_service.py:296:16
+    |
+296 |         return video_file_path, subtitle_files
+    |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+   ::: download_service.py:192:10
+    |
+192 |     ) -> Tuple[Optional[str], List[str]]:
+    |          ------------------------------- declared return type
+    |
+ERROR Argument `dict[str, YtDlpLogger | bool | list[str] | str]` is not assignable to parameter `params` with type `_Params | None` in function `yt_dlp.YoutubeDL.YoutubeDL.__init__` [bad-argument-type]
+   --> download_service.py:337:35
+    |
+337 |             with yt_dlp.YoutubeDL(ydl_opts) as ydl:
+    |                                   ^^^^^^^^
+    |
+ERROR Type `None` is not iterable [not-iterable]
+   --> download_service.py:341:88
+    |
+341 |                 safe_title = "".join(c if c.isalnum() or c in " -_." else "_" for c in video_title)
+    |                                                                                        ^^^^^^^^^^^
+    |
+ERROR Returned type `str` is not assignable to declared return type `None` [bad-return]
+   --> file_service.py:193:20
+    |
+193 |             return process.stdout
+    |                    ^^^^^^^^^^^^^^
+    |
+   ::: file_service.py:171:58
+    |
+171 |     def _run_ffmpeg_command(self, command: List[str]) -> None:
+    |                                                          ---- declared return type
+    |
+ERROR Returned type `list[Any | None]` is not assignable to declared return type `list[str]` [bad-return]
+   --> metadata_service.py:124:16
+    |
+124 |         return sorted(list(available_extensions))
+    |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+   ::: metadata_service.py:94:66
+    |
+ 94 |     def get_available_formats(self, url: str, is_audio: bool) -> List[str]:
+    |                                                                  --------- declared return type
+    |
+ERROR `Any | None` is not assignable to upper bound `SupportsDunderGT[Any] | SupportsDunderLT[Any]` of type variable `SupportsRichComparisonT` [bad-specialization]
+   --> metadata_service.py:124:22
+    |
+124 |         return sorted(list(available_extensions))
+    |                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+ERROR Argument `dict[str, bool]` is not assignable to parameter `params` with type `_Params | None` in function `yt_dlp.YoutubeDL.YoutubeDL.__init__` [bad-argument-type]
+   --> metadata_service.py:175:35
+    |
+175 |             with yt_dlp.YoutubeDL(ydl_opts) as ydl:
+    |                                   ^^^^^^^^
+    |
+ERROR Returned type `_InfoDict` is not assignable to declared return type `dict[str, Any]` [bad-return]
+   --> metadata_service.py:179:24
+    |
+179 |                 return info
+    |                        ^^^^
+    |
+   ::: metadata_service.py:153:46
+    |
+153 |     def get_playlist_info(self, url: str) -> Dict[str, Any]:
+    |                                              -------------- declared return type
+    |
+ERROR Argument `Any | None` is not assignable to parameter `format_id` with type `str` in function `models.AudioTrack.__init__` [bad-argument-type]
+   --> metadata_service.py:219:31
+    |
+219 |                     format_id=format_id,
+    |                               ^^^^^^^^^
+    |
+ERROR Argument `dict[str, bool | list[str] | dict[str, dict[Unknown, Unknown]] | dict[str, dict[str, list[str]]]]` is not assignable to parameter `params` with type `_Params | None` in function `yt_dlp.YoutubeDL.YoutubeDL.__init__` [bad-argument-type]
+   --> metadata_service.py:289:35
+    |
+289 |             with yt_dlp.YoutubeDL(ydl_opts) as ydl:
+    |                                   ^^^^^^^^
+    |
+ERROR Returned type `_InfoDict` is not assignable to declared return type `dict[str, Any]` [bad-return]
+   --> metadata_service.py:290:24
+    |
+290 |                 return ydl.extract_info(url, download=False)
+    |                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+   ::: metadata_service.py:267:48
+    |
+267 |     def _extract_video_info(self, url: str) -> Dict[str, Any]:
+    |                                                -------------- declared return type
+    |
+ERROR Augmented assignment result `float` is not assignable to `int` [bad-assignment]
+  --> ultratube_app.py:40:9
+   |
+40 |         bytes_size /= 1024.0
+   |         ^^^^^^^^^^^^^^^^^^^^
+   |
+ERROR Object of class `App` has no attribute `cancelled_tabs` [missing-attribute]
+   --> ultratube_app.py:122:22
+    |
+122 |         if tab_id in app_instance.cancelled_tabs:
+    |                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+ERROR Argument `str | None` is not assignable to parameter `quality` with type `str` in function `ultratube_extractor.UltraTubeExtractor.download_video` [bad-argument-type]
+   --> ultratube_app.py:160:22
+    |
+160 |                 url, quality, options, progress_callback=progress_callback, log_callback=log_callback
+    |                      ^^^^^^^
+    |
+ERROR Object of class `App` has no attribute `cancelled_tabs` [missing-attribute]
+   --> ultratube_app.py:192:22
+    |
+192 |         if tab_id in app_instance.cancelled_tabs:
+    |                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+ERROR Object of class `App` has no attribute `cancelled_tabs` [missing-attribute]
+   --> ultratube_app.py:216:26
+    |
+216 |             if tab_id in app_instance.cancelled_tabs:
+    |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+ERROR Argument `str | None` is not assignable to parameter `quality` with type `str` in function `ultratube_extractor.UltraTubeExtractor.download_video` [bad-argument-type]
+   --> ultratube_app.py:249:32
+    |
+249 |                     video_url, quality, item_options, progress_callback=item_progress_callback, log_callback=log_callback
+    |                                ^^^^^^^
+    |
+ERROR Argument `Literal['normal']` is not assignable to parameter `variant` with type `Literal['default', 'error', 'primary', 'success', 'warning']` in function `textual.widgets._button.Button.__init__` [bad-argument-type]
+   --> ultratube_app.py:317:53
+    |
+317 |                 yield Button(self.no_label, variant="normal", id="no-btn")
+    |                                                     ^^^^^^^^
+    |
+ERROR `None` is not subscriptable [unsupported-operation]
+   --> ultratube_app.py:642:12
+    |
+642 |         if data["type"] == "playlist":
+    |            ^^^^^^^^^^^^
+    |
+ERROR `None` is not subscriptable [unsupported-operation]
+   --> ultratube_app.py:644:33
+    |
+644 |             tab.playlist_info = data["info"]
+    |                                 ^^^^^^^^^^^^
+    |
+ERROR `None` is not subscriptable [unsupported-operation]
+   --> ultratube_app.py:646:21
+    |
+646 |             title = data["info"].get("title", "Playlist")
+    |                     ^^^^^^^^^^^^
+    |
+ERROR `None` is not subscriptable [unsupported-operation]
+   --> ultratube_app.py:662:66
+    |
+662 |             tab.update_status(f"Γ£ô Playlist loaded: {title} ({len(data['info'].get('entries', []))} videos)", "status-success")
+    |                                                                  ^^^^^^^^^^^^
+    |
+ERROR `None` is not subscriptable [unsupported-operation]
+   --> ultratube_app.py:665:30
+    |
+665 |             tab.video_info = data["info"]
+    |                              ^^^^^^^^^^^^
+    |
+ERROR `None` is not subscriptable [unsupported-operation]
+   --> ultratube_app.py:667:21
+    |
+667 |             title = data["info"].title
+    |                     ^^^^^^^^^^^^
+    |
+ERROR `None` is not subscriptable [unsupported-operation]
+   --> ultratube_app.py:672:76
+    |
+672 |             tab.video_formats = [(fmt, fmt) for fmt in data["formats"]] if data["formats"] else [("mp4", "mp4")]
+    |                                                                            ^^^^^^^^^^^^^^^
+    |
+ERROR `None` is not subscriptable [unsupported-operation]
+   --> ultratube_app.py:675:35
+    |
+675 |             tab.subtitle_tracks = data["subtitles"]
+    |                                   ^^^^^^^^^^^^^^^^^
+    |
+ERROR `None` is not subscriptable [unsupported-operation]
+   --> ultratube_app.py:676:69
+    |
+676 |             sub_options = [(str(sub), sub.language_code) for sub in data["subtitles"]]
+    |                                                                     ^^^^^^^^^^^^^^^^^
+    |
+ERROR `None` is not subscriptable [unsupported-operation]
+   --> ultratube_app.py:683:32
+    |
+683 |             tab.audio_tracks = data["tracks"]
+    |                                ^^^^^^^^^^^^^^
+    |
+ERROR `None` is not subscriptable [unsupported-operation]
+   --> ultratube_app.py:684:97
+    |
+684 |             track_options = [(track.description, track.language_code or "default") for track in data["tracks"]]
+    |                                                                                                 ^^^^^^^^^^^^^^
+    |
+ERROR Object of class `NoneType` has no attribute `get` [missing-attribute]
+   --> ultratube_app.py:738:21
+    |
+738 |             title = tab.playlist_info.get("title", "Playlist")
+    |                     ^^^^^^^^^^^^^^^^^^^^^
+    |
+ERROR Argument `NoSelection | Unknown` is not assignable to parameter `output_format` with type `str` in function `models.DownloadOptions.__init__` [bad-argument-type]
+   --> ultratube_app.py:744:27
+    |
+744 |             output_format=fmt,
+    |                           ^^^
+    |
+ERROR Argument `NoSelection | Unknown | None` is not assignable to parameter `audio_language_code` with type `str | None` in function `models.DownloadOptions.__init__` [bad-argument-type]
+   --> ultratube_app.py:748:33
+    |
+748 |             audio_language_code=None if audio_track == "default" else audio_track,
+    |                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+ERROR Object of class `NoneType` has no attribute `get` [missing-attribute]
+   --> ultratube_app.py:765:21
+    |
+765 |         tab_title = tab.playlist_info.get("title", "Playlist") if tab.is_playlist else tab.video_info.title
+    |                     ^^^^^^^^^^^^^^^^^^^^^
+    |
+ERROR Object of class `NoneType` has no attribute `title` [missing-attribute]
+   --> ultratube_app.py:765:88
+    |
+765 |         tab_title = tab.playlist_info.get("title", "Playlist") if tab.is_playlist else tab.video_info.title
+    |                                                                                        ^^^^^^^^^^^^^^^^^^^^
+    |
+ERROR Argument `NoSelection | Unknown` is not assignable to parameter `quality` with type `str | None` in function `run_playlist_download_thread` [bad-argument-type]
+   --> ultratube_app.py:788:78
+    |
+788 |                     self.extractor, tab_id, url, (mode == "audio"), options, quality, self, tab.playlist_info
+    |                                                                              ^^^^^^^
+    |
+ERROR Argument `Unknown | None` is not assignable to parameter `playlist_info` with type `dict[str, Any]` in function `run_playlist_download_thread` [bad-argument-type]
+   --> ultratube_app.py:788:93
+    |
+788 |                     self.extractor, tab_id, url, (mode == "audio"), options, quality, self, tab.playlist_info
+    |                                                                                             ^^^^^^^^^^^^^^^^^
+    |
+ERROR Argument `NoSelection | Unknown` is not assignable to parameter `quality` with type `str | None` in function `run_download_thread` [bad-argument-type]
+   --> ultratube_app.py:796:78
+    |
+796 |                     self.extractor, tab_id, url, (mode == "audio"), options, quality, self
+    |                                                                              ^^^^^^^
+    |
+ERROR Object of class `NoneType` has no attribute `title` [missing-attribute]
+   --> ultratube_app.py:860:21
+    |
+860 |         tab_title = tab.video_info.title
+    |                     ^^^^^^^^^^^^^^^^^^^^
+    |
+ERROR Object of class `NoneType` has no attribute `get` [missing-attribute]
+   --> ultratube_app.py:905:21
+    |
+905 |         tab_title = tab.playlist_info.get("title", "Playlist")
+    |                     ^^^^^^^^^^^^^^^^^^^^^
+    |
+ERROR Object of class `NoneType` has no attribute `get` [missing-attribute]
+   --> ultratube_app.py:926:21
+    |
+926 |         tab_title = tab.playlist_info.get("title", "Playlist") if tab.is_playlist else tab.video_info.title
+    |                     ^^^^^^^^^^^^^^^^^^^^^
+    |
+ERROR Object of class `NoneType` has no attribute `title` [missing-attribute]
+   --> ultratube_app.py:926:88
+    |
+926 |         tab_title = tab.playlist_info.get("title", "Playlist") if tab.is_playlist else tab.video_info.title
+    |                                                                                        ^^^^^^^^^^^^^^^^^^^^
+    |
+ERROR No matching overload found for function `textual.app.App.push_screen` called with arguments: (QuestionModal, (merge_confirmed: bool) -> None) [no-matching-overload]
+   --> ultratube_app.py:973:25
+    |
+973 |           self.push_screen(
+    |  _________________________^
+974 | |             QuestionModal(
+975 | |                 title="Merge Subtitles",
+976 | |                 text=f"{len(subs)} subtitle tracks downloaded. Embed them into the media file?",
+977 | |                 yes_label="Merge",
+978 | |                 no_label="Skip"
+979 | |             ),
+980 | |             handle_modal_result
+981 | |         )
+    | |_________^
+    |
+  Possible overloads:
+  (screen: Screen[ScreenResultType] | str, callback: ((ScreenResultType | None) -> Awaitable[None]) | ((ScreenResultType | None) -> None) | None = None, wait_for_dismiss: Literal[False] = False, *, mode: str | None = None) -> AwaitMount [closest match]
+  (screen: Screen[ScreenResultType] | str, callback: ((ScreenResultType | None) -> Awaitable[None]) | ((ScreenResultType | None) -> None) | None = None, wait_for_dismiss: Literal[True] = True, *, mode: str | None = None) -> Future[ScreenResultType]
+ERROR No matching overload found for function `textual.app.App.push_screen` called with arguments: (QuestionModal, (delete_confirmed: bool) -> None) [no-matching-overload]
+    --> ultratube_app.py:1027:25
+     |
+1027 |           self.push_screen(
+     |  _________________________^
+1028 | |             QuestionModal(
+1029 | |                 title="Cleanup Files",
+1030 | |                 text="Delete the original file (without subtitles) and raw subtitle files?",
+1031 | |                 yes_label="Delete",
+1032 | |                 no_label="Keep Both"
+1033 | |             ),
+1034 | |             handle_delete_result
+1035 | |         )
+     | |_________^
+     |
+pyrefly :  INFO 50 errors (4 warnings not shown)
+At line:1 char:1
++ pyrefly check . 2>&1 | Out-File -FilePath graphify-out\pyrefly_report ...
++ ~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ( INFO 50 errors (4 warnings not shown):String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  Possible overloads:
+  (screen: Screen[ScreenResultType] | str, callback: ((ScreenResultType | None) -> Awaitable[None]) | ((ScreenResultType | None) -> None) | None = None, wait_for_dismiss: Literal[False] = False, *, mode: str | None = None) -> AwaitMount [closest match]
+  (screen: Screen[ScreenResultType] | str, callback: ((ScreenResultType | None) -> Awaitable[None]) | ((ScreenResultType | None) -> None) | None = None, wait_for_dismiss: Literal[True] = True, *, mode: str | None = None) -> Future[ScreenResultType]

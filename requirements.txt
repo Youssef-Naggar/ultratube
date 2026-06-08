@@ -1,0 +1,15 @@
+# ── Core downloader ──────────────────────────────────────
+yt-dlp>=2024.11.18
+
+# ── FFmpeg (bundled, no system install required) ─────────
+static-ffmpeg>=2.5
+
+# ── TUI framework ────────────────────────────────────────
+textual>=0.80.0
+rich>=13.9.0
+
+# ── Dev / packaging (not installed by default) ───────────
+pyinstaller>=6.11.0   # for building the winget .exe
+build>=1.2.0          # for `python -m build`
+twine>=5.0.0          # for uploading to PyPI
+

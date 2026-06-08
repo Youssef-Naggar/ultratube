@@ -1,0 +1,601 @@
+/* UltraTube Premium TCSS Theme */
+
+Screen {
+    background: #1e1e24;
+    color: #e3e3e6;
+}
+
+Header {
+    background: #0f1015;
+    color: #00e5ff;
+    text-style: bold;
+    height: 1;
+    dock: top;
+}
+
+Footer {
+    background: #0f1015;
+    color: #8a8a93;
+    height: 1;
+    dock: bottom;
+}
+
+/* App Layout */
+#app-container {
+    layout: horizontal;
+    width: 100%;
+    height: 100%;
+}
+
+#main-content {
+    width: 70%;
+    height: 100%;
+    padding: 1 2;
+}
+
+#sidebar {
+    width: 30%;
+    height: 100%;
+    border-left: solid #2b2b36;
+    background: #15151c;
+    padding: 1;
+}
+
+/* Empty State */
+#empty-state-container {
+    align: center middle;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+#empty-state-text {
+    background: #15151c;
+    border: round #3d3d4d;
+    padding: 2 4;
+    color: #a0a0ab;
+    width: 60;
+}
+
+/* Tab Styles */
+TabbedContent {
+    height: 100%;
+}
+
+TabPane {
+    padding: 1 0;
+}
+
+/* Download Tab Layout */
+.tab-scroll-container {
+    height: 100%;
+    overflow-y: auto;
+}
+
+.url-section {
+    margin-bottom: 1;
+}
+
+.url-input-container {
+    layout: horizontal;
+    height: auto;
+    width: 100%;
+}
+
+.url-input {
+    width: 85%;
+    border: tall #00e5ff;
+}
+
+.url-input:focus {
+    border: tall #d500f9;
+}
+
+.validate-button {
+    width: 15%;
+    height: 3;
+    margin-left: 1;
+    background: #00e5ff;
+    color: #0f1015;
+    text-style: bold;
+}
+
+.validate-button:hover {
+    background: #00b8d4;
+}
+
+.status-label {
+    margin-top: 1;
+    color: #8a8a93;
+}
+
+.status-success {
+    color: #00e676;
+    text-style: bold;
+}
+
+.status-error {
+    color: #ff1744;
+    text-style: bold;
+}
+
+.status-pending {
+    color: #ffea00;
+}
+
+/* Options Panel */
+.options-container {
+    border: round #3d3d4d;
+    padding: 1 2;
+    margin-top: 1;
+    height: auto;
+    background: #15151c;
+}
+
+.options-title {
+    color: #00e5ff;
+    text-style: bold;
+    margin-bottom: 1;
+}
+
+.options-grid {
+    layout: grid;
+    grid-size: 2;
+    grid-columns: 1fr 1fr;
+    grid-rows: auto;
+    grid-gutter: 1 2;
+    height: auto;
+    margin-bottom: 1;
+}
+
+.options-group {
+    height: auto;
+}
+
+.group-label {
+    color: #8a8a93;
+    text-style: bold;
+    margin-bottom: 1;
+}
+
+Select {
+    width: 100%;
+}
+
+SelectionList {
+    height: 6;
+    border: round #2b2b36;
+    background: #1e1e24;
+}
+
+.toggles-group {
+    layout: horizontal;
+    height: auto;
+    margin-top: 1;
+}
+
+.toggle-item {
+    layout: horizontal;
+    width: auto;
+    margin-right: 4;
+    height: auto;
+    align: left middle;
+}
+
+.toggle-item Label {
+    margin-right: 1;
+}
+
+Switch {
+    margin-bottom: 0;
+}
+
+/* Output Directory */
+.output-dir-container {
+    layout: horizontal;
+    height: auto;
+    margin-top: 1;
+    margin-bottom: 1;
+}
+
+.output-dir-input {
+    width: 80%;
+}
+
+.output-dir-browse {
+    width: 20%;
+    margin-left: 1;
+}
+
+/* Action Buttons */
+.download-action-btn {
+    background: #d500f9;
+    color: #ffffff;
+    text-style: bold;
+    width: 100%;
+    height: 3;
+    margin-top: 1;
+}
+
+.download-action-btn:hover {
+    background: #aa00ff;
+}
+
+/* Progress Widget */
+.progress-container {
+    border: double #00e5ff;
+    padding: 1 2;
+    margin-top: 1;
+    background: #101014;
+}
+
+.progress-title {
+    color: #00e5ff;
+    text-style: bold;
+    margin-bottom: 1;
+}
+
+ProgressBar {
+    width: 100%;
+    height: 1;
+    margin-bottom: 1;
+}
+
+.progress-stats-grid {
+    layout: grid;
+    grid-size: 3;
+    grid-columns: 1fr 1fr 1fr;
+    grid-gutter: 1;
+    height: auto;
+}
+
+.stat-item {
+    text-align: center;
+    background: #1c1c24;
+    padding: 1;
+    border: round #2b2b36;
+}
+
+.stat-label {
+    color: #8a8a93;
+}
+
+.stat-value {
+    color: #e3e3e6;
+    text-style: bold;
+}
+
+/* Log Panel */
+.log-container {
+    height: 14;
+    margin-top: 1;
+    border: round #2b2b36;
+    background: #0f1015;
+    padding: 1;
+}
+
+.log-title {
+    color: #8a8a93;
+    text-style: bold;
+}
+
+.log-list {
+    overflow-y: scroll;
+    height: 100%;
+}
+
+/* Queue Sidebar */
+.sidebar-title {
+    color: #00e5ff;
+    text-style: bold;
+    margin-bottom: 1;
+    border-bottom: solid #00e5ff;
+    padding-bottom: 1;
+}
+
+#queue-table {
+    height: 100%;
+    border: none;
+    background: transparent;
+}
+
+/* Help Screen overlay */
+HelpScreen {
+    align: center middle;
+}
+
+#help-dialog {
+    width: 60;
+    height: auto;
+    background: #15151c;
+    border: tall #00e5ff;
+    padding: 2;
+}
+
+#help-title {
+    color: #00e5ff;
+    text-style: bold;
+    text-align: center;
+    margin-bottom: 1;
+}
+
+#help-table {
+    border: none;
+    margin-bottom: 1;
+}
+
+#help-footer {
+    text-align: center;
+    color: #8a8a93;
+}
+
+/* Dynamic utility and dialog styling */
+.hidden {
+    display: none !important;
+}
+
+.mt-1 {
+    margin-top: 1;
+}
+
+.modal-text {
+    margin-bottom: 2;
+    text-align: center;
+}
+
+.modal-buttons {
+    height: auto;
+    align: center middle;
+}
+
+.modal-btn-yes {
+    margin-right: 2;
+}
+
+/* Star Suggestion Panel */
+.star-panel {
+    align: center middle;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background: #15151c;
+    border: round #d500f9;
+    padding: 3 6;
+}
+
+.star-panel-title {
+    color: #00e5ff;
+    text-style: bold;
+    margin-bottom: 1;
+}
+
+.star-panel-text {
+    color: #e3e3e6;
+    margin-bottom: 2;
+    width: 50;
+    text-align: center;
+}
+
+.star-panel-buttons {
+    layout: horizontal;
+    height: auto;
+    align: center middle;
+    width: 100%;
+}
+
+.star-btn-yes {
+    background: #00e5ff;
+    color: #0f1015;
+    text-style: bold;
+    margin-right: 2;
+}
+
+.star-btn-yes:hover {
+    background: #00b8d4;
+}
+
+.star-btn-no {
+    background: #2b2b36;
+    color: #e3e3e6;
+}
+
+.star-btn-no:hover {
+    background: #3d3d4d;
+}
+
+/* Full-screen Bucket Screen Styling */
+BucketScreen {
+    background: #121218;
+}
+
+#bucket-screen-container {
+    width: 100%;
+    height: 100%;
+    layout: horizontal;
+}
+
+#bucket-left-panel {
+    width: 60%;
+    height: 100%;
+    padding: 2 4;
+    border-right: solid #2b2b36;
+}
+
+#bucket-right-panel {
+    width: 40%;
+    height: 100%;
+    background: #181822;
+    padding: 2 4;
+    overflow-y: auto;
+}
+
+#bucket-screen-title {
+    color: #00e5ff;
+    text-style: bold;
+    margin-bottom: 2;
+}
+
+.bucket-label {
+    color: #8a8a93;
+    text-style: bold;
+    margin-bottom: 1;
+}
+
+#bucket-urls {
+    height: 1fr;
+    border: round #3d3d4d;
+    background: #0f1015;
+    color: #e3e3e6;
+    margin-bottom: 1;
+}
+
+.bucket-buttons-container {
+    layout: horizontal;
+    height: auto;
+    margin-top: 3;
+    align: center middle;
+    width: 100%;
+}
+
+.bucket-btn-yes {
+    background: #d500f9;
+    color: #ffffff;
+    text-style: bold;
+    margin-right: 2;
+}
+
+.bucket-btn-yes:hover {
+    background: #aa00ff;
+}
+
+.bucket-btn-no {
+    background: #2b2b36;
+    color: #e3e3e6;
+}
+
+.bucket-btn-no:hover {
+    background: #3d3d4d;
+}
+
+/* Bucket Queue Tab Styling */
+.bucket-table {
+    height: auto;
+    max-height: 20;
+    border: round #2b2b36;
+    background: #15151c;
+    margin-bottom: 1;
+}
+
+.bucket-log-block {
+    margin-top: 2;
+}
+
+.bucket-log-list {
+    height: 12;
+    border: round #2b2b36;
+    background: #0f1015;
+    padding: 1;
+}
+
+/* Settings Screen Styling */
+SettingsScreen, #settings-screen {
+    background: #121218;
+}
+
+#settings-screen-container {
+    width: 100%;
+    height: 100%;
+    layout: horizontal;
+}
+
+#settings-left-panel {
+    width: 60%;
+    height: 100%;
+    padding: 2 4;
+    border-right: solid #2b2b36;
+    overflow-y: auto;
+}
+
+#settings-right-panel {
+    width: 40%;
+    height: 100%;
+    background: #181822;
+    padding: 2 4;
+    overflow-y: auto;
+}
+
+#settings-screen-title {
+    color: #00e5ff;
+    text-style: bold;
+    margin-bottom: 2;
+}
+
+.settings-half-width {
+    width: 1fr;
+}
+
+#settings-defaults-card,
+#settings-toggles-card,
+#settings-help-card,
+#settings-feedback-card {
+    margin-top: 1;
+}
+
+.settings-save-button {
+    background: #00e5ff;
+    color: #0f1015;
+    text-style: bold;
+    margin-right: 2;
+}
+
+.settings-save-button:hover {
+    background: #00b8d4;
+}
+
+.settings-cancel-button {
+    background: #2b2b36;
+    color: #e3e3e6;
+}
+
+.settings-cancel-button:hover {
+    background: #3d3d4d;
+}
+
+.settings-buttons-container {
+    layout: horizontal;
+    height: auto;
+    margin-top: 2;
+    align: center middle;
+    width: 100%;
+}
+
+.settings-help-button {
+    background: #2b2b36;
+    color: #e3e3e6;
+    width: 100%;
+    margin-top: 1;
+}
+
+.settings-help-button:hover {
+    background: #3d3d4d;
+}
+
+#settings-feedback-card {
+    border: double #d500f9;
+}
+
+.settings-github-button {
+    background: #d500f9;
+    color: #ffffff;
+    text-style: bold;
+    width: 100%;
+}
+
+.settings-github-button:hover {
+    background: #aa00ff;
+}
+
+
+
+
+

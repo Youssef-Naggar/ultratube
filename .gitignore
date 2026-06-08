@@ -1,0 +1,32 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyInstaller & Build artifacts
+build/
+dist/
+*.egg-info/
+ultratube.spec
+
+# Caches
+.pytest_cache/
+.ruff_cache/
+.cache/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Graphify caches and cost logs
+graphify-out/cache/
+graphify-out/cost.json
