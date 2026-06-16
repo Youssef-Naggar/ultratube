@@ -28,5 +28,13 @@ ENV/
 *.swo
 
 # Graphify caches and cost logs
-graphify-out/cache/
-graphify-out/cost.json
+graphify-out/
+
+# Agent, AI, and planning files
+.agents/
+Current State security and arch report and next steps.md
+design.md
+sprints_and_tickets.md
+tui_menu_messages.md
+ultratube_user_stories.md
+
