@@ -1,6 +1,12 @@
 # UltraTube 📹
 A powerful and feature-rich YouTube media downloader built in Python.
 
+> [!TIP]
+> **Try the New v1.0 Beta Version!**
+> A brand new terminal user interface (TUI) version with concurrent queue management, multi-tab support, and interactive settings is currently available in the [`v1.0-beta`](https://github.com/Youssef-Naggar/ultratube/tree/v1.0-beta) branch.
+> Check out the [`v1.0-beta`](https://github.com/Youssef-Naggar/ultratube/tree/v1.0-beta) branch to try it out! When fully stable, this version will be merged into the `main` branch.
+
+
 ## 📋 Overview
 UltraTube is a command-line application that allows users to download audio and video content from YouTube with advanced options like multiple audio track selection, subtitle support, and quality preferences. Built with Python and powered by yt-dlp, this tool offers functionality that goes beyond basic downloaders.
 
